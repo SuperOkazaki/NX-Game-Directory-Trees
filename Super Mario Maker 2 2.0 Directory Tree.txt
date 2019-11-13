@@ -1,0 +1,3365 @@
+Super Mario Maker 2 1.0
+romfs Directory Tree
+
++---Bake
+|       3W_DV_airship.szs
+|       3W_DV_airship_V.szs
+|       3W_DV_athletic.szs
+|       3W_DV_athletic_V.szs
+|       3W_DV_castle.szs
+|       3W_DV_castle_V.szs
+|       3W_DV_desert.szs
+|       3W_DV_desert_V.szs
+|       3W_DV_hauntedhouse.szs
+|       3W_DV_hauntedhouse_V.szs
+|       3W_DV_plain.szs
+|       3W_DV_plain_V.szs
+|       3W_DV_snow.szs
+|       3W_DV_snow_V.szs
+|       3W_DV_underground.szs
+|       3W_DV_underground_V.szs
+|       3W_DV_water.szs
+|       3W_DV_water_V.szs
+|       3W_DV_woods.szs
+|       3W_DV_woods_V.szs
+|       Quest_Castle_Main_00.szs
+|       Quest_Castle_Main_01.szs
+|       Quest_Castle_Main_02.szs
+|       Quest_Castle_Main_03.szs
+|       Quest_Castle_Main_04.szs
+|       Quest_Castle_Main_05.szs
+|       Quest_Castle_Main_06.szs
+|       Quest_Castle_Main_07.szs
+|       Quest_Castle_Main_08.szs
+|       Quest_Castle_Main_09.szs
+|       Quest_Castle_Main_10.szs
+|       Quest_Castle_Main_11.szs
+|       Quest_Castle_Main_12.szs
+|       Quest_Castle_Main_13.szs
+|       Quest_Castle_TowerEast_00.szs
+|       Quest_Castle_TowerEast_01.szs
+|       Quest_Castle_TowerEast_02.szs
+|       Quest_Castle_TowerEast_03.szs
+|       Quest_Castle_TowerEast_04.szs
+|       Quest_Castle_TowerEast_05.szs
+|       Quest_Castle_TowerEast_06.szs
+|       Quest_Castle_TowerEast_07.szs
+|       Quest_Castle_TowerEast_08.szs
+|       Quest_Castle_TowerEast_09.szs
+|       Quest_Castle_TowerEast_10.szs
+|       Quest_Castle_TowerWest_00.szs
+|       Quest_Castle_TowerWest_01.szs
+|       Quest_Castle_TowerWest_02.szs
+|       Quest_Castle_TowerWest_03.szs
+|       Quest_Castle_TowerWest_04.szs
+|       Quest_Castle_TowerWest_05.szs
+|       Quest_Castle_TowerWest_06.szs
+|       Quest_Castle_TowerWest_07.szs
+|       Quest_Castle_TowerWest_08.szs
+|       Quest_Castle_TowerWest_09.szs
+|       Quest_Castle_TowerWest_10.szs
+|       Quest_Field_00.szs
+|       Quest_Field_01.szs
+|       Quest_Field_02.szs
+|       Quest_Field_03.szs
+|       Quest_Field_06.szs
+|       Quest_Field_07.szs
+|       Quest_Field_18.szs
+|       Quest_Field_19.szs
+|       Quest_Field_22.szs
+|       Quest_Field_23.szs
+|       Quest_Field_34.szs
+|       Quest_Field_35.szs
+|       Quest_Field_36.szs
+|       Quest_Field_37.szs
+|       Quest_Field_38.szs
+|       Quest_Field_39.szs
+|       Quest_Field_40.szs
+|       Quest_Field_41.szs
+|       Quest_Field_42.szs
+|       Quest_Field_43.szs
+|       Quest_Field_44.szs
+|       Quest_Field_45.szs
+|       Quest_Field_46.szs
+|       Quest_Field_47.szs
+|       Quest_Field_48.szs
+|       Quest_Field_49.szs
+|       Quest_Field_50.szs
+|       Quest_MainField.szs
+|       
++---Course
+|       lesson_000.szs
+|       lesson_001.szs
+|       lesson_002.szs
+|       lesson_003.szs
+|       lesson_004.szs
+|       lesson_005.szs
+|       lesson_006.szs
+|       lesson_007.szs
+|       lesson_008.szs
+|       lesson_009.szs
+|       lesson_010.szs
+|       lesson_011.szs
+|       lesson_012.szs
+|       lesson_013.szs
+|       lesson_014.szs
+|       lesson_015.szs
+|       lesson_016.szs
+|       lesson_017.szs
+|       lesson_018.szs
+|       lesson_019.szs
+|       lesson_020.szs
+|       lesson_021.szs
+|       lesson_022.szs
+|       lesson_023.szs
+|       lesson_024.szs
+|       lesson_025.szs
+|       lesson_026.szs
+|       lesson_027.szs
+|       lesson_028.szs
+|       lesson_029.szs
+|       lesson_030.szs
+|       lesson_031.szs
+|       lesson_032.szs
+|       lesson_033.szs
+|       lesson_034.szs
+|       lesson_035.szs
+|       lesson_036.szs
+|       lesson_037.szs
+|       lesson_038.szs
+|       lesson_039.szs
+|       lesson_040.szs
+|       lesson_041.szs
+|       lesson_042.szs
+|       lesson_043.szs
+|       lesson_044.szs
+|       lesson_045.szs
+|       lesson_046.szs
+|       lesson_047.szs
+|       lesson_048.szs
+|       lesson_049.szs
+|       quest_000.szs
+|       quest_001.szs
+|       quest_002.szs
+|       quest_003.szs
+|       quest_004.szs
+|       quest_005.szs
+|       quest_006.szs
+|       quest_007.szs
+|       quest_008.szs
+|       quest_009.szs
+|       quest_010.szs
+|       quest_011.szs
+|       quest_012.szs
+|       quest_013.szs
+|       quest_014.szs
+|       quest_015.szs
+|       quest_016.szs
+|       quest_017.szs
+|       quest_018.szs
+|       quest_019.szs
+|       quest_020.szs
+|       quest_021.szs
+|       quest_022.szs
+|       quest_023.szs
+|       quest_024.szs
+|       quest_025.szs
+|       quest_026.szs
+|       quest_027.szs
+|       quest_028.szs
+|       quest_029.szs
+|       quest_030.szs
+|       quest_031.szs
+|       quest_032.szs
+|       quest_033.szs
+|       quest_034.szs
+|       quest_035.szs
+|       quest_036.szs
+|       quest_037.szs
+|       quest_038.szs
+|       quest_039.szs
+|       quest_040.szs
+|       quest_041.szs
+|       quest_042.szs
+|       quest_043.szs
+|       quest_044.szs
+|       quest_045.szs
+|       quest_046.szs
+|       quest_047.szs
+|       quest_048.szs
+|       quest_049.szs
+|       quest_050.szs
+|       quest_051.szs
+|       quest_052.szs
+|       quest_053.szs
+|       quest_054.szs
+|       quest_055.szs
+|       quest_056.szs
+|       quest_057.szs
+|       quest_058.szs
+|       quest_059.szs
+|       quest_060.szs
+|       quest_061.szs
+|       quest_062.szs
+|       quest_063.szs
+|       quest_064.szs
+|       quest_065.szs
+|       quest_066.szs
+|       quest_067.szs
+|       quest_068.szs
+|       quest_069.szs
+|       quest_070.szs
+|       quest_071.szs
+|       quest_072.szs
+|       quest_073.szs
+|       quest_074.szs
+|       quest_075.szs
+|       quest_076.szs
+|       quest_077.szs
+|       quest_078.szs
+|       quest_079.szs
+|       quest_080.szs
+|       quest_081.szs
+|       quest_082.szs
+|       quest_083.szs
+|       quest_084.szs
+|       quest_085.szs
+|       quest_086.szs
+|       quest_087.szs
+|       quest_088.szs
+|       quest_089.szs
+|       quest_090.szs
+|       quest_091.szs
+|       quest_092.szs
+|       quest_093.szs
+|       quest_094.szs
+|       quest_095.szs
+|       quest_096.szs
+|       quest_097.szs
+|       quest_098.szs
+|       quest_099.szs
+|       quest_100.szs
+|       quest_101.szs
+|       quest_102.szs
+|       quest_103.szs
+|       quest_104.szs
+|       quest_105.szs
+|       quest_106.szs
+|       quest_107.szs
+|       quest_108.szs
+|       quest_109.szs
+|       quest_110.szs
+|       quest_111.szs
+|       quest_112.szs
+|       quest_113.szs
+|       quest_114.szs
+|       quest_115.szs
+|       quest_116.szs
+|       quest_117.szs
+|       quest_118.szs
+|       quest_119.szs
+|       title_course_data_00.szs
+|       title_course_data_01.szs
+|       title_course_data_02.szs
+|       title_course_data_03.szs
+|       title_course_data_04.szs
+|       title_course_data_05.szs
+|       title_course_data_06.szs
+|       title_course_data_07.szs
+|       title_course_data_08.szs
+|       title_course_data_09.szs
+|       
++---CourseInfo
+|       QuestCourseGoalCondition.szs
+|       
++---Effect
+|       Static.Nin_NX_NVN.szs
+|       
++---ELink2
+|       ELink2DB.szs
+|       
++---Env
+|       Cmn.szs
+|       Cmn_DV.szs
+|       Cmn_Mii.szs
+|       Cmn_Quest.szs
+|       Cmn_UI.szs
+|       CourseIn.szs
+|       
++---Event
+|       EventInfo.byml
+|       
++---EventFlow
+|       lesson_player000.bfevfl
+|       lesson_player001.bfevfl
+|       lesson_player002.bfevfl
+|       lesson_player003.bfevfl
+|       lesson_subflows.bfevfl
+|       lesson_technique000.bfevfl
+|       lesson_technique001.bfevfl
+|       lesson_technique002.bfevfl
+|       lesson_technique003.bfevfl
+|       lesson_technique004.bfevfl
+|       lesson_technique005.bfevfl
+|       lesson_technique006.bfevfl
+|       lesson_technique007.bfevfl
+|       lesson_technique008.bfevfl
+|       lesson_technique009.bfevfl
+|       lesson_technique010.bfevfl
+|       lesson_technique011.bfevfl
+|       lesson_technique012.bfevfl
+|       lesson_technique013.bfevfl
+|       lesson_technique014.bfevfl
+|       lesson_technique015.bfevfl
+|       lesson_technique016.bfevfl
+|       lesson_technique017.bfevfl
+|       lesson_technique018.bfevfl
+|       lesson_technique019.bfevfl
+|       lesson_technique020.bfevfl
+|       lesson_technique021.bfevfl
+|       lesson_technique022.bfevfl
+|       lesson_technique023.bfevfl
+|       lesson_technique024.bfevfl
+|       lesson_technique025.bfevfl
+|       lesson_technique026.bfevfl
+|       lesson_technique027.bfevfl
+|       lesson_technique028.bfevfl
+|       lesson_technique029.bfevfl
+|       lesson_technique030.bfevfl
+|       lesson_technique031.bfevfl
+|       lesson_technique032.bfevfl
+|       lesson_technique033.bfevfl
+|       lesson_technique034.bfevfl
+|       lesson_technique035.bfevfl
+|       lesson_technique036.bfevfl
+|       lesson_technique037.bfevfl
+|       lesson_technique038.bfevfl
+|       lesson_technique039.bfevfl
+|       lesson_technique040.bfevfl
+|       lesson_technique041.bfevfl
+|       lesson_technique042.bfevfl
+|       lesson_technique043.bfevfl
+|       lesson_technique044.bfevfl
+|       lesson_tutorial000.bfevfl
+|       quest_Staffroll.bfevfl
+|       
++---Font
+|       BmpFont_CN.szs
+|       BmpFont_EU.szs
+|       BmpFont_JP.szs
+|       BmpFont_KR.szs
+|       BmpFont_TW.szs
+|       BmpFont_US.szs
+|       Fcpx.szs
+|       FontInfo.szs
+|       ScalableFont.szs
+|       
++---Layout
+|       Boot_BootScene_00.Nin_NX_NVN.szs
+|       Cmn_ABtn_00.Nin_NX_NVN.szs
+|       Cmn_AnnounceWindow_00.Nin_NX_NVN.szs
+|       Cmn_ArrowBtn_00.Nin_NX_NVN.szs
+|       Cmn_BackBtn_00.Nin_NX_NVN.szs
+|       Cmn_BG_00.Nin_NX_NVN.szs
+|       Cmn_Bounding_00.Nin_NX_NVN.szs
+|       Cmn_BtnBalloon_00.Nin_NX_NVN.szs
+|       Cmn_BtnIconA_00.Nin_NX_NVN.szs
+|       Cmn_BtnLocator_00.Nin_NX_NVN.szs
+|       Cmn_CharacterBtn_00.Nin_NX_NVN.szs
+|       Cmn_CharacterIconS_00.Nin_NX_NVN.szs
+|       Cmn_CheckBtn_00.Nin_NX_NVN.szs
+|       Cmn_ClapperboardBtn_00.Nin_NX_NVN.szs
+|       Cmn_CloseBtn_00.Nin_NX_NVN.szs
+|       Cmn_CommentVisibleBtn_00.Nin_NX_NVN.szs
+|       Cmn_CountDown_00.Nin_NX_NVN.szs
+|       Cmn_CountDown_01.Nin_NX_NVN.szs
+|       Cmn_Cursor_00.Nin_NX_NVN.szs
+|       Cmn_DragCursor_00.Nin_NX_NVN.szs
+|       Cmn_DummyBtn_00.Nin_NX_NVN.szs
+|       Cmn_Fade_00.Nin_NX_NVN.szs
+|       Cmn_GameSkin_00.Nin_NX_NVN.szs
+|       Cmn_GoodBtn_00.Nin_NX_NVN.szs
+|       Cmn_Guide_00.Nin_NX_NVN.szs
+|       Cmn_HelpWindow_00.Nin_NX_NVN.szs
+|       Cmn_IconTextBtn_00.Nin_NX_NVN.szs
+|       Cmn_IconTextBtn_01.Nin_NX_NVN.szs
+|       Cmn_InfoBatchWindow_00.Nin_NX_NVN.szs
+|       Cmn_InfoCategoryBtn_00.Nin_NX_NVN.szs
+|       Cmn_InfoJumpBtn_00.Nin_NX_NVN.szs
+|       Cmn_InfoListData_00.Nin_NX_NVN.szs
+|       Cmn_InfoRealTime_00.Nin_NX_NVN.szs
+|       Cmn_InfoWindow_00.Nin_NX_NVN.szs
+|       Cmn_KeyBtn_00.Nin_NX_NVN.szs
+|       Cmn_KeyBtn_01.Nin_NX_NVN.szs
+|       Cmn_KeyBtn_02.Nin_NX_NVN.szs
+|       Cmn_KeyBtn_03.Nin_NX_NVN.szs
+|       Cmn_LessonBtn_00.Nin_NX_NVN.szs
+|       Cmn_LoadingIcon_00.Nin_NX_NVN.szs
+|       Cmn_LoadingIcon_01.Nin_NX_NVN.szs
+|       Cmn_LoadingScene_00.Nin_NX_NVN.szs
+|       Cmn_MainBtn_00.Nin_NX_NVN.szs
+|       Cmn_MainBtn_01.Nin_NX_NVN.szs
+|       Cmn_MainMenu_00.Nin_NX_NVN.szs
+|       Cmn_MainMenuBtn_00.Nin_NX_NVN.szs
+|       Cmn_MenuOpenBtn_00.Nin_NX_NVN.szs
+|       Cmn_MessageAnime_00.Nin_NX_NVN.szs
+|       Cmn_MessageWindow_00.Nin_NX_NVN.szs
+|       Cmn_MiiBody_00.Nin_NX_NVN.szs
+|       Cmn_MiiBtn_00.Nin_NX_NVN.szs
+|       Cmn_MiiIcon_00.Nin_NX_NVN.szs
+|       Cmn_MiiIcon_01.Nin_NX_NVN.szs
+|       Cmn_MiiSelect_00.Nin_NX_NVN.szs
+|       Cmn_Mission_00.Nin_NX_NVN.szs
+|       Cmn_MissionIcon.Nin_NX_NVN.szs
+|       Cmn_NationalFlag_00.Nin_NX_NVN.szs
+|       Cmn_NegativeBtn_00.Nin_NX_NVN.szs
+|       Cmn_NewIcon_00.Nin_NX_NVN.szs
+|       Cmn_OptionPlayerSettingBtn_00.Nin_NX_NVN.szs
+|       Cmn_OptionSettingBtn_00.Nin_NX_NVN.szs
+|       Cmn_OptionWindow_00.Nin_NX_NVN.szs
+|       Cmn_OrdinaryBtn_00.Nin_NX_NVN.szs
+|       Cmn_PauseBtn_00.Nin_NX_NVN.szs
+|       Cmn_PauseMenu_00.Nin_NX_NVN.szs
+|       Cmn_PlayerInfoBtn_00.Nin_NX_NVN.szs
+|       Cmn_Pointer_00.Nin_NX_NVN.szs
+|       Cmn_ScrollBar_00.Nin_NX_NVN.szs
+|       Cmn_ScrollBar_01.Nin_NX_NVN.szs
+|       Cmn_Selector_00.Nin_NX_NVN.szs
+|       Cmn_Selector_01.Nin_NX_NVN.szs
+|       Cmn_SelectorArrowBtn_00.Nin_NX_NVN.szs
+|       Cmn_SelectorCenter_00.Nin_NX_NVN.szs
+|       Cmn_SelectorCenter_01.Nin_NX_NVN.szs
+|       Cmn_SeqWindow_00.Nin_NX_NVN.szs
+|       Cmn_ShortCutIcon_00.Nin_NX_NVN.szs
+|       Cmn_ShortCutL_00.Nin_NX_NVN.szs
+|       Cmn_ShortCutPlus_00.Nin_NX_NVN.szs
+|       Cmn_ShortCutText_00.Nin_NX_NVN.szs
+|       Cmn_ShortCutY_00.Nin_NX_NVN.szs
+|       Cmn_SmallBtn_00.Nin_NX_NVN.szs
+|       Cmn_Spotlight_00.Nin_NX_NVN.szs
+|       Cmn_SubBtn_00.Nin_NX_NVN.szs
+|       Cmn_SubBtn_01.Nin_NX_NVN.szs
+|       Cmn_TagWindow_00.Nin_NX_NVN.szs
+|       Cmn_Thumbnail_00.Nin_NX_NVN.szs
+|       Cmn_Thumbnail_01.Nin_NX_NVN.szs
+|       Cmn_TutorialWindow_00.Nin_NX_NVN.szs
+|       Cmn_UpLoadInfo_00.Nin_NX_NVN.szs
+|       Cmn_Window_00.Nin_NX_NVN.szs
+|       Cmn_Window_01.Nin_NX_NVN.szs
+|       Course_BackPage_00.Nin_NX_NVN.szs
+|       Edit_AreaBtn_00.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_00.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_01.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_02.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_03.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_04.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_05.Nin_NX_NVN.szs
+|       Edit_AutoScrollBtn_06.Nin_NX_NVN.szs
+|       Edit_AutoScrollVBtn_00.Nin_NX_NVN.szs
+|       Edit_BalloonPartsBtn_00.Nin_NX_NVN.szs
+|       Edit_BalloonPartsChange_00.Nin_NX_NVN.szs
+|       Edit_BalloonPartsIn_00.Nin_NX_NVN.szs
+|       Edit_BalloonPartsInBig_00.Nin_NX_NVN.szs
+|       Edit_Bounding_00.Nin_NX_NVN.szs
+|       Edit_ChangeHourBtn_00.Nin_NX_NVN.szs
+|       Edit_Clapperboard_00.Nin_NX_NVN.szs
+|       Edit_Clapperboard_01.Nin_NX_NVN.szs
+|       Edit_CmnBtn_00.Nin_NX_NVN.szs
+|       Edit_EditGuide_00.Nin_NX_NVN.szs
+|       Edit_EraserBtn_00.Nin_NX_NVN.szs
+|       Edit_LeftListBtn_00.Nin_NX_NVN.szs
+|       Edit_LeftListBtn_01.Nin_NX_NVN.szs
+|       Edit_LeftParts_00.Nin_NX_NVN.szs
+|       Edit_LeftSubBtn_00.Nin_NX_NVN.szs
+|       Edit_LeftSubBtn_01.Nin_NX_NVN.szs
+|       Edit_LoadBtn_00.Nin_NX_NVN.szs
+|       Edit_LoadingIcon_00.Nin_NX_NVN.szs
+|       Edit_MainPage_00.Nin_NX_NVN.szs
+|       Edit_MenuOpenBtn_00.Nin_NX_NVN.szs
+|       Edit_MissionBtn_00.Nin_NX_NVN.szs
+|       Edit_MissionListBtn_00.Nin_NX_NVN.szs
+|       Edit_MissionWindow_00.Nin_NX_NVN.szs
+|       Edit_ModeGuide_00.Nin_NX_NVN.szs
+|       Edit_ModeGuide_01.Nin_NX_NVN.szs
+|       Edit_MultiEditWindow_00.Nin_NX_NVN.szs
+|       Edit_NoAutoScrollBtn_00.Nin_NX_NVN.szs
+|       Edit_NSaveBtn_00.Nin_NX_NVN.szs
+|       Edit_PaletteGuide_00.Nin_NX_NVN.szs
+|       Edit_PaletteSet_00.Nin_NX_NVN.szs
+|       Edit_PartsBalloon_00.Nin_NX_NVN.szs
+|       Edit_PartsBtn_00.Nin_NX_NVN.szs
+|       Edit_PartsHistoryBtn_00.Nin_NX_NVN.szs
+|       Edit_PartsIcon_00.Nin_NX_NVN.szs
+|       Edit_PartsMenu_00.Nin_NX_NVN.szs
+|       Edit_PartsMenuPage_00.Nin_NX_NVN.szs
+|       Edit_PartsSearchBtn_00.Nin_NX_NVN.szs
+|       Edit_PullBtn_00.Nin_NX_NVN.szs
+|       Edit_ResetBtn_00.Nin_NX_NVN.szs
+|       Edit_ResetRocket_00.Nin_NX_NVN.szs
+|       Edit_RightParts_00.Nin_NX_NVN.szs
+|       Edit_RingCategory_00.Nin_NX_NVN.szs
+|       Edit_RingCategory_01.Nin_NX_NVN.szs
+|       Edit_RingIcon_00.Nin_NX_NVN.szs
+|       Edit_RingIconSet_00.Nin_NX_NVN.szs
+|       Edit_RingMenu_00.Nin_NX_NVN.szs
+|       Edit_SaveBtn_00.Nin_NX_NVN.szs
+|       Edit_SaveLoadMenu_00.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_00.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_01.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_02.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_03.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_04.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_05.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_06.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_07.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_08.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_09.Nin_NX_NVN.szs
+|       Edit_SceneListBtn_10.Nin_NX_NVN.szs
+|       Edit_ScrollEditBtn_00.Nin_NX_NVN.szs
+|       Edit_Selector_00.Nin_NX_NVN.szs
+|       Edit_Selector_01.Nin_NX_NVN.szs
+|       Edit_Selector_02.Nin_NX_NVN.szs
+|       Edit_SelectorCenter_00.Nin_NX_NVN.szs
+|       Edit_SelectorCenter_01.Nin_NX_NVN.szs
+|       Edit_SelectorCenter_02.Nin_NX_NVN.szs
+|       Edit_ShortCutMinus_00.Nin_NX_NVN.szs
+|       Edit_SkinListBtn_00.Nin_NX_NVN.szs
+|       Edit_SlideAreaBtnH_00.Nin_NX_NVN.szs
+|       Edit_SlideAreaBtnV_00.Nin_NX_NVN.szs
+|       Edit_SlideBtnG_00.Nin_NX_NVN.szs
+|       Edit_Slider_00.Nin_NX_NVN.szs
+|       Edit_SoundBtn_00.Nin_NX_NVN.szs
+|       Edit_SubAreaWindow_00.Nin_NX_NVN.szs
+|       Edit_SupportEdit_00.Nin_NX_NVN.szs
+|       Edit_SupportPalette_00.Nin_NX_NVN.szs
+|       Edit_TimerBtn_00.Nin_NX_NVN.szs
+|       Edit_TrashCan_00.Nin_NX_NVN.szs
+|       Edit_UndoBtn_00.Nin_NX_NVN.szs
+|       Edit_UpBtn_00.Nin_NX_NVN.szs
+|       Edit_WaterLevelBtn_00.Nin_NX_NVN.szs
+|       Lcl_CloseBtn_00.Nin_NX_NVN.szs
+|       Lcl_Count_00.Nin_NX_NVN.szs
+|       Lcl_CountIcon_00.Nin_NX_NVN.szs
+|       Lcl_CourseDataList_00.Nin_NX_NVN.szs
+|       Lcl_CourseDataPostBtn_00.Nin_NX_NVN.szs
+|       Lcl_CourseInfoWindow_00.Nin_NX_NVN.szs
+|       Lcl_CourseList_00.Nin_NX_NVN.szs
+|       Lcl_CourseListContents_00.Nin_NX_NVN.szs
+|       Lcl_DecideBtn_00.Nin_NX_NVN.szs
+|       Lcl_DecideBtnI_00.Nin_NX_NVN.szs
+|       Lcl_IDBtn_00.Nin_NX_NVN.szs
+|       Lcl_ListSelectBtnSml_00.Nin_NX_NVN.szs
+|       Lcl_SubBtn_00.Nin_NX_NVN.szs
+|       Lcl_SubBtnBalloon_00.Nin_NX_NVN.szs
+|       Lcl_UploadScene_00.Nin_NX_NVN.szs
+|       Lsn_Assistant_00.Nin_NX_NVN.szs
+|       Lsn_BtnLocator_00.Nin_NX_NVN.szs
+|       Lsn_Fade_00.Nin_NX_NVN.szs
+|       Lsn_Highlighting_00.Nin_NX_NVN.szs
+|       Lsn_KeyBtnIcon_00.Nin_NX_NVN.szs
+|       Lsn_LevelSelectBtn_00.Nin_NX_NVN.szs
+|       Lsn_Main_00.Nin_NX_NVN.szs
+|       Lsn_Operation_00.Nin_NX_NVN.szs
+|       Lsn_OperationList_00.Nin_NX_NVN.szs
+|       Lsn_PageBtn_00.Nin_NX_NVN.szs
+|       Lsn_PageTopBtn_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuide_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideContents_3W_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideContents_M1_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideContents_M3_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideContents_MW_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideContents_WU_00.Nin_NX_NVN.szs
+|       Lsn_PlayerGuideWindow_00.Nin_NX_NVN.szs
+|       Lsn_Pointer_00.Nin_NX_NVN.szs
+|       Lsn_Sketch_00.Nin_NX_NVN.szs
+|       Lsn_SkinSelectBtn_00.Nin_NX_NVN.szs
+|       Lsn_Spotlight_00.Nin_NX_NVN.szs
+|       Lsn_Spotlight_01.Nin_NX_NVN.szs
+|       Lsn_TechniqueList_00.Nin_NX_NVN.szs
+|       Lsn_TechniqueListBtn_00.Nin_NX_NVN.szs
+|       Lsn_Title_00.Nin_NX_NVN.szs
+|       Lsn_TitleBtn_00.Nin_NX_NVN.szs
+|       Lsn_TitleBtn_01.Nin_NX_NVN.szs
+|       Lsn_TitleSubBtn_00.Nin_NX_NVN.szs
+|       Lsn_TutorialGuide_00.Nin_NX_NVN.szs
+|       Lsn_Yamamura_00.Nin_NX_NVN.szs
+|       MultiFilter.Nin_NX_NVN.szs
+|       Nwk_Badge_00.Nin_NX_NVN.szs
+|       Nwk_BadgeList_00.Nin_NX_NVN.szs
+|       Nwk_BadgeS_00.Nin_NX_NVN.szs
+|       Nwk_BtlMessageWindow_00.Nin_NX_NVN.szs
+|       Nwk_BtlRankL_00.Nin_NX_NVN.szs
+|       Nwk_BtlRankS_00.Nin_NX_NVN.szs
+|       Nwk_BtlRankS_01.Nin_NX_NVN.szs
+|       Nwk_BtlSwitchBtn_00.Nin_NX_NVN.szs
+|       Nwk_CapSpace_00.Nin_NX_NVN.szs
+|       Nwk_ClearCheck_00.Nin_NX_NVN.szs
+|       Nwk_CommentBtn_00.Nin_NX_NVN.szs
+|       Nwk_CommentDrawing_00.Nin_NX_NVN.szs
+|       Nwk_CommentHistory_00.Nin_NX_NVN.szs
+|       Nwk_CommentIconBtn_00.Nin_NX_NVN.szs
+|       Nwk_CommentPosting_00.Nin_NX_NVN.szs
+|       Nwk_CommentStamp_00.Nin_NX_NVN.szs
+|       Nwk_CommentStampBtn_00.Nin_NX_NVN.szs
+|       Nwk_CommentViewer_00.Nin_NX_NVN.szs
+|       Nwk_Count_00.Nin_NX_NVN.szs
+|       Nwk_Count_01.Nin_NX_NVN.szs
+|       Nwk_Count_02.Nin_NX_NVN.szs
+|       Nwk_Count_03.Nin_NX_NVN.szs
+|       Nwk_Count_04.Nin_NX_NVN.szs
+|       Nwk_Count_05.Nin_NX_NVN.szs
+|       Nwk_CountIcon_00.Nin_NX_NVN.szs
+|       Nwk_CourseData_00.Nin_NX_NVN.szs
+|       Nwk_CourseDetail_00.Nin_NX_NVN.szs
+|       Nwk_CourseList_00.Nin_NX_NVN.szs
+|       Nwk_CourseListGeneral_00.Nin_NX_NVN.szs
+|       Nwk_CourseListMaker_00.Nin_NX_NVN.szs
+|       Nwk_CourseListWindow_00.Nin_NX_NVN.szs
+|       Nwk_DpointBtn_00.Nin_NX_NVN.szs
+|       Nwk_DrawingArrowBtn_00.Nin_NX_NVN.szs
+|       Nwk_DrawingBtn_00.Nin_NX_NVN.szs
+|       Nwk_DrawingColorBtn_00.Nin_NX_NVN.szs
+|       Nwk_DrawingSwitchBtn_00.Nin_NX_NVN.szs
+|       Nwk_DressTabBtn_00.Nin_NX_NVN.szs
+|       Nwk_DressUp_00.Nin_NX_NVN.szs
+|       Nwk_DressUpBtn_00.Nin_NX_NVN.szs
+|       Nwk_DummyBtn_00.Nin_NX_NVN.szs
+|       Nwk_EndlessModeMenu_00.Nin_NX_NVN.szs
+|       Nwk_FollowBtn_00.Nin_NX_NVN.szs
+|       Nwk_FootprintData_00.Nin_NX_NVN.szs
+|       Nwk_FootprintData_01.Nin_NX_NVN.szs
+|       Nwk_GoodCheck_00.Nin_NX_NVN.szs
+|       Nwk_IDSearchBtn_00.Nin_NX_NVN.szs
+|       Nwk_ListSelectBtnIcon_01.Nin_NX_NVN.szs
+|       Nwk_ListSelectBtnSml_00.Nin_NX_NVN.szs
+|       Nwk_ListSelectBtnSml_01.Nin_NX_NVN.szs
+|       Nwk_ListSelectBtnSml_02.Nin_NX_NVN.szs
+|       Nwk_MakerData_00.Nin_NX_NVN.szs
+|       Nwk_Matching_00.Nin_NX_NVN.szs
+|       Nwk_MatchingBG_00.Nin_NX_NVN.szs
+|       Nwk_MatchingLevelSelect_00.Nin_NX_NVN.szs
+|       Nwk_MatchingModeSelect_00.Nin_NX_NVN.szs
+|       Nwk_MatchingPlayer_00.Nin_NX_NVN.szs
+|       Nwk_MatchingRoomSelect_00.Nin_NX_NVN.szs
+|       Nwk_MatchingWait_00.Nin_NX_NVN.szs
+|       Nwk_MCDifflculityBtn_00.Nin_NX_NVN.szs
+|       Nwk_MiiBtn_00.Nin_NX_NVN.szs
+|       Nwk_PageBtn_00.Nin_NX_NVN.szs
+|       Nwk_PageBtns_00.Nin_NX_NVN.szs
+|       Nwk_PlayBtn_00.Nin_NX_NVN.szs
+|       Nwk_PlayerInfo_00.Nin_NX_NVN.szs
+|       Nwk_PlayInfo_00.Nin_NX_NVN.szs
+|       Nwk_RankCheck_00.Nin_NX_NVN.szs
+|       Nwk_ReportCheckBtn_00.Nin_NX_NVN.szs
+|       Nwk_ReportWindow_00.Nin_NX_NVN.szs
+|       Nwk_RoomBtn_00.Nin_NX_NVN.szs
+|       Nwk_RoomPlayer_00.Nin_NX_NVN.szs
+|       Nwk_RoomSituation_00.Nin_NX_NVN.szs
+|       Nwk_SignalLevel_00.Nin_NX_NVN.szs
+|       Nwk_SortBtn_00.Nin_NX_NVN.szs
+|       Nwk_SortBtn_01.Nin_NX_NVN.szs
+|       Nwk_SortBtnFootprint_00.Nin_NX_NVN.szs
+|       Nwk_SortOKBtn_00.Nin_NX_NVN.szs
+|       Nwk_SortSwitchBtn_00.Nin_NX_NVN.szs
+|       Nwk_SortWindow_00.Nin_NX_NVN.szs
+|       Nwk_TagRegister_00.Nin_NX_NVN.szs
+|       Nwk_Title_00.Nin_NX_NVN.szs
+|       Nwk_TitleBtn_00.Nin_NX_NVN.szs
+|       Nwk_TitleBtn_01.Nin_NX_NVN.szs
+|       Nwk_TitleBtn_02.Nin_NX_NVN.szs
+|       Nwk_TitleBtn_03.Nin_NX_NVN.szs
+|       Nwk_TitleUserBtn_00.Nin_NX_NVN.szs
+|       Nwk_TwinkleStar_00.Nin_NX_NVN.szs
+|       Nwk_UpdateBtn_00.Nin_NX_NVN.szs
+|       Nwk_UpdateBtn_01.Nin_NX_NVN.szs
+|       Nwk_UpdateBtnS_00.Nin_NX_NVN.szs
+|       Nwk_UpdateBtnS_01.Nin_NX_NVN.szs
+|       Nwk_UploadCheck_00.Nin_NX_NVN.szs
+|       Nwk_VoiseBtn_00.Nin_NX_NVN.szs
+|       Nwk_VoteBtn_00.Nin_NX_NVN.szs
+|       Nwk_WorldMap_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapBtn_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapCastle_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapCourse_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapInfo_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapMario_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapSub_00.Nin_NX_NVN.szs
+|       Nwk_WorldMapSub_01.Nin_NX_NVN.szs
+|       Nwk_WorldMapSub_02.Nin_NX_NVN.szs
+|       Nwk_WorldMapSub_03.Nin_NX_NVN.szs
+|       Play_1UP_00.Nin_NX_NVN.szs
+|       Play_BattleClearCheck_00.Nin_NX_NVN.szs
+|       Play_BattleMenu_00.Nin_NX_NVN.szs
+|       Play_BattleMessage_00.Nin_NX_NVN.szs
+|       Play_BattleMessageList_00.Nin_NX_NVN.szs
+|       Play_BattleMii_00.Nin_NX_NVN.szs
+|       Play_BattleRestartPlayer_00.Nin_NX_NVN.szs
+|       Play_BattleResult_00.Nin_NX_NVN.szs
+|       Play_BtlMessageBtn_00.Nin_NX_NVN.szs
+|       Play_BtlPlayerInfo_00.Nin_NX_NVN.szs
+|       Play_BtlRestartBtn_00.Nin_NX_NVN.szs
+|       Play_BtlResultPayerInfo_00.Nin_NX_NVN.szs
+|       Play_BtlResultPlayer_00.Nin_NX_NVN.szs
+|       Play_CheckFlag_00.Nin_NX_NVN.szs
+|       Play_ClearInfo_00.Nin_NX_NVN.szs
+|       Play_Comment_00.Nin_NX_NVN.szs
+|       Play_CommentClear_00.Nin_NX_NVN.szs
+|       Play_CommentScene_00.Nin_NX_NVN.szs
+|       Play_CountDownStart_00.Nin_NX_NVN.szs
+|       Play_CourseClear_00.Nin_NX_NVN.szs
+|       Play_CourseIn_00.Nin_NX_NVN.szs
+|       Play_CourseRetire_00.Nin_NX_NVN.szs
+|       Play_CourseViewer_00.Nin_NX_NVN.szs
+|       Play_GameOver_00.Nin_NX_NVN.szs
+|       Play_KeyIcon_00.Nin_NX_NVN.szs
+|       Play_KeyOperation_00.Nin_NX_NVN.szs
+|       Play_KeyOperationScene_00.Nin_NX_NVN.szs
+|       Play_LclBtlResult_00.Nin_NX_NVN.szs
+|       Play_LclBtlResultNum_00.Nin_NX_NVN.szs
+|       Play_LclBtlResultPlayer_00.Nin_NX_NVN.szs
+|       Play_LclBtlResultPlayer_01.Nin_NX_NVN.szs
+|       Play_MissionAttention_00.Nin_NX_NVN.szs
+|       Play_MissionClearMark_00.Nin_NX_NVN.szs
+|       Play_MissionNotice_00.Nin_NX_NVN.szs
+|       Play_Notice_00.Nin_NX_NVN.szs
+|       Play_NoticeWindow_00.Nin_NX_NVN.szs
+|       Play_PinkCoin_00.Nin_NX_NVN.szs
+|       Play_PlayerPointer_00.Nin_NX_NVN.szs
+|       Play_PlayScene_00.Nin_NX_NVN.szs
+|       Play_PlaySceneBattle_00.Nin_NX_NVN.szs
+|       Play_PMeter_00.Nin_NX_NVN.szs
+|       Play_PointGet_00.Nin_NX_NVN.szs
+|       Play_PositionPointer_00.Nin_NX_NVN.szs
+|       Play_RatingResult_00.Nin_NX_NVN.szs
+|       Play_RestartPlayer_00.Nin_NX_NVN.szs
+|       Play_SlidePass_00.Nin_NX_NVN.szs
+|       Play_SlidePassIcon_00.Nin_NX_NVN.szs
+|       Play_SlidePassIconKey_00.Nin_NX_NVN.szs
+|       Play_TimeUp_00.Nin_NX_NVN.szs
+|       Play_Title_00.Nin_NX_NVN.szs
+|       Qst_ActionGuide_00.Nin_NX_NVN.szs
+|       Qst_Balloon_00.Nin_NX_NVN.szs
+|       Qst_CastleFinish_00.Nin_NX_NVN.szs
+|       Qst_CastleProgress_00.Nin_NX_NVN.szs
+|       Qst_CastleProgress_01.Nin_NX_NVN.szs
+|       Qst_ChoiceBtn_00.Nin_NX_NVN.szs
+|       Qst_ClearSupport_00.Nin_NX_NVN.szs
+|       Qst_ClearSupportContents_00.Nin_NX_NVN.szs
+|       Qst_ClearSupportWindow_00.Nin_NX_NVN.szs
+|       Qst_ClearSupportWindow_01.Nin_NX_NVN.szs
+|       Qst_DemoEnd_00.Nin_NX_NVN.szs
+|       Qst_FilterBtn_00.Nin_NX_NVN.szs
+|       Qst_InfoWindow_00.Nin_NX_NVN.szs
+|       Qst_List_00.Nin_NX_NVN.szs
+|       Qst_MainScene_00.Nin_NX_NVN.szs
+|       Qst_MessageBalloon_00.Nin_NX_NVN.szs
+|       Qst_MessageWindow_00.Nin_NX_NVN.szs
+|       Qst_ProgressBalloon_00.Nin_NX_NVN.szs
+|       Qst_ProgressMark_00.Nin_NX_NVN.szs
+|       Qst_ProgressScene_00.Nin_NX_NVN.szs
+|       Qst_QuestBtn_00.Nin_NX_NVN.szs
+|       Qst_QuestFinish_00.Nin_NX_NVN.szs
+|       Qst_QuestWindow_00.Nin_NX_NVN.szs
+|       Qst_Reward_00.Nin_NX_NVN.szs
+|       Qst_RewardContents_00.Nin_NX_NVN.szs
+|       Qst_RewardWindow_00.Nin_NX_NVN.szs
+|       Qst_StaffRoll_00.Nin_NX_NVN.szs
+|       
++---Map
+|       MainField.szs
+|       
++---Message
+|       App.msbp
+|       CommonMsg_CNzh.szs
+|       CommonMsg_EUde.szs
+|       CommonMsg_EUen.szs
+|       CommonMsg_EUes.szs
+|       CommonMsg_EUfr.szs
+|       CommonMsg_EUit.szs
+|       CommonMsg_EUnl.szs
+|       CommonMsg_EUru.szs
+|       CommonMsg_JPja.szs
+|       CommonMsg_KRko.szs
+|       CommonMsg_TWzh.szs
+|       CommonMsg_USen.szs
+|       CommonMsg_USes.szs
+|       CommonMsg_USfr.szs
+|       LayoutMsg_CNzh.szs
+|       LayoutMsg_EUde.szs
+|       LayoutMsg_EUen.szs
+|       LayoutMsg_EUes.szs
+|       LayoutMsg_EUfr.szs
+|       LayoutMsg_EUit.szs
+|       LayoutMsg_EUnl.szs
+|       LayoutMsg_EUru.szs
+|       LayoutMsg_JPja.szs
+|       LayoutMsg_KRko.szs
+|       LayoutMsg_TWzh.szs
+|       LayoutMsg_USen.szs
+|       LayoutMsg_USes.szs
+|       LayoutMsg_USfr.szs
+|       ReferenceMsg_CNzh.szs
+|       ReferenceMsg_EUde.szs
+|       ReferenceMsg_EUen.szs
+|       ReferenceMsg_EUes.szs
+|       ReferenceMsg_EUfr.szs
+|       ReferenceMsg_EUit.szs
+|       ReferenceMsg_EUnl.szs
+|       ReferenceMsg_EUru.szs
+|       ReferenceMsg_JPja.szs
+|       ReferenceMsg_KRko.szs
+|       ReferenceMsg_TWzh.szs
+|       ReferenceMsg_USen.szs
+|       ReferenceMsg_USes.szs
+|       ReferenceMsg_USfr.szs
+|       
++---Mii
+|       IconBody.dat
+|       MiiIcon.sharcb
+|       TextureShader.bnsh
+|       
++---Model
+|       3W_DV_airship.Nin_NX_NVN.zs
+|       3W_DV_airship_V.Nin_NX_NVN.zs
+|       3W_DV_athletic.Nin_NX_NVN.zs
+|       3W_DV_athletic_V.Nin_NX_NVN.zs
+|       3W_DV_castle.Nin_NX_NVN.zs
+|       3W_DV_castle_V.Nin_NX_NVN.zs
+|       3W_DV_desert.Nin_NX_NVN.zs
+|       3W_DV_desert_V.Nin_NX_NVN.zs
+|       3W_DV_hauntedhouse.Nin_NX_NVN.zs
+|       3W_DV_hauntedhouse_V.Nin_NX_NVN.zs
+|       3W_DV_plain.Nin_NX_NVN.zs
+|       3W_DV_plain_V.Nin_NX_NVN.zs
+|       3W_DV_snow.Nin_NX_NVN.zs
+|       3W_DV_snow_V.Nin_NX_NVN.zs
+|       3W_DV_underground.Nin_NX_NVN.zs
+|       3W_DV_underground_V.Nin_NX_NVN.zs
+|       3W_DV_water.Nin_NX_NVN.zs
+|       3W_DV_water_V.Nin_NX_NVN.zs
+|       3W_DV_woods.Nin_NX_NVN.zs
+|       3W_DV_woods_V.Nin_NX_NVN.zs
+|       3W_Field_airship.Nin_NX_NVN.zs
+|       3W_Field_athletic.Nin_NX_NVN.zs
+|       3W_Field_castle.Nin_NX_NVN.zs
+|       3W_Field_desert.Nin_NX_NVN.zs
+|       3W_Field_fence.Nin_NX_NVN.zs
+|       3W_Field_hauntedhouse.Nin_NX_NVN.zs
+|       3W_Field_plain.Nin_NX_NVN.zs
+|       3W_Field_snow.Nin_NX_NVN.zs
+|       3W_Field_underground.Nin_NX_NVN.zs
+|       3W_Field_water.Nin_NX_NVN.zs
+|       3W_Field_woods.Nin_NX_NVN.zs
+|       3W_S_DV_airship.Nin_NX_NVN.zs
+|       3W_S_DV_athletic.Nin_NX_NVN.zs
+|       3W_S_DV_castle.Nin_NX_NVN.zs
+|       3W_S_DV_desert.Nin_NX_NVN.zs
+|       3W_S_DV_hauntedhouse.Nin_NX_NVN.zs
+|       3W_S_DV_plain.Nin_NX_NVN.zs
+|       3W_S_DV_snow.Nin_NX_NVN.zs
+|       3W_S_DV_underground.Nin_NX_NVN.zs
+|       3W_S_DV_water.Nin_NX_NVN.zs
+|       3W_S_DV_woods.Nin_NX_NVN.zs
+|       3W_S_Object_magmahalf.Nin_NX_NVN.zs
+|       3W_S_Object_waterhalf.Nin_NX_NVN.zs
+|       Lyt_Clothes.Nin_NX_NVN.zs
+|       Lyt_Dummy.Nin_NX_NVN.zs
+|       Lyt_Edit_Icon.Nin_NX_NVN.zs
+|       Lyt_Edit_PaletteSound.Nin_NX_NVN.zs
+|       Lyt_Stamp_de.Nin_NX_NVN.zs
+|       Lyt_Stamp_en.Nin_NX_NVN.zs
+|       Lyt_Stamp_es.Nin_NX_NVN.zs
+|       Lyt_Stamp_fr.Nin_NX_NVN.zs
+|       Lyt_Stamp_it.Nin_NX_NVN.zs
+|       Lyt_Stamp_ja.Nin_NX_NVN.zs
+|       Lyt_Stamp_ko.Nin_NX_NVN.zs
+|       Lyt_Stamp_nl.Nin_NX_NVN.zs
+|       Lyt_Stamp_ru.Nin_NX_NVN.zs
+|       Lyt_Stamp_zh.Nin_NX_NVN.zs
+|       M0_DV_black.Nin_NX_NVN.zs
+|       M0_DV_black_V.Nin_NX_NVN.zs
+|       M0_S_DV_black.Nin_NX_NVN.zs
+|       M0_S_Object_mask.Nin_NX_NVN.zs
+|       M1_DV_airship.Nin_NX_NVN.zs
+|       M1_DV_airship_D.Nin_NX_NVN.zs
+|       M1_DV_airship_D_V.Nin_NX_NVN.zs
+|       M1_DV_airship_V.Nin_NX_NVN.zs
+|       M1_DV_athletic.Nin_NX_NVN.zs
+|       M1_DV_athletic_V.Nin_NX_NVN.zs
+|       M1_DV_desert.Nin_NX_NVN.zs
+|       M1_DV_desert_V.Nin_NX_NVN.zs
+|       M1_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       M1_DV_hauntedhouse_D_V.Nin_NX_NVN.zs
+|       M1_DV_plain.Nin_NX_NVN.zs
+|       M1_DV_plain_D.Nin_NX_NVN.zs
+|       M1_DV_plain_D_V.Nin_NX_NVN.zs
+|       M1_DV_plain_V.Nin_NX_NVN.zs
+|       M1_DV_snow.Nin_NX_NVN.zs
+|       M1_DV_snow_D.Nin_NX_NVN.zs
+|       M1_DV_snow_D_V.Nin_NX_NVN.zs
+|       M1_DV_snow_V.Nin_NX_NVN.zs
+|       M1_DV_water.Nin_NX_NVN.zs
+|       M1_DV_water_D.Nin_NX_NVN.zs
+|       M1_DV_water_D_V.Nin_NX_NVN.zs
+|       M1_DV_water_V.Nin_NX_NVN.zs
+|       M1_DV_woods.Nin_NX_NVN.zs
+|       M1_DV_woods_V.Nin_NX_NVN.zs
+|       M1_Field_airship.Nin_NX_NVN.zs
+|       M1_Field_airship_D.Nin_NX_NVN.zs
+|       M1_Field_athletic.Nin_NX_NVN.zs
+|       M1_Field_athletic_D.Nin_NX_NVN.zs
+|       M1_Field_castle.Nin_NX_NVN.zs
+|       M1_Field_castle_D.Nin_NX_NVN.zs
+|       M1_Field_desert.Nin_NX_NVN.zs
+|       M1_Field_desert_D.Nin_NX_NVN.zs
+|       M1_Field_hauntedhouse.Nin_NX_NVN.zs
+|       M1_Field_hauntedhouse_D.Nin_NX_NVN.zs
+|       M1_Field_plain.Nin_NX_NVN.zs
+|       M1_Field_plain_D.Nin_NX_NVN.zs
+|       M1_Field_snow.Nin_NX_NVN.zs
+|       M1_Field_snow_D.Nin_NX_NVN.zs
+|       M1_Field_underground.Nin_NX_NVN.zs
+|       M1_Field_underground_D.Nin_NX_NVN.zs
+|       M1_Field_water.Nin_NX_NVN.zs
+|       M1_Field_water_D.Nin_NX_NVN.zs
+|       M1_Field_woods.Nin_NX_NVN.zs
+|       M1_Field_woods_D.Nin_NX_NVN.zs
+|       M1_S_DV_airship.Nin_NX_NVN.zs
+|       M1_S_DV_airship_D.Nin_NX_NVN.zs
+|       M1_S_DV_athletic.Nin_NX_NVN.zs
+|       M1_S_DV_desert.Nin_NX_NVN.zs
+|       M1_S_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       M1_S_DV_plain.Nin_NX_NVN.zs
+|       M1_S_DV_plain_D.Nin_NX_NVN.zs
+|       M1_S_DV_snow.Nin_NX_NVN.zs
+|       M1_S_DV_snow_D.Nin_NX_NVN.zs
+|       M1_S_DV_water.Nin_NX_NVN.zs
+|       M1_S_DV_water_D.Nin_NX_NVN.zs
+|       M1_S_DV_woods.Nin_NX_NVN.zs
+|       M1_S_Object_magmahalf.Nin_NX_NVN.zs
+|       M1_S_Object_poisonhalf.Nin_NX_NVN.zs
+|       M1_S_Object_waterhalf.Nin_NX_NVN.zs
+|       M3_DV_airship.Nin_NX_NVN.zs
+|       M3_DV_airship_D.Nin_NX_NVN.zs
+|       M3_DV_airship_D_V.Nin_NX_NVN.zs
+|       M3_DV_airship_V.Nin_NX_NVN.zs
+|       M3_DV_athletic.Nin_NX_NVN.zs
+|       M3_DV_athletic_V.Nin_NX_NVN.zs
+|       M3_DV_castle.Nin_NX_NVN.zs
+|       M3_DV_castle_V.Nin_NX_NVN.zs
+|       M3_DV_desert.Nin_NX_NVN.zs
+|       M3_DV_desert_V.Nin_NX_NVN.zs
+|       M3_DV_hauntedhouse.Nin_NX_NVN.zs
+|       M3_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       M3_DV_hauntedhouse_D_V.Nin_NX_NVN.zs
+|       M3_DV_hauntedhouse_V.Nin_NX_NVN.zs
+|       M3_DV_plain.Nin_NX_NVN.zs
+|       M3_DV_plain_D.Nin_NX_NVN.zs
+|       M3_DV_plain_D_V.Nin_NX_NVN.zs
+|       M3_DV_plain_V.Nin_NX_NVN.zs
+|       M3_DV_snow.Nin_NX_NVN.zs
+|       M3_DV_snow_D.Nin_NX_NVN.zs
+|       M3_DV_snow_D_V.Nin_NX_NVN.zs
+|       M3_DV_snow_V.Nin_NX_NVN.zs
+|       M3_DV_underground.Nin_NX_NVN.zs
+|       M3_DV_underground_V.Nin_NX_NVN.zs
+|       M3_DV_water.Nin_NX_NVN.zs
+|       M3_DV_water_D.Nin_NX_NVN.zs
+|       M3_DV_water_D_V.Nin_NX_NVN.zs
+|       M3_DV_water_V.Nin_NX_NVN.zs
+|       M3_DV_woods.Nin_NX_NVN.zs
+|       M3_DV_woods_V.Nin_NX_NVN.zs
+|       M3_Field_airship.Nin_NX_NVN.zs
+|       M3_Field_airship_D.Nin_NX_NVN.zs
+|       M3_Field_athletic.Nin_NX_NVN.zs
+|       M3_Field_athletic_D.Nin_NX_NVN.zs
+|       M3_Field_castle.Nin_NX_NVN.zs
+|       M3_Field_castle_D.Nin_NX_NVN.zs
+|       M3_Field_desert.Nin_NX_NVN.zs
+|       M3_Field_desert_D.Nin_NX_NVN.zs
+|       M3_Field_hauntedhouse.Nin_NX_NVN.zs
+|       M3_Field_hauntedhouse_D.Nin_NX_NVN.zs
+|       M3_Field_plain.Nin_NX_NVN.zs
+|       M3_Field_plain_D.Nin_NX_NVN.zs
+|       M3_Field_snow.Nin_NX_NVN.zs
+|       M3_Field_snow_D.Nin_NX_NVN.zs
+|       M3_Field_underground.Nin_NX_NVN.zs
+|       M3_Field_underground_D.Nin_NX_NVN.zs
+|       M3_Field_water.Nin_NX_NVN.zs
+|       M3_Field_water_D.Nin_NX_NVN.zs
+|       M3_Field_woods.Nin_NX_NVN.zs
+|       M3_Field_woods_D.Nin_NX_NVN.zs
+|       M3_S_DV_airship.Nin_NX_NVN.zs
+|       M3_S_DV_airship_D.Nin_NX_NVN.zs
+|       M3_S_DV_athletic.Nin_NX_NVN.zs
+|       M3_S_DV_castle.Nin_NX_NVN.zs
+|       M3_S_DV_desert.Nin_NX_NVN.zs
+|       M3_S_DV_hauntedhouse.Nin_NX_NVN.zs
+|       M3_S_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       M3_S_DV_plain.Nin_NX_NVN.zs
+|       M3_S_DV_plain_D.Nin_NX_NVN.zs
+|       M3_S_DV_snow.Nin_NX_NVN.zs
+|       M3_S_DV_snow_D.Nin_NX_NVN.zs
+|       M3_S_DV_underground.Nin_NX_NVN.zs
+|       M3_S_DV_water.Nin_NX_NVN.zs
+|       M3_S_DV_water_D.Nin_NX_NVN.zs
+|       M3_S_DV_woods.Nin_NX_NVN.zs
+|       M3_S_Object_magmahalf.Nin_NX_NVN.zs
+|       M3_S_Object_poisonhalf.Nin_NX_NVN.zs
+|       M3_S_Object_waterhalf.Nin_NX_NVN.zs
+|       Mii_All_BuilderMario.Nin_NX_NVN.zs
+|       Mii_All_ClimbMario.Nin_NX_NVN.zs
+|       Mii_All_Dossun.Nin_NX_NVN.zs
+|       Mii_All_DrMario.Nin_NX_NVN.zs
+|       Mii_All_Kameck.Nin_NX_NVN.zs
+|       Mii_All_King.Nin_NX_NVN.zs
+|       Mii_All_Kinopio.Nin_NX_NVN.zs
+|       Mii_All_Koopa.Nin_NX_NVN.zs
+|       Mii_All_Mario.Nin_NX_NVN.zs
+|       Mii_All_Nokonoko.Nin_NX_NVN.zs
+|       Mii_All_OnePiece.Nin_NX_NVN.zs
+|       Mii_All_Peach.Nin_NX_NVN.zs
+|       Mii_All_PeachTennis.Nin_NX_NVN.zs
+|       Mii_All_PropellerMario.Nin_NX_NVN.zs
+|       Mii_All_Robot.Nin_NX_NVN.zs
+|       Mii_All_Rocket.Nin_NX_NVN.zs
+|       Mii_All_Rompers.Nin_NX_NVN.zs
+|       Mii_All_Rosetta.Nin_NX_NVN.zs
+|       Mii_All_Splus.Nin_NX_NVN.zs
+|       Mii_All_SuperBall.Nin_NX_NVN.zs
+|       Mii_All_Tuxedo.Nin_NX_NVN.zs
+|       Mii_All_WhiteDress.Nin_NX_NVN.zs
+|       Mii_All_Yoshi.Nin_NX_NVN.zs
+|       Mii_Anim.Nin_NX_NVN.zs
+|       Mii_Bottoms_Hacchin.Nin_NX_NVN.zs
+|       Mii_Bottoms_Jugemu.Nin_NX_NVN.zs
+|       Mii_Bottoms_KoopaClown.Nin_NX_NVN.zs
+|       Mii_Bottoms_Kutsu.Nin_NX_NVN.zs
+|       Mii_Bottoms_Pants.Nin_NX_NVN.zs
+|       Mii_Bottoms_Shorts.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtBurner.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtDokan.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtGesso.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtKillerHoudai.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtL.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtM.Nin_NX_NVN.zs
+|       Mii_Bottoms_SkirtS.Nin_NX_NVN.zs
+|       Mii_Bottoms_WidePants.Nin_NX_NVN.zs
+|       Mii_Headwear_BuilderMario.Nin_NX_NVN.zs
+|       Mii_Headwear_ClimbMario.Nin_NX_NVN.zs
+|       Mii_Headwear_Dokan.Nin_NX_NVN.zs
+|       Mii_Headwear_DrMario.Nin_NX_NVN.zs
+|       Mii_Headwear_Edamame.Nin_NX_NVN.zs
+|       Mii_Headwear_Kameck.Nin_NX_NVN.zs
+|       Mii_Headwear_Karaage.Nin_NX_NVN.zs
+|       Mii_Headwear_King.Nin_NX_NVN.zs
+|       Mii_Headwear_KinokoMini.Nin_NX_NVN.zs
+|       Mii_Headwear_Kinopio.Nin_NX_NVN.zs
+|       Mii_Headwear_Koopa.Nin_NX_NVN.zs
+|       Mii_Headwear_KoopaJr.Nin_NX_NVN.zs
+|       Mii_Headwear_Luigi.Nin_NX_NVN.zs
+|       Mii_Headwear_Mario.Nin_NX_NVN.zs
+|       Mii_Headwear_Otogaeru.Nin_NX_NVN.zs
+|       Mii_Headwear_Packun.Nin_NX_NVN.zs
+|       Mii_Headwear_Peach.Nin_NX_NVN.zs
+|       Mii_Headwear_Poo.Nin_NX_NVN.zs
+|       Mii_Headwear_PropellerMario.Nin_NX_NVN.zs
+|       Mii_Headwear_Pukupuku.Nin_NX_NVN.zs
+|       Mii_Headwear_Robot.Nin_NX_NVN.zs
+|       Mii_Headwear_Rosetta.Nin_NX_NVN.zs
+|       Mii_Headwear_Star.Nin_NX_NVN.zs
+|       Mii_Headwear_SuperBall.Nin_NX_NVN.zs
+|       Mii_Headwear_Teresa.Nin_NX_NVN.zs
+|       Mii_Headwear_Tuxedo.Nin_NX_NVN.zs
+|       Mii_Headwear_Yoshi.Nin_NX_NVN.zs
+|       Mii_JointBase.Nin_NX_NVN.zs
+|       Mii_Mannequin.Nin_NX_NVN.zs
+|       Mii_System.Nin_NX_NVN.zs
+|       Mii_Table.Nin_NX_NVN.zs
+|       Mii_Tops_Aloha.Nin_NX_NVN.zs
+|       Mii_Tops_AnimShirt.Nin_NX_NVN.zs
+|       Mii_Tops_Camisole.Nin_NX_NVN.zs
+|       Mii_Tops_Firebar.Nin_NX_NVN.zs
+|       Mii_Tops_Fishbone.Nin_NX_NVN.zs
+|       Mii_Tops_Hatena.Nin_NX_NVN.zs
+|       Mii_Tops_Karaage.Nin_NX_NVN.zs
+|       Mii_Tops_KoopaJrScarf.Nin_NX_NVN.zs
+|       Mii_Tops_NokoTanktop.Nin_NX_NVN.zs
+|       Mii_Tops_Nosleeve.Nin_NX_NVN.zs
+|       Mii_Tops_OneUp.Nin_NX_NVN.zs
+|       Mii_Tops_Partskun.Nin_NX_NVN.zs
+|       Mii_Tops_Pyonchu.Nin_NX_NVN.zs
+|       Mii_Tops_Shirt.Nin_NX_NVN.zs
+|       MW_DV_airship.Nin_NX_NVN.zs
+|       MW_DV_airship_D.Nin_NX_NVN.zs
+|       MW_DV_airship_D_V.Nin_NX_NVN.zs
+|       MW_DV_airship_V.Nin_NX_NVN.zs
+|       MW_DV_athletic.Nin_NX_NVN.zs
+|       MW_DV_athletic_V.Nin_NX_NVN.zs
+|       MW_DV_castle.Nin_NX_NVN.zs
+|       MW_DV_castle_V.Nin_NX_NVN.zs
+|       MW_DV_desert.Nin_NX_NVN.zs
+|       MW_DV_desert_V.Nin_NX_NVN.zs
+|       MW_DV_hauntedhouse.Nin_NX_NVN.zs
+|       MW_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       MW_DV_hauntedhouse_D_V.Nin_NX_NVN.zs
+|       MW_DV_hauntedhouse_V.Nin_NX_NVN.zs
+|       MW_DV_plain.Nin_NX_NVN.zs
+|       MW_DV_plain_D.Nin_NX_NVN.zs
+|       MW_DV_plain_D_V.Nin_NX_NVN.zs
+|       MW_DV_plain_V.Nin_NX_NVN.zs
+|       MW_DV_snow.Nin_NX_NVN.zs
+|       MW_DV_snow_D.Nin_NX_NVN.zs
+|       MW_DV_snow_D_V.Nin_NX_NVN.zs
+|       MW_DV_snow_V.Nin_NX_NVN.zs
+|       MW_DV_underground.Nin_NX_NVN.zs
+|       MW_DV_underground_V.Nin_NX_NVN.zs
+|       MW_DV_water.Nin_NX_NVN.zs
+|       MW_DV_water_D.Nin_NX_NVN.zs
+|       MW_DV_water_D_V.Nin_NX_NVN.zs
+|       MW_DV_water_V.Nin_NX_NVN.zs
+|       MW_DV_woods.Nin_NX_NVN.zs
+|       MW_DV_woods_V.Nin_NX_NVN.zs
+|       MW_Field_airship.Nin_NX_NVN.zs
+|       MW_Field_airship_D.Nin_NX_NVN.zs
+|       MW_Field_athletic.Nin_NX_NVN.zs
+|       MW_Field_athletic_D.Nin_NX_NVN.zs
+|       MW_Field_castle.Nin_NX_NVN.zs
+|       MW_Field_castle_D.Nin_NX_NVN.zs
+|       MW_Field_desert.Nin_NX_NVN.zs
+|       MW_Field_desert_D.Nin_NX_NVN.zs
+|       MW_Field_hauntedhouse.Nin_NX_NVN.zs
+|       MW_Field_hauntedhouse_D.Nin_NX_NVN.zs
+|       MW_Field_plain.Nin_NX_NVN.zs
+|       MW_Field_plain_D.Nin_NX_NVN.zs
+|       MW_Field_snow.Nin_NX_NVN.zs
+|       MW_Field_snow_D.Nin_NX_NVN.zs
+|       MW_Field_underground.Nin_NX_NVN.zs
+|       MW_Field_underground_D.Nin_NX_NVN.zs
+|       MW_Field_water.Nin_NX_NVN.zs
+|       MW_Field_water_D.Nin_NX_NVN.zs
+|       MW_Field_woods.Nin_NX_NVN.zs
+|       MW_Field_woods_D.Nin_NX_NVN.zs
+|       MW_S_DV_airship.Nin_NX_NVN.zs
+|       MW_S_DV_airship_D.Nin_NX_NVN.zs
+|       MW_S_DV_athletic.Nin_NX_NVN.zs
+|       MW_S_DV_castle.Nin_NX_NVN.zs
+|       MW_S_DV_desert.Nin_NX_NVN.zs
+|       MW_S_DV_hauntedhouse.Nin_NX_NVN.zs
+|       MW_S_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       MW_S_DV_plain.Nin_NX_NVN.zs
+|       MW_S_DV_plain_D.Nin_NX_NVN.zs
+|       MW_S_DV_snow.Nin_NX_NVN.zs
+|       MW_S_DV_snow_D.Nin_NX_NVN.zs
+|       MW_S_DV_underground.Nin_NX_NVN.zs
+|       MW_S_DV_water.Nin_NX_NVN.zs
+|       MW_S_DV_water_D.Nin_NX_NVN.zs
+|       MW_S_DV_woods.Nin_NX_NVN.zs
+|       MW_S_Object_magmahalf.Nin_NX_NVN.zs
+|       MW_S_Object_poisonhalf.Nin_NX_NVN.zs
+|       MW_S_Object_waterhalf.Nin_NX_NVN.zs
+|       SceneModel.Nin_NX_NVN.zs
+|       WU_DV_airship.Nin_NX_NVN.zs
+|       WU_DV_airship_D.Nin_NX_NVN.zs
+|       WU_DV_airship_D_V.Nin_NX_NVN.zs
+|       WU_DV_airship_V.Nin_NX_NVN.zs
+|       WU_DV_athletic.Nin_NX_NVN.zs
+|       WU_DV_athletic_V.Nin_NX_NVN.zs
+|       WU_DV_castle.Nin_NX_NVN.zs
+|       WU_DV_castle_D.Nin_NX_NVN.zs
+|       WU_DV_castle_D_V.Nin_NX_NVN.zs
+|       WU_DV_castle_V.Nin_NX_NVN.zs
+|       WU_DV_desert.Nin_NX_NVN.zs
+|       WU_DV_desert_V.Nin_NX_NVN.zs
+|       WU_DV_hauntedhouse.Nin_NX_NVN.zs
+|       WU_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       WU_DV_hauntedhouse_D_V.Nin_NX_NVN.zs
+|       WU_DV_hauntedhouse_V.Nin_NX_NVN.zs
+|       WU_DV_plain.Nin_NX_NVN.zs
+|       WU_DV_plain_D.Nin_NX_NVN.zs
+|       WU_DV_plain_D_V.Nin_NX_NVN.zs
+|       WU_DV_plain_V.Nin_NX_NVN.zs
+|       WU_DV_snow.Nin_NX_NVN.zs
+|       WU_DV_snow_V.Nin_NX_NVN.zs
+|       WU_DV_underground.Nin_NX_NVN.zs
+|       WU_DV_underground_V.Nin_NX_NVN.zs
+|       WU_DV_water.Nin_NX_NVN.zs
+|       WU_DV_water_D.Nin_NX_NVN.zs
+|       WU_DV_water_D_V.Nin_NX_NVN.zs
+|       WU_DV_water_V.Nin_NX_NVN.zs
+|       WU_DV_woods.Nin_NX_NVN.zs
+|       WU_DV_woods_V.Nin_NX_NVN.zs
+|       WU_Field_airship.Nin_NX_NVN.zs
+|       WU_Field_airship_D.Nin_NX_NVN.zs
+|       WU_Field_athletic.Nin_NX_NVN.zs
+|       WU_Field_athletic_D.Nin_NX_NVN.zs
+|       WU_Field_castle.Nin_NX_NVN.zs
+|       WU_Field_castle_D.Nin_NX_NVN.zs
+|       WU_Field_desert.Nin_NX_NVN.zs
+|       WU_Field_desert_D.Nin_NX_NVN.zs
+|       WU_Field_hauntedhouse.Nin_NX_NVN.zs
+|       WU_Field_hauntedhouse_D.Nin_NX_NVN.zs
+|       WU_Field_plain.Nin_NX_NVN.zs
+|       WU_Field_plain_D.Nin_NX_NVN.zs
+|       WU_Field_snow.Nin_NX_NVN.zs
+|       WU_Field_snow_D.Nin_NX_NVN.zs
+|       WU_Field_underground.Nin_NX_NVN.zs
+|       WU_Field_underground_D.Nin_NX_NVN.zs
+|       WU_Field_water.Nin_NX_NVN.zs
+|       WU_Field_water_D.Nin_NX_NVN.zs
+|       WU_Field_woods.Nin_NX_NVN.zs
+|       WU_Field_woods_D.Nin_NX_NVN.zs
+|       WU_S_DV_airship.Nin_NX_NVN.zs
+|       WU_S_DV_airship_D.Nin_NX_NVN.zs
+|       WU_S_DV_athletic.Nin_NX_NVN.zs
+|       WU_S_DV_castle.Nin_NX_NVN.zs
+|       WU_S_DV_desert.Nin_NX_NVN.zs
+|       WU_S_DV_hauntedhouse.Nin_NX_NVN.zs
+|       WU_S_DV_hauntedhouse_D.Nin_NX_NVN.zs
+|       WU_S_DV_plain.Nin_NX_NVN.zs
+|       WU_S_DV_plain_D.Nin_NX_NVN.zs
+|       WU_S_DV_snow.Nin_NX_NVN.zs
+|       WU_S_DV_underground.Nin_NX_NVN.zs
+|       WU_S_DV_water.Nin_NX_NVN.zs
+|       WU_S_DV_water_D.Nin_NX_NVN.zs
+|       WU_S_DV_woods.Nin_NX_NVN.zs
+|       WU_S_Object_magmahalf.Nin_NX_NVN.zs
+|       WU_S_Object_poisonhalf.Nin_NX_NVN.zs
+|       WU_S_Object_waterhalf.Nin_NX_NVN.zs
+|       
++---Pack
+|       3W_bars.pack
+|       3W_barslist.pack
+|       3W_Model.pack
+|       Edit_barslist.pack
+|       LayoutEdit.pack
+|       LayoutLesson.pack
+|       LayoutLocal.pack
+|       LayoutNetwork.pack
+|       LayoutPlay.pack
+|       LayoutQuest.pack
+|       LayoutStatic.pack
+|       M1_bars.pack
+|       M1_barslist.pack
+|       M1_FieldAnime_Dark.pack
+|       M1_FieldAnime_Ice.pack
+|       M1_FieldAnime_Normal.pack
+|       M1_FieldAnime_Snow.pack
+|       M1_FieldAnime_Yogan.pack
+|       M1_Model.pack
+|       M3_bars.pack
+|       M3_barslist.pack
+|       M3_FieldAnime_Dark.pack
+|       M3_FieldAnime_Ice.pack
+|       M3_FieldAnime_Normal.pack
+|       M3_FieldAnime_Snow.pack
+|       M3_FieldAnime_Water.pack
+|       M3_FieldAnime_Yogan.pack
+|       M3_Model.pack
+|       MW_bars.pack
+|       MW_barslist.pack
+|       MW_FieldAnime_Normal.pack
+|       MW_FieldAnime_Water.pack
+|       MW_Model.pack
+|       QuestEventFlow.pack
+|       QuestModel.pack
+|       Static.pack
+|       StaticHighFreqSound.pack
+|       StaticModel.pack
+|       StaticSound.pack
+|       StaticUISound.pack
+|       WU_bars.pack
+|       WU_barslist.pack
+|       WU_FieldAnime_Dark.pack
+|       WU_FieldAnime_Normal.pack
+|       WU_FieldAnime_Yogan.pack
+|       WU_Model.pack
+|       
++---Palette
+|       Palette3W.benvpal
+|       
++---Replay
+|   \---Lesson
+|           Player_Cape_1.dat
+|           Player_Cape_2.dat
+|           Player_Cape_3.dat
+|           Player_Cape_4.dat
+|           Player_Cat_1.dat
+|           Player_Propeller_1.dat
+|           Player_Racoon_1.dat
+|           Replay.dat
+|           Technique000.dat
+|           Technique001_1.dat
+|           Technique001_2.dat
+|           Technique002_1.dat
+|           Technique002_2.dat
+|           Technique003_1.dat
+|           Technique003_2.dat
+|           Technique003_3.dat
+|           Technique004_1.dat
+|           Technique004_2.dat
+|           Technique005_1.dat
+|           Technique006_1.dat
+|           Technique006_2.dat
+|           Technique006_3.dat
+|           Technique007_1.dat
+|           Technique007_2.dat
+|           Technique008_1.dat
+|           Technique008_2.dat
+|           Technique008_3.dat
+|           Technique008_4.dat
+|           Technique009_1.dat
+|           Technique009_2.dat
+|           Technique009_3.dat
+|           Technique010_1.dat
+|           Technique010_2.dat
+|           Technique011_1.dat
+|           Technique011_2.dat
+|           Technique011_3.dat
+|           Technique011_4.dat
+|           Technique012_1.dat
+|           Technique013_1.dat
+|           Technique014_1.dat
+|           Technique014_2.dat
+|           Technique015_1.dat
+|           Technique015_2.dat
+|           Technique016_1.dat
+|           Technique016_2.dat
+|           Technique016_3.dat
+|           Technique017_1.dat
+|           Technique018_1.dat
+|           Technique018_2.dat
+|           Technique019_1.dat
+|           Technique019_2.dat
+|           Technique020_1.dat
+|           Technique020_2.dat
+|           Technique020_3.dat
+|           Technique020_4.dat
+|           Technique020_5.dat
+|           Technique021_1.dat
+|           Technique021_2.dat
+|           Technique021_3.dat
+|           Technique022_1.dat
+|           Technique022_2.dat
+|           Technique023_1.dat
+|           Technique023_2.dat
+|           Technique023_3.dat
+|           Technique024_1.dat
+|           Technique024_2.dat
+|           Technique024_3.dat
+|           Technique025_1.dat
+|           Technique025_2.dat
+|           Technique025_3.dat
+|           Technique026_1.dat
+|           Technique026_2.dat
+|           Technique026_3.dat
+|           Technique029_1.dat
+|           Technique029_2.dat
+|           Technique030_1.dat
+|           Technique030_2.dat
+|           Technique030_3.dat
+|           Technique031_1.dat
+|           Technique031_2.dat
+|           Technique031_3.dat
+|           Technique032_1.dat
+|           Technique032_2.dat
+|           Technique032_3.dat
+|           Technique032_4.dat
+|           Technique033_1.dat
+|           Technique033_2.dat
+|           Technique033_3.dat
+|           Technique034_1.dat
+|           Technique035_1.dat
+|           Technique035_2.dat
+|           Technique035_3.dat
+|           Technique036_1.dat
+|           Technique036_2.dat
+|           Technique038_1.dat
+|           Technique038_2.dat
+|           Technique038_3.dat
+|           Technique038_4.dat
+|           Technique039_1.dat
+|           Technique040_1.dat
+|           Technique040_2.dat
+|           Technique040_3.dat
+|           Technique042_1.dat
+|           Technique042_2.dat
+|           Technique042_3.dat
+|           Technique043_1.dat
+|           Technique043_2.dat
+|           Technique043_3.dat
+|           
++---Rumble
+|       PresetBiyoon.bnvib
+|       PresetBofuhn.bnvib
+|       PresetByeenS_nvibEdit.bnvib
+|       PresetDohoon.bnvib
+|       PresetDoka.bnvib
+|       PresetDott.bnvib
+|       PresetGatan_nvibEdit.bnvib
+|       PresetGoGoGoFastLv.bnvib
+|       PresetKott.bnvib
+|       PresetKott_nvibEdit.bnvib
+|       PresetNyo_nvibEdit.bnvib
+|       PresetPetit_nvibEdit.bnvib
+|       PresetPiton.bnvib
+|       PresetZa_nvibEdit.bnvib
+|       
++---SLink2
+|       SLink2DB.szs
+|       
++---Sound
+|   +---Effect
+|   |       delay_3WAirShip.byml
+|   |       delay_3WAthletic.byml
+|   |       delay_3WCastle.byml
+|   |       delay_3WDesert.byml
+|   |       delay_3WHaunted.byml
+|   |       delay_3WPlain.byml
+|   |       delay_3WSnow.byml
+|   |       delay_3WUnderGround.byml
+|   |       delay_3WWater.byml
+|   |       delay_3WWoods.byml
+|   |       delay_MWUnderGround.byml
+|   |       delay_null.byml
+|   |       delay_WUAirShip.byml
+|   |       delay_WUAthletic.byml
+|   |       delay_WUCastle.byml
+|   |       delay_WUDesert.byml
+|   |       delay_WUHaunted.byml
+|   |       delay_WUPlain.byml
+|   |       delay_WUSnow.byml
+|   |       delay_WUUnderGround.byml
+|   |       delay_WUWater.byml
+|   |       delay_WUWoods.byml
+|   |       reverb_3WAirship.byml
+|   |       reverb_3WAthletic.byml
+|   |       reverb_3WCastle.byml
+|   |       reverb_3WDesert.byml
+|   |       reverb_3WHauntedHouse.byml
+|   |       reverb_3WPlain.byml
+|   |       reverb_3WSnow.byml
+|   |       reverb_3WUnderGround.byml
+|   |       reverb_3WWater.byml
+|   |       reverb_3WWoods.byml
+|   |       reverb_null.byml
+|   |       reverb_WUAirship.byml
+|   |       reverb_WUAthletic.byml
+|   |       reverb_WUCastle.byml
+|   |       reverb_WUDesert.byml
+|   |       reverb_WUHauntedHouse.byml
+|   |       reverb_WUPlain.byml
+|   |       reverb_WUSnow.byml
+|   |       reverb_WUUnderGround.byml
+|   |       reverb_WUWater.byml
+|   |       reverb_WUWoods.byml
+|   |       
+|   +---Resource
+|   |   |   3W_Player.bars
+|   |   |   BootScene.bars
+|   |   |   CommonUI.bars
+|   |   |   CourseInScene.bars
+|   |   |   CourseRobotScene.bars
+|   |   |   GameOverScene.bars
+|   |   |   Lesson.bars
+|   |   |   LessonMenuScene.bars
+|   |   |   LessonUI.bars
+|   |   |   M1_Player.bars
+|   |   |   M3_Player.bars
+|   |   |   MapScene.bars
+|   |   |   MW_Player.bars
+|   |   |   NetworkScene.bars
+|   |   |   Qst_InfoWindow.bars
+|   |   |   Qst_MessageBaloon.bars
+|   |   |   Quest_Block.bars
+|   |   |   Quest_BlockBikkuri.bars
+|   |   |   Quest_BlockJimenSet1.bars
+|   |   |   Quest_BlockONOFF.bars
+|   |   |   Quest_BlockQuestion.bars
+|   |   |   Quest_BlockRenga.bars
+|   |   |   Quest_BlockRengaSet1.bars
+|   |   |   Quest_BlockToumei.bars
+|   |   |   Quest_BuildChief.bars
+|   |   |   Quest_BuildObj01.bars
+|   |   |   Quest_Coin.bars
+|   |   |   Quest_Coin10.bars
+|   |   |   Quest_Coin30.bars
+|   |   |   Quest_Coin50.bars
+|   |   |   Quest_DogHouse.bars
+|   |   |   Quest_Door.bars
+|   |   |   Quest_DoorEast_Build.bars
+|   |   |   Quest_Eraser.bars
+|   |   |   Quest_Field_Castle_Base_Comp.bars
+|   |   |   Quest_Field_Castle_Ground.bars
+|   |   |   Quest_Field_Castle_MainBase_Build.bars
+|   |   |   Quest_Field_Castle_TowerEastCannon_Build.bars
+|   |   |   Quest_Field_Castle_TowerEastCannon_Comp.bars
+|   |   |   Quest_Field_Castle_TowerWestCannon_Comp.bars
+|   |   |   Quest_Frog.bars
+|   |   |   Quest_JugemCloud.bars
+|   |   |   Quest_KanbanNoEntry.bars
+|   |   |   Quest_KinopioBuilder.bars
+|   |   |   Quest_KinopioBuilder4.bars
+|   |   |   Quest_KinopioBuilder5.bars
+|   |   |   Quest_MessageWindow.bars
+|   |   |   Quest_Object_Mountain.bars
+|   |   |   Quest_Object_PlantFlowerFront.bars
+|   |   |   Quest_Packun.bars
+|   |   |   Quest_Peach.bars
+|   |   |   Quest_Player.bars
+|   |   |   Quest_QuestCounter.bars
+|   |   |   Quest_RobotBottom.bars
+|   |   |   Quest_RobotTop.bars
+|   |   |   Quest_UndoDog.bars
+|   |   |   Quest_VoxelKuribo.bars
+|   |   |   Quest_XLinkTag.bars
+|   |   |   Quest_Yamamura.bars
+|   |   |   Quest_YamamuraStained.bars
+|   |   |   QuestScene.bars
+|   |   |   QuestUI.bars
+|   |   |   StaffRollScene.bars
+|   |   |   Static.bars
+|   |   |   UICmn_InfoRealTime.bars
+|   |   |   UICmn_OptionWindow.bars
+|   |   |   UIMainMenu.bars
+|   |   |   WindowUI.bars
+|   |   |   WU_Player.bars
+|   |   |   
+|   |   \---Stream
+|   |           3W_BGM_Airship_Edit.bwav
+|   |           3W_BGM_Airship_Play.bwav
+|   |           3W_BGM_Airship_PlayHurry.bwav
+|   |           3W_BGM_Athletic_Edit.bwav
+|   |           3W_BGM_Athletic_Play.bwav
+|   |           3W_BGM_Athletic_PlayHurry.bwav
+|   |           3W_BGM_Castle_Edit.bwav
+|   |           3W_BGM_Castle_Play.bwav
+|   |           3W_BGM_Castle_PlayHurry.bwav
+|   |           3W_BGM_Desert_Edit.bwav
+|   |           3W_BGM_Desert_Play.bwav
+|   |           3W_BGM_Desert_PlayHurry.bwav
+|   |           3W_BGM_HauntedHouse_Edit.bwav
+|   |           3W_BGM_HauntedHouse_Play.bwav
+|   |           3W_BGM_HauntedHouse_PlayHurry.bwav
+|   |           3W_BGM_Otoasobi_Bonus.bwav
+|   |           3W_BGM_Otoasobi_BonusHurry.bwav
+|   |           3W_BGM_Otoasobi_Boss.bwav
+|   |           3W_BGM_Otoasobi_BossHurry.bwav
+|   |           3W_BGM_Otoasobi_LastBoss.bwav
+|   |           3W_BGM_Otoasobi_LastBossHurry.bwav
+|   |           3W_BGM_Plain_Edit.bwav
+|   |           3W_BGM_Plain_Play.bwav
+|   |           3W_BGM_Plain_PlayHurry.bwav
+|   |           3W_BGM_Snow_Edit.bwav
+|   |           3W_BGM_Snow_Play.bwav
+|   |           3W_BGM_Snow_PlayHurry.bwav
+|   |           3W_BGM_Star.bwav
+|   |           3W_BGM_UnderGround_Edit.bwav
+|   |           3W_BGM_UnderGround_Play.bwav
+|   |           3W_BGM_UnderGround_PlayHurry.bwav
+|   |           3W_BGM_Water_Edit.bwav
+|   |           3W_BGM_Water_Play.bwav
+|   |           3W_BGM_Water_PlayHurry.bwav
+|   |           3W_BGM_Woods_Edit.bwav
+|   |           3W_BGM_Woods_Play.bwav
+|   |           3W_BGM_Woods_PlayHurry.bwav
+|   |           3W_Fanfare_CourseClear.bwav
+|   |           3W_Fanfare_HurryUp.bwav
+|   |           3W_Fanfare_PlayerDown.bwav
+|   |           3W_Lava.bwav
+|   |           3W_Underwater.bwav
+|   |           BGM_10MarioMap.bwav
+|   |           BGM_CourseClear_Loop.bwav
+|   |           BGM_CourseRobot_Remix.bwav
+|   |           BGM_DokomadeMario.bwav
+|   |           BGM_DokomadeMario_Easy.bwav
+|   |           BGM_DokomadeMario_Hard.bwav
+|   |           BGM_DokomadeMario_Normal.bwav
+|   |           BGM_DokomadeMario_VeryHard.bwav
+|   |           BGM_FrogDance.bwav
+|   |           BGM_Help.bwav
+|   |           BGM_Lesson_Menu.bwav
+|   |           BGM_NetWork_GiveUp.bwav
+|   |           BGM_NetWork_Lose.bwav
+|   |           BGM_NetWork_Win.bwav
+|   |           BGM_Otoasobi_Dtbt_Murasame.bwav
+|   |           BGM_Otoasobi_Dtbt_MurasameIcon.bwav
+|   |           BGM_Otoasobi_MarioGalaxy_WindGarden.bwav
+|   |           BGM_Otoasobi_MarioGalaxyHurry_WindGarden.bwav
+|   |           BGM_Otoasobi_MarioSunshine_DolphicTown.bwav
+|   |           BGM_Otoasobi_MarioSunshineHurry_DolphicTown.bwav
+|   |           BGM_Otoasobi_SFCMarioKart_Circuit.bwav
+|   |           BGM_Otoasobi_SFCMarioKartHurry_Circuit.bwav
+|   |           BGM_Otoasobi_SuperMario64_Slider.bwav
+|   |           BGM_Otoasobi_SuperMario64Hurry_Slider.bwav
+|   |           BGM_StaffRoll.bwav
+|   |           BGM_SuperMarioLand.bwav
+|   |           BGM_SuperMarioLand_Hurry.bwav
+|   |           BGM_Title.bwav
+|   |           BGM_Title_FC.bwav
+|   |           BGM_Title_FCHurry.bwav
+|   |           BGM_Title_Hurry_Moon.bwav
+|   |           BGM_Title_Moon.bwav
+|   |           BGM_TitleHurry.bwav
+|   |           BGM_WorldCourse.bwav
+|   |           M1_BGM_Airship_Edit.bwav
+|   |           M1_BGM_Airship_Play.bwav
+|   |           M1_BGM_Airship_Play_Moon.bwav
+|   |           M1_BGM_Airship_PlayHurry.bwav
+|   |           M1_BGM_Airship_PlayHurry_Moon.bwav
+|   |           M1_BGM_Athletic_Edit.bwav
+|   |           M1_BGM_Athletic_Play.bwav
+|   |           M1_BGM_Athletic_Play_Moon.bwav
+|   |           M1_BGM_Athletic_PlayHurry.bwav
+|   |           M1_BGM_Athletic_PlayHurry_Moon.bwav
+|   |           M1_BGM_Castle_Edit.bwav
+|   |           M1_BGM_Castle_Play.bwav
+|   |           M1_BGM_Castle_Play_Moon.bwav
+|   |           M1_BGM_Castle_PlayHurry.bwav
+|   |           M1_BGM_Castle_PlayHurry_Moon.bwav
+|   |           M1_BGM_Desert_Edit.bwav
+|   |           M1_BGM_Desert_Play.bwav
+|   |           M1_BGM_Desert_Play_Moon.bwav
+|   |           M1_BGM_Desert_PlayHurry.bwav
+|   |           M1_BGM_Desert_PlayHurry_Moon.bwav
+|   |           M1_BGM_HauntedHouse_Edit.bwav
+|   |           M1_BGM_HauntedHouse_Play.bwav
+|   |           M1_BGM_HauntedHouse_Play_Moon.bwav
+|   |           M1_BGM_HauntedHouse_PlayHurry.bwav
+|   |           M1_BGM_HauntedHouse_PlayHurry_Moon.bwav
+|   |           M1_BGM_Otoasobi_Bonus.bwav
+|   |           M1_BGM_Otoasobi_BonusHurry.bwav
+|   |           M1_BGM_Otoasobi_Boss.bwav
+|   |           M1_BGM_Otoasobi_BossHurry.bwav
+|   |           M1_BGM_Plain_Edit.bwav
+|   |           M1_BGM_Plain_Play.bwav
+|   |           M1_BGM_Plain_Play_Moon.bwav
+|   |           M1_BGM_Plain_PlayHurry.bwav
+|   |           M1_BGM_Plain_PlayHurry_Moon.bwav
+|   |           M1_BGM_Snow_Edit.bwav
+|   |           M1_BGM_Snow_Play.bwav
+|   |           M1_BGM_Snow_Play_Moon.bwav
+|   |           M1_BGM_Snow_PlayHurry.bwav
+|   |           M1_BGM_Snow_PlayHurry_Moon.bwav
+|   |           M1_BGM_Star.bwav
+|   |           M1_BGM_Star_Hurry.bwav
+|   |           M1_BGM_UnderGround_Edit.bwav
+|   |           M1_BGM_UnderGround_Play.bwav
+|   |           M1_BGM_UnderGround_Play_Moon.bwav
+|   |           M1_BGM_UnderGround_PlayHurry.bwav
+|   |           M1_BGM_UnderGround_PlayHurry_Moon.bwav
+|   |           M1_BGM_Water_Edit.bwav
+|   |           M1_BGM_Water_Play.bwav
+|   |           M1_BGM_Water_Play_Moon.bwav
+|   |           M1_BGM_Water_PlayHurry.bwav
+|   |           M1_BGM_Water_PlayHurry_Moon.bwav
+|   |           M1_BGM_Woods_Edit.bwav
+|   |           M1_BGM_Woods_Play.bwav
+|   |           M1_BGM_Woods_Play_Moon.bwav
+|   |           M1_BGM_Woods_PlayHurry.bwav
+|   |           M1_BGM_Woods_PlayHurry_Moon.bwav
+|   |           M1_Fanfare_CastleClear.bwav
+|   |           M1_Fanfare_CourseClear.bwav
+|   |           M1_Fanfare_GameOver.bwav
+|   |           M1_Fanfare_HurryUp.bwav
+|   |           M1_Fanfare_PlayerDown.bwav
+|   |           M3_BGM_Airship_Edit.bwav
+|   |           M3_BGM_Airship_Play.bwav
+|   |           M3_BGM_Airship_Play_Moon.bwav
+|   |           M3_BGM_Airship_PlayHurry.bwav
+|   |           M3_BGM_Airship_PlayHurry_Moon.bwav
+|   |           M3_BGM_Athletic_Edit.bwav
+|   |           M3_BGM_Athletic_Play.bwav
+|   |           M3_BGM_Athletic_Play_Moon.bwav
+|   |           M3_BGM_Athletic_PlayHurry.bwav
+|   |           M3_BGM_Athletic_PlayHurry_Moon.bwav
+|   |           M3_BGM_Castle_Edit.bwav
+|   |           M3_BGM_Castle_Play.bwav
+|   |           M3_BGM_Castle_Play_Moon.bwav
+|   |           M3_BGM_Castle_PlayHurry.bwav
+|   |           M3_BGM_Castle_PlayHurry_Moon.bwav
+|   |           M3_BGM_Desert_Edit.bwav
+|   |           M3_BGM_Haunted_Play_Moon.bwav
+|   |           M3_BGM_HauntedHouse_Edit.bwav
+|   |           M3_BGM_HauntedHouse_Play.bwav
+|   |           M3_BGM_HauntedHouse_PlayHurry.bwav
+|   |           M3_BGM_HauntedHouse_PlayHurry_Moon.bwav
+|   |           M3_BGM_Otoasobi_Bonus.bwav
+|   |           M3_BGM_Otoasobi_BonusHurry.bwav
+|   |           M3_BGM_Otoasobi_Boss.bwav
+|   |           M3_BGM_Otoasobi_BossHurry.bwav
+|   |           M3_BGM_Otoasobi_LastBoss.bwav
+|   |           M3_BGM_Otoasobi_LastBossHurry.bwav
+|   |           M3_BGM_Plain_Edit.bwav
+|   |           M3_BGM_Plain_Play.bwav
+|   |           M3_BGM_Plain_Play_Moon.bwav
+|   |           M3_BGM_Plain_PlayHurry.bwav
+|   |           M3_BGM_Plain_PlayHurry_Moon.bwav
+|   |           M3_BGM_Shopping.bwav
+|   |           M3_BGM_Shopping_Hurry.bwav
+|   |           M3_BGM_Snow_Edit.bwav
+|   |           M3_BGM_Snow_Play.bwav
+|   |           M3_BGM_Snow_Play_Moon.bwav
+|   |           M3_BGM_Snow_PlayHurry.bwav
+|   |           M3_BGM_Snow_PlayHurry_Moon.bwav
+|   |           M3_BGM_Star.bwav
+|   |           M3_BGM_Star_Hurry.bwav
+|   |           M3_BGM_UnderGround_Edit.bwav
+|   |           M3_BGM_UnderGround_Play.bwav
+|   |           M3_BGM_UnderGround_Play_Moon.bwav
+|   |           M3_BGM_UnderGround_PlayHurry.bwav
+|   |           M3_BGM_UnderGround_PlayHurry_Moon.bwav
+|   |           M3_BGM_Water_Edit.bwav
+|   |           M3_BGM_Water_Play.bwav
+|   |           M3_BGM_Water_Play_Moon.bwav
+|   |           M3_BGM_Water_PlayHurry.bwav
+|   |           M3_BGM_Water_PlayHurry_Moon.bwav
+|   |           M3_BGM_Woods_Edit.bwav
+|   |           M3_Fanfare_CastleClear.bwav
+|   |           M3_Fanfare_CourseClear.bwav
+|   |           M3_Fanfare_GameOver.bwav
+|   |           M3_Fanfare_HurryUp.bwav
+|   |           M3_Fanfare_PlayerDown.bwav
+|   |           MarioLand_Fanfare_CourseClear.bwav
+|   |           MarioLand_Fanfare_Down.bwav
+|   |           MW_BGM_Airship_Edit.bwav
+|   |           MW_BGM_Airship_Play.bwav
+|   |           MW_BGM_Airship_Play_Moon.bwav
+|   |           MW_BGM_Airship_PlayHurry.bwav
+|   |           MW_BGM_Airship_PlayHurry_Moon.bwav
+|   |           MW_BGM_Athletic_Edit.bwav
+|   |           MW_BGM_Athletic_Play.bwav
+|   |           MW_BGM_Athletic_Play_Moon.bwav
+|   |           MW_BGM_Athletic_PlayHurry.bwav
+|   |           MW_BGM_Athletic_PlayHurry_Moon.bwav
+|   |           MW_BGM_Castle_Edit.bwav
+|   |           MW_BGM_Castle_Play.bwav
+|   |           MW_BGM_Castle_Play_Moon.bwav
+|   |           MW_BGM_Castle_PlayHurry.bwav
+|   |           MW_BGM_Castle_PlayHurry_Moon.bwav
+|   |           MW_BGM_Desert_Edit.bwav
+|   |           MW_BGM_Desert_Play.bwav
+|   |           MW_BGM_Desert_Play_Moon.bwav
+|   |           MW_BGM_Desert_PlayHurry.bwav
+|   |           MW_BGM_Desert_PlayHurry_Moon.bwav
+|   |           MW_BGM_HauntedHouse_Edit.bwav
+|   |           MW_BGM_HauntedHouse_Play.bwav
+|   |           MW_BGM_HauntedHouse_Play_Moon.bwav
+|   |           MW_BGM_HauntedHouse_PlayHurry.bwav
+|   |           MW_BGM_HauntedHouse_PlayHurry_Moon.bwav
+|   |           MW_BGM_Otoasobi_Bonus.bwav
+|   |           MW_BGM_Otoasobi_BonusHurry.bwav
+|   |           MW_BGM_Otoasobi_Boss.bwav
+|   |           MW_BGM_Otoasobi_BossHurry.bwav
+|   |           MW_BGM_Otoasobi_LastBoss.bwav
+|   |           MW_BGM_Otoasobi_LastBossHurry.bwav
+|   |           MW_BGM_Otoasobi_LastBossIcon.bwav
+|   |           MW_BGM_Plain_Edit.bwav
+|   |           MW_BGM_Plain_Play.bwav
+|   |           MW_BGM_Plain_Play_Moon.bwav
+|   |           MW_BGM_Plain_PlayHurry.bwav
+|   |           MW_BGM_Plain_PlayHurry_Moon.bwav
+|   |           MW_BGM_Pswitch_hurry.bwav
+|   |           MW_BGM_Snow_Edit.bwav
+|   |           MW_BGM_Snow_Play.bwav
+|   |           MW_BGM_Snow_Play_Moon.bwav
+|   |           MW_BGM_Snow_PlayHurry.bwav
+|   |           MW_BGM_Snow_PlayHurry_Moon.bwav
+|   |           MW_BGM_Star.bwav
+|   |           MW_BGM_Star_hurry.bwav
+|   |           MW_BGM_Switch.bwav
+|   |           MW_BGM_UnderGround_Edit.bwav
+|   |           MW_BGM_UnderGround_Play.bwav
+|   |           MW_BGM_UnderGround_Play_Moon.bwav
+|   |           MW_BGM_UnderGround_PlayHurry.bwav
+|   |           MW_BGM_UnderGround_PlayHurry_Moon.bwav
+|   |           MW_BGM_Water_Edit.bwav
+|   |           MW_BGM_Water_Play.bwav
+|   |           MW_BGM_Water_Play_Moon.bwav
+|   |           MW_BGM_Water_PlayHurry.bwav
+|   |           MW_BGM_Water_PlayHurry_Moon.bwav
+|   |           MW_BGM_Woods_Edit.bwav
+|   |           MW_BGM_Woods_Play.bwav
+|   |           MW_BGM_Woods_Play_Moon.bwav
+|   |           MW_BGM_Woods_PlayHurry.bwav
+|   |           MW_BGM_Woods_PlayHurry_Moon.bwav
+|   |           MW_Fanfare_BonusStageClear.bwav
+|   |           MW_Fanfare_CastleClear.bwav
+|   |           MW_Fanfare_CourseClear.bwav
+|   |           MW_Fanfare_GameOver.bwav
+|   |           MW_Fanfare_HurryUp.bwav
+|   |           MW_Fanfare_PlayerDown.bwav
+|   |           MW_sandstorm_noecho_l2r.bwav
+|   |           MW_sandstorm_noecho_r2l.bwav
+|   |           otoasobi_scat.bwav
+|   |           Quest_BGM_Build_02.bwav
+|   |           Quest_BGM_Build_03.bwav
+|   |           Quest_BGM_Build_04.bwav
+|   |           Quest_BGM_Ending01.bwav
+|   |           Quest_BGM_Ending02.bwav
+|   |           Quest_BGM_Fanfare_A_01.bwav
+|   |           Quest_BGM_Fanfare_A_02.bwav
+|   |           Quest_BGM_Fanfare_A_03.bwav
+|   |           Quest_BGM_Fanfare_A_04.bwav
+|   |           Quest_BGM_Fanfare_A_05.bwav
+|   |           Quest_BGM_Fanfare_B.bwav
+|   |           Quest_BGM_Fanfare_C_01.bwav
+|   |           Quest_BGM_Fanfare_C_02.bwav
+|   |           Quest_BGM_Field_01.bwav
+|   |           Quest_BGM_Field_02.bwav
+|   |           Quest_BGM_Field_03.bwav
+|   |           Quest_BGM_Field_04.bwav
+|   |           Quest_BGM_Field_05.bwav
+|   |           Quest_BGM_Field_EMG.bwav
+|   |           Quest_BGM_Jingle_03.bwav
+|   |           Quest_BGM_Jingle_04.bwav
+|   |           Quest_BGM_Opening_0102.bwav
+|   |           Quest_BGM_Opening_03.bwav
+|   |           Quest_BGM_Opening_040506.bwav
+|   |           Quest_Fanfare_ItemGet.bwav
+|   |           se_nwk_matching.bwav
+|   |           se_otoasobi_clowd.bwav
+|   |           se_otoasobi_ohayashi.bwav
+|   |           se_ui_singingparts_!Block.bwav
+|   |           se_ui_singingparts_10-coin.bwav
+|   |           se_ui_singingparts_30-coin.bwav
+|   |           se_ui_singingparts_50-coin.bwav
+|   |           se_ui_singingparts_AngryWiggler.bwav
+|   |           se_ui_singingparts_AntTrooper.bwav
+|   |           se_ui_singingparts_arrowsign.bwav
+|   |           se_ui_singingparts_BanzaiBill.bwav
+|   |           se_ui_singingparts_BigLuigi.bwav
+|   |           se_ui_singingparts_BigMushroom.bwav
+|   |           se_ui_singingparts_BigRedYoshisEgg.bwav
+|   |           se_ui_singingparts_BigToad.bwav
+|   |           se_ui_singingparts_BigToadette.bwav
+|   |           se_ui_singingparts_BlinkingBlock.bwav
+|   |           se_ui_singingparts_BlooperNanny.bwav
+|   |           se_ui_singingparts_BoomBoom.bwav
+|   |           se_ui_singingparts_BuilderLuigi.bwav
+|   |           se_ui_singingparts_BuilderMario.bwav
+|   |           se_ui_singingparts_BuilderToad.bwav
+|   |           se_ui_singingparts_BuilderToadette.bwav
+|   |           se_ui_singingparts_Bulls-EyeBanzai.bwav
+|   |           se_ui_singingparts_Bulls-EyeBlaster.bwav
+|   |           se_ui_singingparts_Bully.bwav
+|   |           se_ui_singingparts_CapeLuigi.bwav
+|   |           se_ui_singingparts_CapeToad.bwav
+|   |           se_ui_singingparts_CapeToadette.bwav
+|   |           se_ui_singingparts_CatLuigi.bwav
+|   |           se_ui_singingparts_CatMario.bwav
+|   |           se_ui_singingparts_CatToad.bwav
+|   |           se_ui_singingparts_CatToadette.bwav
+|   |           se_ui_singingparts_Charvaargh.bwav
+|   |           se_ui_singingparts_CheckpointFlag.bwav
+|   |           se_ui_singingparts_ClearPipe.bwav
+|   |           se_ui_singingparts_CloudLift.bwav
+|   |           se_ui_singingparts_crate.bwav
+|   |           se_ui_singingparts_Dotted-LineBlock_nr.bwav
+|   |           se_ui_singingparts_DryBonesShell.bwav
+|   |           se_ui_singingparts_fastconveyorbelt.bwav
+|   |           se_ui_singingparts_FastLavaLift.bwav
+|   |           se_ui_singingparts_FastSnakeBlock.bwav
+|   |           se_ui_singingparts_FireBro.bwav
+|   |           se_ui_singingparts_FireLuigi.bwav
+|   |           se_ui_singingparts_FireToad.bwav
+|   |           se_ui_singingparts_FireToadette.bwav
+|   |           se_ui_singingparts_FishBones.bwav
+|   |           se_ui_singingparts_gentleslope.bwav
+|   |           se_ui_singingparts_Goombrat.bwav
+|   |           se_ui_singingparts_Goombud.bwav
+|   |           se_ui_singingparts_HeavyFireBro.bwav
+|   |           se_ui_singingparts_Hop-Chops.bwav
+|   |           se_ui_singingparts_HornedAntTrooper.bwav
+|   |           se_ui_singingparts_icicle.bwav
+|   |           se_ui_singingparts_key.bwav
+|   |           se_ui_singingparts_KoopaTroopaCar.bwav
+|   |           se_ui_singingparts_litBob-omb.bwav
+|   |           se_ui_singingparts_Luigi.bwav
+|   |           se_ui_singingparts_Meowser.bwav
+|   |           se_ui_singingparts_Moon.bwav
+|   |           se_ui_singingparts_MushroomTrampoline.bwav
+|   |           se_ui_singingparts_ONOFFswitch.bwav
+|   |           se_ui_singingparts_Peepa.bwav
+|   |           se_ui_singingparts_pinkcoin.bwav
+|   |           se_ui_singingparts_PiranhaCreeper.bwav
+|   |           se_ui_singingparts_PomPom.bwav
+|   |           se_ui_singingparts_Porcupuffer.bwav
+|   |           se_ui_singingparts_PropellerLuigi.bwav
+|   |           se_ui_singingparts_PropellerToad.bwav
+|   |           se_ui_singingparts_PropellerToadette.bwav
+|   |           se_ui_singingparts_RacoonLuigi.bwav
+|   |           se_ui_singingparts_RacoonToad.bwav
+|   |           se_ui_singingparts_RacoonToadette.bwav
+|   |           se_ui_singingparts_redcannon.bwav
+|   |           se_ui_singingparts_redPOWBlock.bwav
+|   |           se_ui_singingparts_RottenMushroom.bwav
+|   |           se_ui_singingparts_seesaw.bwav
+|   |           se_ui_singingparts_Skewer.bwav
+|   |           se_ui_singingparts_Skipsqueak.bwav
+|   |           se_ui_singingparts_SnakeBlock.bwav
+|   |           se_ui_singingparts_SpikeBlock.bwav
+|   |           se_ui_singingparts_SpinySkipsqueak.bwav
+|   |           se_ui_singingparts_steepslope.bwav
+|   |           se_ui_singingparts_Stingby.bwav
+|   |           se_ui_singingparts_Stretch.bwav
+|   |           se_ui_singingparts_Sun.bwav
+|   |           se_ui_singingparts_SuperballFlower.bwav
+|   |           se_ui_singingparts_SuperballLuigi.bwav
+|   |           se_ui_singingparts_SuperballMario.bwav
+|   |           se_ui_singingparts_SuperballToad.bwav
+|   |           se_ui_singingparts_SuperballToadette.bwav
+|   |           se_ui_singingparts_SuperBell.bwav
+|   |           se_ui_singingparts_SuperHammer.bwav
+|   |           se_ui_singingparts_SuperLuigi.bwav
+|   |           se_ui_singingparts_SuperToad.bwav
+|   |           se_ui_singingparts_SuperToadette.bwav
+|   |           se_ui_singingparts_swingingclaw.bwav
+|   |           se_ui_singingparts_Toad.bwav
+|   |           se_ui_singingparts_Toadette.bwav
+|   |           se_ui_singingparts_TrackBlock.bwav
+|   |           se_ui_singingparts_tree.bwav
+|   |           se_ui_singingparts_Twister.bwav
+|   |           se_ui_singingparts_UnchainedChomp.bwav
+|   |           se_ui_singingparts_WarpBox.bwav
+|   |           se_ui_singingparts_WarpBox_withkey.bwav
+|   |           STRM_BGM_SWITCH_CLICK.bwav
+|   |           WU_BGM_Airship_Edit.bwav
+|   |           WU_BGM_Airship_Play.bwav
+|   |           WU_BGM_Airship_Play_Moon.bwav
+|   |           WU_BGM_Airship_PlayHurry.bwav
+|   |           WU_BGM_Airship_PlayHurry_Moon.bwav
+|   |           WU_BGM_Athletic_Edit.bwav
+|   |           WU_BGM_Athletic_Play.bwav
+|   |           WU_BGM_Athletic_Play_Moon.bwav
+|   |           WU_BGM_Athletic_PlayHurry.bwav
+|   |           WU_BGM_Athletic_PlayHurry_Moon.bwav
+|   |           WU_BGM_Castle_Edit.bwav
+|   |           WU_BGM_Castle_Edit_Lesson.bwav
+|   |           WU_BGM_Castle_Play.bwav
+|   |           WU_BGM_Castle_Play_Moon.bwav
+|   |           WU_BGM_Castle_PlayHurry.bwav
+|   |           WU_BGM_Castle_PlayHurry_Moon.bwav
+|   |           WU_BGM_Desert_Edit.bwav
+|   |           WU_BGM_Desert_Play.bwav
+|   |           WU_BGM_Desert_Play_Moon.bwav
+|   |           WU_BGM_Desert_PlayHurry.bwav
+|   |           WU_BGM_Desert_PlayHurry_Moon.bwav
+|   |           WU_BGM_HauntedHouse_Edit.bwav
+|   |           WU_BGM_HauntedHouse_Edit_Lesson.bwav
+|   |           WU_BGM_HauntedHouse_Play.bwav
+|   |           WU_BGM_HauntedHouse_Play_Moon.bwav
+|   |           WU_BGM_HauntedHouse_PlayHurry.bwav
+|   |           WU_BGM_HauntedHouse_PlayHurry_Moon.bwav
+|   |           WU_BGM_Otoasobi_Bonus.bwav
+|   |           WU_BGM_Otoasobi_BonusHurry.bwav
+|   |           WU_BGM_Otoasobi_Boss.bwav
+|   |           WU_BGM_Otoasobi_BossHurry.bwav
+|   |           WU_BGM_Otoasobi_LastBoss.bwav
+|   |           WU_BGM_Otoasobi_LastBossHurry.bwav
+|   |           WU_BGM_Plain_Edit.bwav
+|   |           WU_BGM_Plain_Edit_Lesson.bwav
+|   |           WU_BGM_Plain_Play.bwav
+|   |           WU_BGM_Plain_Play_Moon.bwav
+|   |           WU_BGM_Plain_PlayHurry.bwav
+|   |           WU_BGM_Plain_PlayHurry_Moon.bwav
+|   |           WU_BGM_Snow_Edit.bwav
+|   |           WU_BGM_Snow_Play.bwav
+|   |           WU_BGM_Snow_Play_Moon.bwav
+|   |           WU_BGM_Snow_PlayHurry.bwav
+|   |           WU_BGM_Snow_PlayHurry_Moon.bwav
+|   |           WU_BGM_STAR.bwav
+|   |           WU_BGM_STAR_HURRY.bwav
+|   |           WU_BGM_UnderGround_Edit.bwav
+|   |           WU_BGM_UnderGround_Play.bwav
+|   |           WU_BGM_UnderGround_Play_Moon.bwav
+|   |           WU_BGM_UnderGround_PlayHurry.bwav
+|   |           WU_BGM_UnderGround_PlayHurry_Moon.bwav
+|   |           WU_BGM_Water_Edit.bwav
+|   |           WU_BGM_Water_Edit_Lesson.bwav
+|   |           WU_BGM_Water_Play.bwav
+|   |           WU_BGM_Water_Play_Moon.bwav
+|   |           WU_BGM_Water_PlayHurry.bwav
+|   |           WU_BGM_Water_PlayHurry_Moon.bwav
+|   |           WU_BGM_Woods_Edit.bwav
+|   |           WU_BGM_Woods_Edit_Lesson.bwav
+|   |           WU_BGM_Woods_Play.bwav
+|   |           WU_BGM_Woods_Play_Moon.bwav
+|   |           WU_BGM_Woods_PlayHurry.bwav
+|   |           WU_BGM_Woods_PlayHurry_Moon.bwav
+|   |           WU_Fanfare_CastleClear.bwav
+|   |           WU_Fanfare_CourseClear.bwav
+|   |           WU_Fanfare_GameOver.bwav
+|   |           WU_Fanfare_HurryUp_Remaster.bwav
+|   |           WU_Fanfare_PlayerDown.bwav
+|   |           WU_sandstorm.bwav
+|   |           WU_SE_AMB_JUNGLE.bwav
+|   |           WU_SE_AMB_JUNGLE_Night.bwav
+|   |           WU_SE_AMB_MAGMA.bwav
+|   |           WU_SE_AMB_RP_SHIP_WIND.bwav
+|   |           
+|   \---ResourceList
+|           3W_1upKinoko.barslist
+|           3W_Arihei.barslist
+|           3W_Balloon.barslist
+|           3W_BellTree.barslist
+|           3W_BlockBikkuri.barslist
+|           3W_Bombhei.barslist
+|           3W_Bros.barslist
+|           3W_Bubble.barslist
+|           3W_Bullet.barslist
+|           3W_BulletKoopaFire.barslist
+|           3W_BulletPunpunShuriken.barslist
+|           3W_BulletToge.barslist
+|           3W_Bunbun3W.barslist
+|           3W_Coin.barslist
+|           3W_Coin10.barslist
+|           3W_Coin30.barslist
+|           3W_Coin50.barslist
+|           3W_Donketu.barslist
+|           3W_Door.barslist
+|           3W_Dossun.barslist
+|           3W_Edit1upKinoko.barslist
+|           3W_EditAirSignBoard.barslist
+|           3W_EditArihei.barslist
+|           3W_EditAutoScrollCamera.barslist
+|           3W_EditBellTree.barslist
+|           3W_EditBikkuriBlock.barslist
+|           3W_EditBombhei.barslist
+|           3W_EditBubble.barslist
+|           3W_EditBunbun.barslist
+|           3W_EditCastleBridge.barslist
+|           3W_EditCheckpointFlag.barslist
+|           3W_EditCoin10.barslist
+|           3W_EditDonketsu.barslist
+|           3W_EditDoor.barslist
+|           3W_EditDossun.barslist
+|           3W_EditFireFlower.barslist
+|           3W_EditFishBone.barslist
+|           3W_EditFugumannen.barslist
+|           3W_EditGesso.barslist
+|           3W_EditGoalPole.barslist
+|           3W_EditGroundGoal.barslist
+|           3W_EditGroundStart.barslist
+|           3W_EditHacchin.barslist
+|           3W_EditHammerBros.barslist
+|           3W_EditHopper.barslist
+|           3W_EditJumpStep.barslist
+|           3W_EditKameck.barslist
+|           3W_EditKaron.barslist
+|           3W_EditKey.barslist
+|           3W_EditKillerHoudai.barslist
+|           3W_EditKinokoTrampoline.barslist
+|           3W_EditKoopa.barslist
+|           3W_EditKoopaCar.barslist
+|           3W_EditKoopaClown.barslist
+|           3W_EditKuribo.barslist
+|           3W_EditLavaEditor.barslist
+|           3W_EditLift.barslist
+|           3W_EditMagnumKiller.barslist
+|           3W_EditNobinobiPakkun.barslist
+|           3W_EditNokonoko.barslist
+|           3W_EditOnOffSwitch.barslist
+|           3W_EditOrbitBlock.barslist
+|           3W_EditPakkun.barslist
+|           3W_EditPinkCoin.barslist
+|           3W_EditPlayer.barslist
+|           3W_EditPowBlock.barslist
+|           3W_EditPSwitch.barslist
+|           3W_EditPukupuku.barslist
+|           3W_EditPyonchu.barslist
+|           3W_EditRedBluePanel.barslist
+|           3W_EditSnakeBlock.barslist
+|           3W_EditSpecialItem.barslist
+|           3W_EditStartSignBoard.barslist
+|           3W_EditSuperHammer.barslist
+|           3W_EditSuperKinoko.barslist
+|           3W_EditSuperStar.barslist
+|           3W_EditSwingCrane.barslist
+|           3W_EditTeresa.barslist
+|           3W_EditTogezo.barslist
+|           3W_EditTornado.barslist
+|           3W_EditUganFish.barslist
+|           3W_EditWarpBox.barslist
+|           3W_EditWoodBox.barslist
+|           3W_EnmyFire.barslist
+|           3W_FireBros.barslist
+|           3W_FireBrosFire.barslist
+|           3W_FireFlower.barslist
+|           3W_FirePakkun.barslist
+|           3W_FishBone.barslist
+|           3W_Fugumannen.barslist
+|           3W_GameEnemy.barslist
+|           3W_GameObject.barslist
+|           3W_Gesso.barslist
+|           3W_GoalKinopico.barslist
+|           3W_GoalPole.barslist
+|           3W_Hacchin.barslist
+|           3W_Hammer.barslist
+|           3W_Hopper.barslist
+|           3W_Icicle.barslist
+|           3W_JumpStep.barslist
+|           3W_JumpStepSide.barslist
+|           3W_Kameck.barslist
+|           3W_KameckMagic.barslist
+|           3W_Karon.barslist
+|           3W_Killer.barslist
+|           3W_KillerHoudai.barslist
+|           3W_KillerSearch.barslist
+|           3W_Koopa3W.barslist
+|           3W_KoopaCar.barslist
+|           3W_Kuribo.barslist
+|           3W_Lift.barslist
+|           3W_MagnumKiller.barslist
+|           3W_MagnumKillerSearch.barslist
+|           3W_MegaBros.barslist
+|           3W_MegaFireBros.barslist
+|           3W_Necchi.barslist
+|           3W_NobinobiPakkun.barslist
+|           3W_Nokonoko.barslist
+|           3W_NokonokoNaked.barslist
+|           3W_NokonokoNakedRed.barslist
+|           3W_NokonokoRed.barslist
+|           3W_ObjectCommon.barslist
+|           3W_OrbitBlock.barslist
+|           3W_Pakkun.barslist
+|           3W_Player.barslist
+|           3W_Player_Kinopico.barslist
+|           3W_Player_Kinopio.barslist
+|           3W_Player_Luigi.barslist
+|           3W_Player_Mario.barslist
+|           3W_PlayerFire.barslist
+|           3W_PowBlock.barslist
+|           3W_PowBlockRed.barslist
+|           3W_PSwitch.barslist
+|           3W_Pukupuku.barslist
+|           3W_PukupukuRed.barslist
+|           3W_Punpun.barslist
+|           3W_PunpunFake.barslist
+|           3W_Pyonchu.barslist
+|           3W_SnakeBlock.barslist
+|           3W_Stone.barslist
+|           3W_SuperBell.barslist
+|           3W_SuperHammer.barslist
+|           3W_SuperKinoko.barslist
+|           3W_SuperStar.barslist
+|           3W_Teren.barslist
+|           3W_Teresa.barslist
+|           3W_Togezo.barslist
+|           3W_Tornado.barslist
+|           3W_Trampoline.barslist
+|           3W_UganFish.barslist
+|           3W_WarpBox.barslist
+|           3W_WoodBox.barslist
+|           AlertDialogWindowUI.barslist
+|           BootScene.barslist
+|           Comment.barslist
+|           CommonUI.barslist
+|           CourseInScene.barslist
+|           CourseRobotScene.barslist
+|           CourseRobotUI.barslist
+|           CourseSceneBGM.barslist
+|           CourseSceneBGM_3W.barslist
+|           CourseSceneBGM_Common.barslist
+|           CourseSceneBGM_M1.barslist
+|           CourseSceneBGM_M3.barslist
+|           CourseSceneBGM_MW.barslist
+|           CourseSceneBGM_WU.barslist
+|           DistantView.barslist
+|           Edit_1upKinoko.barslist
+|           Edit_AirSignBoard.barslist
+|           Edit_Arihei.barslist
+|           Edit_AutoScrollCamera.barslist
+|           Edit_BellTree.barslist
+|           Edit_BeltConveyor.barslist
+|           Edit_BikkuriBlock.barslist
+|           Edit_BlackPakkun.barslist
+|           Edit_Bombhei.barslist
+|           Edit_Bridge.barslist
+|           Edit_Bubble.barslist
+|           Edit_BunBun.barslist
+|           Edit_Burner.barslist
+|           Edit_CastelBridge.barslist
+|           Edit_CheckpointFlag.barslist
+|           Edit_ChikuwaBlock.barslist
+|           Edit_Choropoo.barslist
+|           Edit_ClearBlock.barslist
+|           Edit_Coin.barslist
+|           Edit_Coin10.barslist
+|           Edit_Dekakinoko.barslist
+|           Edit_Dokan.barslist
+|           Edit_Door.barslist
+|           Edit_Dossun.barslist
+|           Edit_FireBar.barslist
+|           Edit_FireFlower.barslist
+|           Edit_FishBone.barslist
+|           Edit_Gabon.barslist
+|           Edit_Gesso.barslist
+|           Edit_GoalPole.barslist
+|           Edit_Ground.barslist
+|           Edit_GroundBox.barslist
+|           Edit_GroundGoal.barslist
+|           Edit_GroundMashroom.barslist
+|           Edit_GroundStart.barslist
+|           Edit_Hacchin.barslist
+|           Edit_HalfHitWall.barslist
+|           Edit_HammerBros.barslist
+|           Edit_Hanachan.barslist
+|           Edit_HardBlock.barslist
+|           Edit_HatenaBlock.barslist
+|           Edit_IceBLock.barslist
+|           Edit_Jugem.barslist
+|           Edit_JugemCloud.barslist
+|           Edit_JumpStep.barslist
+|           Edit_Kameck.barslist
+|           Edit_Karon.barslist
+|           Edit_Key.barslist
+|           Edit_KillerHoudai.barslist
+|           Edit_KinokoFunny.barslist
+|           Edit_KinokoTrampoline.barslist
+|           Edit_Koopa.barslist
+|           Edit_KoopaClown.barslist
+|           Edit_KoopaJr.barslist
+|           Edit_KumoBlock.barslist
+|           Edit_Kuribo.barslist
+|           Edit_KutsuKuribo.barslist
+|           Edit_LavaEditor.barslist
+|           Edit_Lift.barslist
+|           Edit_MagnumKiller.barslist
+|           Edit_Marumaru.barslist
+|           Edit_Met.barslist
+|           Edit_Nokonoko.barslist
+|           Edit_OnOffSwitch.barslist
+|           Edit_OnpuBlock.barslist
+|           Edit_OrbitBlock.barslist
+|           Edit_Pakkun.barslist
+|           Edit_PinkCoin.barslist
+|           Edit_Poo.barslist
+|           Edit_PowBlock.barslist
+|           Edit_PSwitch.barslist
+|           Edit_PukuPuku.barslist
+|           Edit_Rail.barslist
+|           Edit_RedBluePanel.barslist
+|           Edit_RengaBlock.barslist
+|           Edit_Saw.barslist
+|           Edit_Seesaw.barslist
+|           Edit_SenkanHoudai.barslist
+|           Edit_SnakeBlock.barslist
+|           Edit_SpecialItem.barslist
+|           Edit_StartSignBoard.barslist
+|           Edit_SunAndMoon.barslist
+|           Edit_SuperHammer.barslist
+|           Edit_SuperKinoko.barslist
+|           Edit_SuperStar.barslist
+|           Edit_SwingCrane.barslist
+|           Edit_Teresa.barslist
+|           Edit_Toge.barslist
+|           Edit_TogeKonbo.barslist
+|           Edit_Togemet.barslist
+|           Edit_Togezo.barslist
+|           Edit_Tsuta.barslist
+|           Edit_UganFish.barslist
+|           Edit_Wanwan.barslist
+|           Edit_WarpBox.barslist
+|           Edit_Wing.barslist
+|           Edit_WoodBox.barslist
+|           Edit_YouganLift.barslist
+|           EditCommon.barslist
+|           EditDonketsu.barslist
+|           EditEnemy.barslist
+|           EditHopper.barslist
+|           EditItem.barslist
+|           EditKoopaCar.barslist
+|           EditNobinobiPakkun.barslist
+|           EditObject.barslist
+|           EditOtoasobi00.barslist
+|           EditOtoasobi01.barslist
+|           EditOtoasobi02.barslist
+|           EditOtoasobi03.barslist
+|           EditOtoasobi04.barslist
+|           EditOtoasobi05.barslist
+|           EditOtoasobi06.barslist
+|           EditOtoasobi07.barslist
+|           EditOtoasobi08.barslist
+|           EditOtoasobi09.barslist
+|           EditOtoasobi10.barslist
+|           EditOtoasobi11.barslist
+|           EditOtoasobi12.barslist
+|           EditOtoasobi13.barslist
+|           EditOtoasobi14.barslist
+|           EditOtoasobi15.barslist
+|           EditOtoasobi16.barslist
+|           EditOtoasobi17.barslist
+|           EditOtoasobi18.barslist
+|           EditOtoasobi19.barslist
+|           EditOtoasobi20.barslist
+|           EditOtoasobi21.barslist
+|           EditOtoasobi22.barslist
+|           EditOtoasobi23.barslist
+|           EditOtoasobi24.barslist
+|           EditOtoasobi25.barslist
+|           EditOtoasobi26.barslist
+|           EditOtoasobi27.barslist
+|           EditOtoasobi28.barslist
+|           EditOtoasobi29.barslist
+|           EditOtoasobi30.barslist
+|           EditOtoasobi31.barslist
+|           EditOtoasobi32.barslist
+|           EditOtoasobi33.barslist
+|           EditOtoasobi34.barslist
+|           EditOtoasobi35.barslist
+|           EditOtoasobi36.barslist
+|           EditOtoasobi37.barslist
+|           EditOtoasobi38.barslist
+|           EditOtoasobi39.barslist
+|           EditOtoasobi40.barslist
+|           EditOtoasobi41.barslist
+|           EditOtoasobi42.barslist
+|           EditOtoasobi43.barslist
+|           EditOtoasobi44.barslist
+|           EditOtoasobi45.barslist
+|           EditOtoasobi46.barslist
+|           EditOtoasobi47.barslist
+|           EditOtoasobi48.barslist
+|           EditOtoasobi49.barslist
+|           EditOtoasobi50.barslist
+|           EditOtoasobi51.barslist
+|           EditOtoasobi52.barslist
+|           EditOtoasobi53.barslist
+|           EditOtoasobi54.barslist
+|           EditOtoasobi55.barslist
+|           EditPlayer.barslist
+|           EditPyonchu.barslist
+|           EditTornado.barslist
+|           EditUI.barslist
+|           GameEnemy.barslist
+|           GameOverScene.barslist
+|           GamePlayer.barslist
+|           Lesson.barslist
+|           LessonMenuScene.barslist
+|           LessonUI.barslist
+|           LP2UI_Default.barslist
+|           M1_1upKinoko.barslist
+|           M1_Balloon.barslist
+|           M1_BigClub.barslist
+|           M1_BigKinoko.barslist
+|           M1_BlackPakkun.barslist
+|           M1_Bombhei.barslist
+|           M1_Bros.barslist
+|           M1_Bubble.barslist
+|           M1_Bullet.barslist
+|           M1_BulletKoopaFire.barslist
+|           M1_BulletSenkanBall.barslist
+|           M1_BulletSpanner.barslist
+|           M1_BulletToge.barslist
+|           M1_BunbunM3.barslist
+|           M1_Burner.barslist
+|           M1_CastleGoal.barslist
+|           M1_Choropoo.barslist
+|           M1_Coin.barslist
+|           M1_Coin10.barslist
+|           M1_Coin30.barslist
+|           M1_Coin50.barslist
+|           M1_Door.barslist
+|           M1_Dossun.barslist
+|           M1_Edit1upKinoko.barslist
+|           M1_EditAirSignBoard.barslist
+|           M1_EditAutoScrollCamera.barslist
+|           M1_EditBeltConveyor.barslist
+|           M1_EditBlackPakkun.barslist
+|           M1_EditBombhei.barslist
+|           M1_EditBridge.barslist
+|           M1_EditBubble.barslist
+|           M1_EditBunbun.barslist
+|           M1_EditBurner.barslist
+|           M1_EditCastleBridge.barslist
+|           M1_EditCheckpointFlag.barslist
+|           M1_EditChikuwaBlock.barslist
+|           M1_EditChoropoo.barslist
+|           M1_EditClearBlock.barslist
+|           M1_EditCoin.barslist
+|           M1_EditCoin10.barslist
+|           M1_EditDekaKinoko.barslist
+|           M1_EditDokan.barslist
+|           M1_EditDoor.barslist
+|           M1_EditDossun.barslist
+|           M1_EditFireBar.barslist
+|           M1_EditFireFlower.barslist
+|           M1_EditFishBone.barslist
+|           M1_EditFugumannen.barslist
+|           M1_EditGabon.barslist
+|           M1_EditGesso.barslist
+|           M1_EditGoalPole.barslist
+|           M1_EditGround.barslist
+|           M1_EditGroundBox.barslist
+|           M1_EditGroundGoal.barslist
+|           M1_EditGroundMushroom.barslist
+|           M1_EditGroundStart.barslist
+|           M1_EditHalfHitWall.barslist
+|           M1_EditHammerBros.barslist
+|           M1_EditHanachan.barslist
+|           M1_EditHardBlock.barslist
+|           M1_EditHatenaBlock.barslist
+|           M1_EditIceBlock.barslist
+|           M1_EditJugem.barslist
+|           M1_EditJugemCloud.barslist
+|           M1_EditJumpStep.barslist
+|           M1_EditKameck.barslist
+|           M1_EditKaron.barslist
+|           M1_EditKey.barslist
+|           M1_EditKillerHoudai.barslist
+|           M1_EditKinokoFunny.barslist
+|           M1_EditKoopa.barslist
+|           M1_EditKoopaClown.barslist
+|           M1_EditKoopaJr.barslist
+|           M1_EditKumoBlock.barslist
+|           M1_EditKuribo.barslist
+|           M1_EditKutsuKuribo.barslist
+|           M1_EditLavaEditor.barslist
+|           M1_EditLift.barslist
+|           M1_EditMagnumKiller.barslist
+|           M1_EditMarumaru.barslist
+|           M1_EditMet.barslist
+|           M1_EditNokonoko.barslist
+|           M1_EditOnOffSwitch.barslist
+|           M1_EditOnpuBlock.barslist
+|           M1_EditPakkun.barslist
+|           M1_EditPinkCoin.barslist
+|           M1_EditPlayer.barslist
+|           M1_EditPoo.barslist
+|           M1_EditPowBlock.barslist
+|           M1_EditPSwitch.barslist
+|           M1_EditPukupuku.barslist
+|           M1_EditRail.barslist
+|           M1_EditRengaBlock.barslist
+|           M1_EditSaw.barslist
+|           M1_EditSeesaw.barslist
+|           M1_EditSenkanHoudai.barslist
+|           M1_EditSnakeBlock.barslist
+|           M1_EditSpecialItem.barslist
+|           M1_EditStartSignBoard.barslist
+|           M1_EditSunAndMoon.barslist
+|           M1_EditSuperKinoko.barslist
+|           M1_EditSuperStar.barslist
+|           M1_EditSwingCrane.barslist
+|           M1_EditTeresa.barslist
+|           M1_EditToge.barslist
+|           M1_EditTogeKonbo.barslist
+|           M1_EditTogemet.barslist
+|           M1_EditTogezo.barslist
+|           M1_EditTornado.barslist
+|           M1_EditTsuta.barslist
+|           M1_EditWanwan.barslist
+|           M1_EditWing.barslist
+|           M1_EditYouganLift.barslist
+|           M1_EnmyFire.barslist
+|           M1_FireBar.barslist
+|           M1_FireFlower.barslist
+|           M1_FirePakkun.barslist
+|           M1_FishBone.barslist
+|           M1_Fugumannen.barslist
+|           M1_GameEnemy.barslist
+|           M1_GameObject.barslist
+|           M1_Garigari.barslist
+|           M1_Gesso.barslist
+|           M1_GessoChild.barslist
+|           M1_GoalPole.barslist
+|           M1_Hammer.barslist
+|           M1_Hanachan.barslist
+|           M1_HatenaKinoko.barslist
+|           M1_Icicle.barslist
+|           M1_Ivy.barslist
+|           M1_Jugem.barslist
+|           M1_JugemCloud.barslist
+|           M1_JumpStep.barslist
+|           M1_JumpStepSide.barslist
+|           M1_Kakibo.barslist
+|           M1_Kameck.barslist
+|           M1_KameckMagic.barslist
+|           M1_Karon.barslist
+|           M1_Killer.barslist
+|           M1_KillerHoudai.barslist
+|           M1_KillerSearch.barslist
+|           M1_Koopa.barslist
+|           M1_KoopaClown.barslist
+|           M1_KoopaClownFire.barslist
+|           M1_KoopaJr.barslist
+|           M1_koura.barslist
+|           M1_Kuribo.barslist
+|           M1_KutsuKuribo.barslist
+|           M1_KutsuKuriboHeels.barslist
+|           M1_Lift.barslist
+|           M1_MagnumKiller.barslist
+|           M1_MagnumKillerSearch.barslist
+|           M1_Marumaru.barslist
+|           M1_MegaBros.barslist
+|           M1_Met.barslist
+|           M1_Moon.barslist
+|           M1_Necchi.barslist
+|           M1_Nokonoko.barslist
+|           M1_NokonokoRed.barslist
+|           M1_ObjectCommon.barslist
+|           M1_OnpuBlock.barslist
+|           M1_Pakkun.barslist
+|           M1_Player.barslist
+|           M1_PlayerArrow.barslist
+|           M1_PlayerFire.barslist
+|           M1_PlayerSuperBall.barslist
+|           M1_PoisonKinoko.barslist
+|           M1_Poo.barslist
+|           M1_PowBlock.barslist
+|           M1_PSwitch.barslist
+|           M1_Pukupuku.barslist
+|           M1_PukupukuRed.barslist
+|           M1_Saw.barslist
+|           M1_SenkanHoudai.barslist
+|           M1_Shoes.barslist
+|           M1_SnakeBlock.barslist
+|           M1_Sun.barslist
+|           M1_SuperBallFlower.barslist
+|           M1_SuperKinoko.barslist
+|           M1_SuperStar.barslist
+|           M1_SwingCrane.barslist
+|           M1_Teresa.barslist
+|           M1_Togemet.barslist
+|           M1_Togezo.barslist
+|           M1_Tornado.barslist
+|           M1_Wanwan.barslist
+|           M1_WanwanPile.barslist
+|           M3_1upKinoko.barslist
+|           M3_Balloon.barslist
+|           M3_BigClub.barslist
+|           M3_BigKinoko.barslist
+|           M3_BlackPakkun.barslist
+|           M3_Bombhei.barslist
+|           M3_Bros.barslist
+|           M3_Bubble.barslist
+|           M3_Bullet.barslist
+|           M3_BulletKoopaFire.barslist
+|           M3_BulletSenkanBall.barslist
+|           M3_BulletSpanner.barslist
+|           M3_BulletToge.barslist
+|           M3_BunbunM3.barslist
+|           M3_Burner.barslist
+|           M3_CastleGoal.barslist
+|           M3_Choropoo.barslist
+|           M3_Coin.barslist
+|           M3_Coin10.barslist
+|           M3_Coin30.barslist
+|           M3_Coin50.barslist
+|           M3_Door.barslist
+|           M3_Dossun.barslist
+|           M3_Edit1upKinoko.barslist
+|           M3_EditAirSignBoard.barslist
+|           M3_EditAutoScrollCamera.barslist
+|           M3_EditBeltConveyor.barslist
+|           M3_EditBlackPakkun.barslist
+|           M3_EditBombhei.barslist
+|           M3_EditBridge.barslist
+|           M3_EditBubble.barslist
+|           M3_EditBunbun.barslist
+|           M3_EditBurner.barslist
+|           M3_EditCastleBridge.barslist
+|           M3_EditCheckpointFlag.barslist
+|           M3_EditChikuwaBlock.barslist
+|           M3_EditChoropoo.barslist
+|           M3_EditClearBlock.barslist
+|           M3_EditCoin.barslist
+|           M3_EditCoin10.barslist
+|           M3_EditDekaKinoko.barslist
+|           M3_EditDokan.barslist
+|           M3_EditDoor.barslist
+|           M3_EditDossun.barslist
+|           M3_EditFireBar.barslist
+|           M3_EditFireFlower.barslist
+|           M3_EditFishBone.barslist
+|           M3_EditFugumannen.barslist
+|           M3_EditGabon.barslist
+|           M3_EditGesso.barslist
+|           M3_EditGoalPole.barslist
+|           M3_EditGround.barslist
+|           M3_EditGroundBox.barslist
+|           M3_EditGroundGoal.barslist
+|           M3_EditGroundMushroom.barslist
+|           M3_EditGroundStart.barslist
+|           M3_EditHalfHitWall.barslist
+|           M3_EditHammerBros.barslist
+|           M3_EditHanachan.barslist
+|           M3_EditHardBlock.barslist
+|           M3_EditHatenaBlock.barslist
+|           M3_EditIceBlock.barslist
+|           M3_EditJugem.barslist
+|           M3_EditJugemCloud.barslist
+|           M3_EditJumpStep.barslist
+|           M3_EditKameck.barslist
+|           M3_EditKaron.barslist
+|           M3_EditKey.barslist
+|           M3_EditKillerHoudai.barslist
+|           M3_EditKinokoFunny.barslist
+|           M3_EditKoopa.barslist
+|           M3_EditKoopaClown.barslist
+|           M3_EditKoopaJr.barslist
+|           M3_EditKumoBlock.barslist
+|           M3_EditKuribo.barslist
+|           M3_EditKutsuKuribo.barslist
+|           M3_EditLavaEditor.barslist
+|           M3_EditLift.barslist
+|           M3_EditMagnumKiller.barslist
+|           M3_EditMarumaru.barslist
+|           M3_EditMet.barslist
+|           M3_EditNokonoko.barslist
+|           M3_EditOnOffSwitch.barslist
+|           M3_EditOnpuBlock.barslist
+|           M3_EditPakkun.barslist
+|           M3_EditPinkCoin.barslist
+|           M3_EditPlayer.barslist
+|           M3_EditPoo.barslist
+|           M3_EditPowBlock.barslist
+|           M3_EditPSwitch.barslist
+|           M3_EditPukupuku.barslist
+|           M3_EditRail.barslist
+|           M3_EditRengaBlock.barslist
+|           M3_EditSaw.barslist
+|           M3_EditSeesaw.barslist
+|           M3_EditSenkanHoudai.barslist
+|           M3_EditSnakeBlock.barslist
+|           M3_EditSpecialItem.barslist
+|           M3_EditStartSignBoard.barslist
+|           M3_EditSunAndMoon.barslist
+|           M3_EditSuperKinoko.barslist
+|           M3_EditSuperStar.barslist
+|           M3_EditSwingCrane.barslist
+|           M3_EditTeresa.barslist
+|           M3_EditToge.barslist
+|           M3_EditTogeKonbo.barslist
+|           M3_EditTogemet.barslist
+|           M3_EditTogezo.barslist
+|           M3_EditTornado.barslist
+|           M3_EditTsuta.barslist
+|           M3_EditWanwan.barslist
+|           M3_EditWing.barslist
+|           M3_EditYouganLift.barslist
+|           M3_EnmyFire.barslist
+|           M3_FireFlower.barslist
+|           M3_FirePakkun.barslist
+|           M3_FishBone.barslist
+|           M3_Fugumannen.barslist
+|           M3_GameEnemy.barslist
+|           M3_GameObject.barslist
+|           M3_Garigari.barslist
+|           M3_Gesso.barslist
+|           M3_GessoChild.barslist
+|           M3_Hammer.barslist
+|           M3_Hanachan.barslist
+|           M3_Icicle.barslist
+|           M3_Ivy.barslist
+|           M3_Jugem.barslist
+|           M3_JugemCloud.barslist
+|           M3_JumpStep.barslist
+|           M3_JumpStepSide.barslist
+|           M3_Kakibo.barslist
+|           M3_Kameck.barslist
+|           M3_KameckMagic.barslist
+|           M3_Karon.barslist
+|           M3_Killer.barslist
+|           M3_KillerHoudai.barslist
+|           M3_KillerSearch.barslist
+|           M3_Koopa.barslist
+|           M3_KoopaClown.barslist
+|           M3_KoopaClownFire.barslist
+|           M3_KoopaJr.barslist
+|           M3_koura.barslist
+|           M3_Kuribo.barslist
+|           M3_KutsuKuribo.barslist
+|           M3_KutsuKuriboHeels.barslist
+|           M3_Leave.barslist
+|           M3_Lift.barslist
+|           M3_MagnumKiller.barslist
+|           M3_MagnumKillerSearch.barslist
+|           M3_Mario3Goal.barslist
+|           M3_Marumaru.barslist
+|           M3_MegaBros.barslist
+|           M3_Met.barslist
+|           M3_Moon.barslist
+|           M3_Necchi.barslist
+|           M3_Nokonoko.barslist
+|           M3_NokonokoRed.barslist
+|           M3_ObjectCommon.barslist
+|           M3_OnpuBlock.barslist
+|           M3_Pakkun.barslist
+|           M3_Player.barslist
+|           M3_PlayerFire.barslist
+|           M3_PoisonKinoko.barslist
+|           M3_Poo.barslist
+|           M3_PowBlock.barslist
+|           M3_PSwitch.barslist
+|           M3_Pukupuku.barslist
+|           M3_PukupukuRed.barslist
+|           M3_Saw.barslist
+|           M3_SenkanHoudai.barslist
+|           M3_Shoes.barslist
+|           M3_ShoesAttack.barslist
+|           M3_SnakeBlock.barslist
+|           M3_Stone.barslist
+|           M3_Sun.barslist
+|           M3_SuperKinoko.barslist
+|           M3_SuperStar.barslist
+|           M3_SwingCrane.barslist
+|           M3_Teresa.barslist
+|           M3_Togemet.barslist
+|           M3_Togezo.barslist
+|           M3_Tornado.barslist
+|           M3_Wanwan.barslist
+|           M3_WanwanPile.barslist
+|           MapScene.barslist
+|           MiiDressup.barslist
+|           MU_koura.barslist
+|           MW_1upKinoko.barslist
+|           MW_Balloon.barslist
+|           MW_BigClub.barslist
+|           MW_BigKinoko.barslist
+|           MW_BlackPakkun.barslist
+|           MW_Bombhei.barslist
+|           MW_Boss.barslist
+|           MW_Bros.barslist
+|           MW_Bubble.barslist
+|           MW_Bullet.barslist
+|           MW_BulletBone.barslist
+|           MW_BulletKoopaFire.barslist
+|           MW_BulletKoopaFireFall.barslist
+|           MW_BulletSenkanBall.barslist
+|           MW_BulletSpanner.barslist
+|           MW_BulletToge.barslist
+|           MW_BunbunM3.barslist
+|           MW_Burner.barslist
+|           MW_CastleGoal.barslist
+|           MW_ChikuwaBlock.barslist
+|           MW_Choropoo.barslist
+|           MW_Coin.barslist
+|           MW_Coin10.barslist
+|           MW_Coin30.barslist
+|           MW_Coin50.barslist
+|           MW_Door.barslist
+|           MW_Dossun.barslist
+|           MW_Edit1upKinoko.barslist
+|           MW_EditAirSignBoard.barslist
+|           MW_EditAutoScrollCamera.barslist
+|           MW_EditBeltConveyor.barslist
+|           MW_EditBlackPakkun.barslist
+|           MW_EditBombhei.barslist
+|           MW_EditBridge.barslist
+|           MW_EditBubble.barslist
+|           MW_EditBunbun.barslist
+|           MW_EditBurner.barslist
+|           MW_EditCastleBridge.barslist
+|           MW_EditCheckpointFlag.barslist
+|           MW_EditChikuwaBlock.barslist
+|           MW_EditChoropoo.barslist
+|           MW_EditClearBlock.barslist
+|           MW_EditCoin.barslist
+|           MW_EditCoin10.barslist
+|           MW_EditDekaKinoko.barslist
+|           MW_EditDokan.barslist
+|           MW_EditDoor.barslist
+|           MW_EditDossun.barslist
+|           MW_EditFireBar.barslist
+|           MW_EditFireFlower.barslist
+|           MW_EditFishBone.barslist
+|           MW_EditFugumannen.barslist
+|           MW_EditGabon.barslist
+|           MW_EditGesso.barslist
+|           MW_EditGoalPole.barslist
+|           MW_EditGround.barslist
+|           MW_EditGroundBox.barslist
+|           MW_EditGroundGoal.barslist
+|           MW_EditGroundMushroom.barslist
+|           MW_EditGroundStart.barslist
+|           MW_EditHalfHitWall.barslist
+|           MW_EditHammerBros.barslist
+|           MW_EditHanachan.barslist
+|           MW_EditHardBlock.barslist
+|           MW_EditHatenaBlock.barslist
+|           MW_EditIceBlock.barslist
+|           MW_EditJugem.barslist
+|           MW_EditJugemCloud.barslist
+|           MW_EditJumpStep.barslist
+|           MW_EditKameck.barslist
+|           MW_EditKaron.barslist
+|           MW_EditKey.barslist
+|           MW_EditKillerHoudai.barslist
+|           MW_EditKinokoFunny.barslist
+|           MW_EditKoopa.barslist
+|           MW_EditKoopaClown.barslist
+|           MW_EditKoopaJr.barslist
+|           MW_EditKumoBlock.barslist
+|           MW_EditKuribo.barslist
+|           MW_EditKutsuKuribo.barslist
+|           MW_EditLavaEditor.barslist
+|           MW_EditLift.barslist
+|           MW_EditMagnumKiller.barslist
+|           MW_EditMarumaru.barslist
+|           MW_EditMet.barslist
+|           MW_EditNokonoko.barslist
+|           MW_EditOnOffSwitch.barslist
+|           MW_EditOnpuBlock.barslist
+|           MW_EditPakkun.barslist
+|           MW_EditPinkCoin.barslist
+|           MW_EditPlayer.barslist
+|           MW_EditPoo.barslist
+|           MW_EditPowBlock.barslist
+|           MW_EditPSwitch.barslist
+|           MW_EditPukupuku.barslist
+|           MW_EditRail.barslist
+|           MW_EditRengaBlock.barslist
+|           MW_EditSaw.barslist
+|           MW_EditSeesaw.barslist
+|           MW_EditSenkanHoudai.barslist
+|           MW_EditSnakeBlock.barslist
+|           MW_EditSpecialItem.barslist
+|           MW_EditStartSignBoard.barslist
+|           MW_EditSunAndMoon.barslist
+|           MW_EditSuperKinoko.barslist
+|           MW_EditSuperStar.barslist
+|           MW_EditSwingCrane.barslist
+|           MW_EditTeresa.barslist
+|           MW_EditToge.barslist
+|           MW_EditTogeKonbo.barslist
+|           MW_EditTogemet.barslist
+|           MW_EditTogezo.barslist
+|           MW_EditTornado.barslist
+|           MW_EditTsuta.barslist
+|           MW_EditWanwan.barslist
+|           MW_EditWing.barslist
+|           MW_EditYouganLift.barslist
+|           MW_EnmyFire.barslist
+|           MW_Feather.barslist
+|           MW_FireFlower.barslist
+|           MW_FirePakkun.barslist
+|           MW_FishBone.barslist
+|           MW_Fugumannen.barslist
+|           MW_GameEnemy.barslist
+|           MW_GameObject.barslist
+|           MW_Garigari.barslist
+|           MW_Gesso.barslist
+|           MW_GessoChild.barslist
+|           MW_Hammer.barslist
+|           MW_Hanachan.barslist
+|           MW_Icicle.barslist
+|           MW_Ivy.barslist
+|           MW_Jugem.barslist
+|           MW_JugemCloud.barslist
+|           MW_JumpStep.barslist
+|           MW_JumpStepSide.barslist
+|           MW_Kakibon.barslist
+|           MW_kame.barslist
+|           MW_Kameck.barslist
+|           MW_KameckMagic.barslist
+|           MW_Karon.barslist
+|           MW_Killer.barslist
+|           MW_KillerHoudai.barslist
+|           MW_KillerSearch.barslist
+|           MW_Koopa.barslist
+|           MW_KoopaClown.barslist
+|           MW_KoopaClownFire.barslist
+|           MW_KoopaJr.barslist
+|           MW_koura.barslist
+|           MW_Kuribo.barslist
+|           MW_Lift.barslist
+|           MW_MagnumKiller.barslist
+|           MW_MagnumKillerSearch.barslist
+|           MW_MariowGoal.barslist
+|           MW_Marumaru.barslist
+|           MW_MegaBros.barslist
+|           MW_Met.barslist
+|           MW_Moon.barslist
+|           MW_Necchi.barslist
+|           MW_Nokonoko.barslist
+|           MW_NokonokoNaked.barslist
+|           MW_NokonokoNakedRed.barslist
+|           MW_NokonokoRed.barslist
+|           MW_ObjectCommon.barslist
+|           MW_OnpuBlock.barslist
+|           MW_Pakkun.barslist
+|           MW_Player.barslist
+|           MW_PlayerFire.barslist
+|           MW_PoisonKinoko.barslist
+|           MW_Poo.barslist
+|           MW_PowBlock.barslist
+|           MW_PPakkun.barslist
+|           MW_PSwitch.barslist
+|           MW_Pukupuku.barslist
+|           MW_PukupukuRed.barslist
+|           MW_Saw.barslist
+|           MW_SenkanHoudai.barslist
+|           MW_SnakeBlock.barslist
+|           MW_Stone.barslist
+|           MW_Sun.barslist
+|           MW_SuperKinoko.barslist
+|           MW_SuperStar.barslist
+|           MW_SwingCrane.barslist
+|           MW_Teresa.barslist
+|           MW_Togemet.barslist
+|           MW_Togezo.barslist
+|           MW_Tornado.barslist
+|           MW_Wanwan.barslist
+|           MW_WanwanPile.barslist
+|           MW_Yoshi.barslist
+|           MW_YoshiEgg.barslist
+|           MW_YoshiFire.barslist
+|           NetworkScene.barslist
+|           Nwk_MatchingLevelSelect.barslist
+|           ObjectCommon.barslist
+|           Otoasobi00.barslist
+|           Otoasobi01.barslist
+|           Otoasobi02.barslist
+|           Otoasobi03.barslist
+|           Otoasobi04.barslist
+|           Otoasobi05.barslist
+|           Otoasobi06.barslist
+|           Otoasobi07.barslist
+|           Otoasobi08.barslist
+|           Otoasobi09.barslist
+|           Otoasobi10.barslist
+|           Otoasobi11.barslist
+|           Otoasobi12.barslist
+|           Otoasobi13.barslist
+|           Otoasobi14.barslist
+|           Otoasobi15.barslist
+|           Otoasobi16.barslist
+|           Otoasobi17.barslist
+|           Otoasobi18.barslist
+|           Otoasobi19.barslist
+|           Otoasobi20.barslist
+|           Otoasobi21.barslist
+|           Otoasobi22.barslist
+|           Otoasobi23.barslist
+|           Otoasobi24.barslist
+|           Otoasobi25.barslist
+|           Otoasobi26.barslist
+|           Otoasobi27.barslist
+|           Otoasobi28.barslist
+|           Otoasobi29.barslist
+|           Otoasobi30.barslist
+|           Otoasobi31.barslist
+|           Otoasobi32.barslist
+|           Otoasobi33.barslist
+|           Otoasobi34.barslist
+|           Otoasobi35.barslist
+|           Otoasobi36.barslist
+|           Otoasobi37.barslist
+|           Otoasobi38.barslist
+|           Otoasobi39.barslist
+|           Otoasobi40.barslist
+|           Otoasobi41.barslist
+|           Otoasobi42.barslist
+|           Otoasobi43.barslist
+|           Otoasobi44.barslist
+|           Otoasobi45.barslist
+|           Otoasobi46.barslist
+|           Otoasobi47.barslist
+|           Otoasobi48.barslist
+|           Otoasobi49.barslist
+|           Otoasobi50.barslist
+|           Otoasobi51.barslist
+|           Otoasobi52.barslist
+|           Otoasobi53.barslist
+|           Otoasobi54.barslist
+|           Otoasobi55.barslist
+|           Qst_InfoWindow.barslist
+|           Qst_MessageBaloon.barslist
+|           Quest_Block.barslist
+|           Quest_BlockBikkuri.barslist
+|           Quest_BlockJimenSet1.barslist
+|           Quest_BlockJimenSet2.barslist
+|           Quest_BlockKataiRock.barslist
+|           Quest_BlockONOFF.barslist
+|           Quest_BlockQuestion.barslist
+|           Quest_BlockRenga.barslist
+|           Quest_BlockRengaSet1.barslist
+|           Quest_BlockToumei.barslist
+|           Quest_BuildChief.barslist
+|           Quest_BuildObj01.barslist
+|           Quest_BuildObj02.barslist
+|           Quest_BuildObj03.barslist
+|           Quest_BuildObj04.barslist
+|           Quest_BuildObj05.barslist
+|           Quest_BuildObj06.barslist
+|           Quest_BuildObj07.barslist
+|           Quest_BuildObj08.barslist
+|           Quest_BuildObj09.barslist
+|           Quest_BuildObj10.barslist
+|           Quest_Coin.barslist
+|           Quest_Coin10.barslist
+|           Quest_Coin30.barslist
+|           Quest_Coin50.barslist
+|           Quest_DogHouse.barslist
+|           Quest_Door.barslist
+|           Quest_DoorEast_Build.barslist
+|           Quest_DoorEast_Comp.barslist
+|           Quest_DoorWest_Build.barslist
+|           Quest_DoorWest_Comp.barslist
+|           Quest_Eraser.barslist
+|           Quest_Field_Castle_Base_Comp.barslist
+|           Quest_Field_Castle_Ground.barslist
+|           Quest_Field_Castle_Main1F_Build.barslist
+|           Quest_Field_Castle_Main1F_Comp.barslist
+|           Quest_Field_Castle_Main2F_Build.barslist
+|           Quest_Field_Castle_Main2F_Comp.barslist
+|           Quest_Field_Castle_Main3F_Build.barslist
+|           Quest_Field_Castle_Main3F_Comp.barslist
+|           Quest_Field_Castle_MainBase_Build.barslist
+|           Quest_Field_Castle_MainRoof_Build.barslist
+|           Quest_Field_Castle_MainRoof_Comp.barslist
+|           Quest_Field_Castle_MainStainedglass_Build.barslist
+|           Quest_Field_Castle_MainStainedglass_Comp.barslist
+|           Quest_Field_Castle_TowerEast1F_Build.barslist
+|           Quest_Field_Castle_TowerEast1F_Comp.barslist
+|           Quest_Field_Castle_TowerEast2F_Build.barslist
+|           Quest_Field_Castle_TowerEast2F_Comp.barslist
+|           Quest_Field_Castle_TowerEastBase_Build.barslist
+|           Quest_Field_Castle_TowerEastCannon_Build.barslist
+|           Quest_Field_Castle_TowerEastCannon_Comp.barslist
+|           Quest_Field_Castle_TowerEastRoof_Build.barslist
+|           Quest_Field_Castle_TowerEastRoof_Comp.barslist
+|           Quest_Field_Castle_TowerWest1F_Build.barslist
+|           Quest_Field_Castle_TowerWest1F_Comp.barslist
+|           Quest_Field_Castle_TowerWest2F_Build.barslist
+|           Quest_Field_Castle_TowerWest2F_Comp.barslist
+|           Quest_Field_Castle_TowerWestBase_Build.barslist
+|           Quest_Field_Castle_TowerWestCannon_Build.barslist
+|           Quest_Field_Castle_TowerWestCannon_Comp.barslist
+|           Quest_Field_Castle_TowerWestRoof_Build.barslist
+|           Quest_Field_Castle_TowerWestRoof_Comp.barslist
+|           Quest_Frog.barslist
+|           Quest_JugemCloud.barslist
+|           Quest_KanbanNoEntry.barslist
+|           Quest_KanbanNoEntryKaidan.barslist
+|           Quest_KinopioBuilder.barslist
+|           Quest_KinopioBuilder1.barslist
+|           Quest_KinopioBuilder2.barslist
+|           Quest_KinopioBuilder3.barslist
+|           Quest_KinopioBuilder4.barslist
+|           Quest_KinopioBuilder5.barslist
+|           Quest_MessageWindow.barslist
+|           Quest_Object_Mountain.barslist
+|           Quest_Object_PlantFlowerFront.barslist
+|           Quest_Packun.barslist
+|           Quest_Peach.barslist
+|           Quest_Player.barslist
+|           Quest_QuestCounter.barslist
+|           Quest_RobotBottom.barslist
+|           Quest_RobotTop.barslist
+|           Quest_UndoDog.barslist
+|           Quest_VoxelKuribo.barslist
+|           Quest_VoxelNokonoko.barslist
+|           Quest_VoxelPukupuku.barslist
+|           Quest_XLinkTag.barslist
+|           Quest_Yamamura.barslist
+|           Quest_YamamuraStained.barslist
+|           QuestScene.barslist
+|           QuestUI.barslist
+|           SoundEditor.barslist
+|           StaffRollScene.barslist
+|           Static.barslist
+|           UIBallonPartsChange.barslist
+|           UICmn_AnnounceWindow.barslist
+|           UICmn_Bounding.barslist
+|           UICmn_Fade.barslist
+|           UICmn_HelpWindow.barslist
+|           UICmn_InfoBatchWindow.barslist
+|           UICmn_InfoBatchWindow_00.barslist
+|           UICmn_InfoRealTime.barslist
+|           UICmn_InfoWindow.barslist
+|           UICmn_LoadingScene.barslist
+|           UICmn_MassageWindow.barslist
+|           UICmn_MessageWindow.barslist
+|           UICmn_MiiSelect.barslist
+|           UICmn_OptionWindow.barslist
+|           UICmn_PauseMenu.barslist
+|           UICmn_SeqWindow.barslist
+|           UICmn_TagWindow.barslist
+|           UICmn_TagWindow_00.barslist
+|           UICmn_TutorialWindow_00.barslist
+|           UIEdit_Clapperboard.barslist
+|           UIEdit_MultiEditWindow.barslist
+|           UIEdit_SupportEdit.barslist
+|           UIEditBallonPartsIn.barslist
+|           UIEditBallonPartsInBig.barslist
+|           UIEditLayerWindow.barslist
+|           UIEditMain.barslist
+|           UIEditMissionWindow.barslist
+|           UIEditPartsMenuPage.barslist
+|           UIEditSubAreaWindow.barslist
+|           UIEditTrial.barslist
+|           UIGameOverPage.barslist
+|           UILcl_CourseInfoWindow.barslist
+|           UILcl_CourseList.barslist
+|           UILcl_CourseListContents.barslist
+|           UILsn_BtnLocator.barslist
+|           UILsn_Main.barslist
+|           UILsn_PlayerGuide.barslist
+|           UILsn_TechniqueList.barslist
+|           UILsn_Title.barslist
+|           UIMainMenu.barslist
+|           UINwk_BtlMessageWindow.barslist
+|           UINwk_CommentDrawing.barslist
+|           UINwk_CommentPosting.barslist
+|           UINwk_CommentStamp.barslist
+|           UINwk_CommentViewer.barslist
+|           UINwk_DressUp.barslist
+|           UINwk_EndlessModeMenu.barslist
+|           UINwk_Matching.barslist
+|           UINwk_MatchingLevelSelect.barslist
+|           UINwk_MatchingModeSelect.barslist
+|           UINwk_MatchingWait.barslist
+|           UINwk_PlayerInfo.barslist
+|           UINwk_ReportWindow_00.barslist
+|           UINwk_RoomSituation.barslist
+|           UINwk_SaveMenu.barslist
+|           UINwk_SortWindow.barslist
+|           UINwk_Title.barslist
+|           UIPlay_BattleMenu.barslist
+|           UIPlay_BattleMessage.barslist
+|           UIPlay_BattleMessageList.barslist
+|           UIPlay_BattleRestartPlayer.barslist
+|           UIPlay_BattleResult.barslist
+|           UIPlay_CountDownStart.barslist
+|           UIPlay_CourseClear.barslist
+|           UIPlay_CourseIn.barslist
+|           UIPlay_CourseRetire.barslist
+|           UIPlay_CourseViewer.barslist
+|           UIPlay_LclBtlResult.barslist
+|           UIPlay_MissionNotice.barslist
+|           UIPlay_NoticeWindow.barslist
+|           UIPlay_QuestClear.barslist
+|           UIPlay_RatingResult.barslist
+|           UIPlay_SlidePass.barslist
+|           UIPlay_SlidePassIcon.barslist
+|           UIPlay_SlidePassIconKey.barslist
+|           UIQst_ActionGuide.barslist
+|           UIQst_CastleFinish_00.barslist
+|           UIQst_CastleProgress_00.barslist
+|           UIQst_CastleProgress_01.barslist
+|           UIQst_ClearSupportWindow_01.barslist
+|           UIQst_DemoEnd.barslist
+|           UIQst_List.barslist
+|           UIQst_MainScene.barslist
+|           UIQst_MessageWindow.barslist
+|           UIQst_ProgressScene.barslist
+|           UIQst_QuestFinish_00.barslist
+|           UIQst_QuestWindow.barslist
+|           UIQst_RewardWindow.barslist
+|           UIQuestClearSupportActPage.barslist
+|           UIQuestClearSupportWindowPage.barslist
+|           UISaveLoadMenu.barslist
+|           UITitle.barslist
+|           WindowUI.barslist
+|           WorldCourseUI.barslist
+|           WU_1upKinoko.barslist
+|           WU_Balloon.barslist
+|           WU_BigClub.barslist
+|           WU_BigKinoko.barslist
+|           WU_BlackPakkun.barslist
+|           WU_Bombhei.barslist
+|           WU_BossCommon.barslist
+|           WU_Bros.barslist
+|           WU_Bubble.barslist
+|           WU_Bullet.barslist
+|           WU_BulletKoopaFire.barslist
+|           WU_BulletSenkanBall.barslist
+|           WU_BulletSpanner.barslist
+|           WU_BulletToge.barslist
+|           WU_BunbunU.barslist
+|           WU_Burner.barslist
+|           WU_CastleGoal.barslist
+|           WU_ChaseKinopio.barslist
+|           WU_ChikuwaBlock.barslist
+|           WU_Choropoo.barslist
+|           WU_Coin.barslist
+|           WU_Coin10.barslist
+|           WU_Coin30.barslist
+|           WU_Coin50.barslist
+|           WU_Door.barslist
+|           WU_Dossun.barslist
+|           WU_Edit1upKinoko.barslist
+|           WU_EditAirSignBoard.barslist
+|           WU_EditAutoScrollCamera.barslist
+|           WU_EditBeltConveyor.barslist
+|           WU_EditBlackPakkun.barslist
+|           WU_EditBombhei.barslist
+|           WU_EditBridge.barslist
+|           WU_EditBubble.barslist
+|           WU_EditBunbun.barslist
+|           WU_EditBurner.barslist
+|           WU_EditCastleBridge.barslist
+|           WU_EditCheckpointFlag.barslist
+|           WU_EditChikuwaBlock.barslist
+|           WU_EditChoropoo.barslist
+|           WU_EditClearBlock.barslist
+|           WU_EditCoin.barslist
+|           WU_EditCoin10.barslist
+|           WU_EditDekaKinoko.barslist
+|           WU_EditDokan.barslist
+|           WU_EditDoor.barslist
+|           WU_EditDossun.barslist
+|           WU_EditFireBar.barslist
+|           WU_EditFireFlower.barslist
+|           WU_EditFishBone.barslist
+|           WU_EditFugumannen.barslist
+|           WU_EditGabon.barslist
+|           WU_EditGesso.barslist
+|           WU_EditGoalPole.barslist
+|           WU_EditGround.barslist
+|           WU_EditGroundBox.barslist
+|           WU_EditGroundGoal.barslist
+|           WU_EditGroundMushroom.barslist
+|           WU_EditGroundStart.barslist
+|           WU_EditHalfHitWall.barslist
+|           WU_EditHammerBros.barslist
+|           WU_EditHanachan.barslist
+|           WU_EditHardBlock.barslist
+|           WU_EditHatenaBlock.barslist
+|           WU_EditIceBlock.barslist
+|           WU_EditJugem.barslist
+|           WU_EditJugemCloud.barslist
+|           WU_EditJumpStep.barslist
+|           WU_EditKameck.barslist
+|           WU_EditKaron.barslist
+|           WU_EditKey.barslist
+|           WU_EditKillerHoudai.barslist
+|           WU_EditKinokoFunny.barslist
+|           WU_EditKoopa.barslist
+|           WU_EditKoopaClown.barslist
+|           WU_EditKoopaJr.barslist
+|           WU_EditKumoBlock.barslist
+|           WU_EditKuribo.barslist
+|           WU_EditKutsuKuribo.barslist
+|           WU_EditLavaEditor.barslist
+|           WU_EditLift.barslist
+|           WU_EditMagnumKiller.barslist
+|           WU_EditMarumaru.barslist
+|           WU_EditMet.barslist
+|           WU_EditNokonoko.barslist
+|           WU_EditOnOffSwitch.barslist
+|           WU_EditOnpuBlock.barslist
+|           WU_EditPakkun.barslist
+|           WU_EditPinkCoin.barslist
+|           WU_EditPlayer.barslist
+|           WU_EditPoo.barslist
+|           WU_EditPowBlock.barslist
+|           WU_EditPSwitch.barslist
+|           WU_EditPukupuku.barslist
+|           WU_EditRail.barslist
+|           WU_EditRengaBlock.barslist
+|           WU_EditSaw.barslist
+|           WU_EditSeesaw.barslist
+|           WU_EditSenkanHoudai.barslist
+|           WU_EditSnakeBlock.barslist
+|           WU_EditSpecialItem.barslist
+|           WU_EditStartSignBoard.barslist
+|           WU_EditSunAndMoon.barslist
+|           WU_EditSuperKinoko.barslist
+|           WU_EditSuperStar.barslist
+|           WU_EditSwingCrane.barslist
+|           WU_EditTeresa.barslist
+|           WU_EditToge.barslist
+|           WU_EditTogeKonbo.barslist
+|           WU_EditTogemet.barslist
+|           WU_EditTogezo.barslist
+|           WU_EditTornado.barslist
+|           WU_EditTsuta.barslist
+|           WU_EditWanwan.barslist
+|           WU_EditWing.barslist
+|           WU_EditYouganLift.barslist
+|           WU_EnmyFire.barslist
+|           WU_FireBar.barslist
+|           WU_FireFlower.barslist
+|           WU_FirePakkun.barslist
+|           WU_FishBone.barslist
+|           WU_Fugumannen.barslist
+|           WU_GameEnemy.barslist
+|           WU_GameObject.barslist
+|           WU_Garigari.barslist
+|           WU_Gesso.barslist
+|           WU_GessoChild.barslist
+|           WU_GoalPole.barslist
+|           WU_Hammer.barslist
+|           WU_Hanachan.barslist
+|           WU_Icicle.barslist
+|           WU_Ivy.barslist
+|           WU_Jugem.barslist
+|           WU_JugemCloud.barslist
+|           WU_JumpStep.barslist
+|           WU_JumpStepSide.barslist
+|           WU_Kakibo.barslist
+|           WU_Kameck.barslist
+|           WU_KameckMagic.barslist
+|           WU_Karon.barslist
+|           WU_Killer.barslist
+|           WU_KillerHoudai.barslist
+|           WU_KillerSearch.barslist
+|           WU_Koopa.barslist
+|           WU_KoopaClown.barslist
+|           WU_KoopaClownFire.barslist
+|           WU_KoopaJr.barslist
+|           WU_Kuribo.barslist
+|           WU_Lift.barslist
+|           WU_MagnumKiller.barslist
+|           WU_MagnumKillerSearch.barslist
+|           WU_Marumaru.barslist
+|           WU_MegaBros.barslist
+|           WU_Met.barslist
+|           WU_Moon.barslist
+|           WU_Necchi.barslist
+|           WU_Nokonoko.barslist
+|           WU_NokonokoRed.barslist
+|           WU_ObjectCommon.barslist
+|           WU_OnpuBlock.barslist
+|           WU_Pakkun.barslist
+|           WU_Player.barslist
+|           WU_Player_Kinopico.barslist
+|           WU_Player_Kinopio.barslist
+|           WU_Player_Luigi.barslist
+|           WU_Player_Mario.barslist
+|           WU_PlayerFire.barslist
+|           WU_PoisonKinoko.barslist
+|           WU_Poo.barslist
+|           WU_PowBlock.barslist
+|           WU_Propeller.barslist
+|           WU_PSwitch.barslist
+|           WU_Pukupuku.barslist
+|           WU_PukupukuRed.barslist
+|           WU_Saw.barslist
+|           WU_SenkanHoudai.barslist
+|           WU_SnakeBlock.barslist
+|           WU_Stone.barslist
+|           WU_Sun.barslist
+|           WU_SuperKinoko.barslist
+|           WU_SuperStar.barslist
+|           WU_SwingCrane.barslist
+|           WU_Teresa.barslist
+|           WU_TimeClock50.barslist
+|           WU_Togemet.barslist
+|           WU_Togezo.barslist
+|           WU_Tornado.barslist
+|           WU_Wanwan.barslist
+|           WU_WanwanPile.barslist
+|           WU_Yoshi.barslist
+|           WU_YoshiEgg.barslist
+|           WU_YoshiFire.barslist
+|           
+\---System
+    |   GameConfigSetting_Product.xml
+    |   lp_resource.Nin_NX_NVN.szs
+    |   RegionLangMask.txt
+    |   
+    +---Font
+    |       nvn_font_jis1.xtx
+    |       nvn_font_jis1_mipmap.xtx
+    |       nvn_font_jis1_tbl.bin
+    |       nvn_font_shader_jis1.bin
+    |       nvn_font_shader_jis1_mipmap.bin
+    |       
+    \---WordList
+            keyboard_word_list.dat
+            
