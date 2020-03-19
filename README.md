@@ -11,5 +11,6 @@ To generate a directory tree of an extracted game on Windows, enter the followin
 
 Pull requests are happily accepted.
 
-#Notes:
+# Notes
+
 Patch trees are *just* the changes--not the full romFS with the base game. This is achieved with hactool's `--basefake` flag.
