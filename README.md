@@ -13,4 +13,4 @@ Pull requests are happily accepted.
 
 # Notes
 
-Patch trees are *just* the changes--not the full romFS with the base game. This is achieved with hactool's `--basefake` flag.
+Patch trees are the full updated romfs, not just the base game (unless otherwise noted).
