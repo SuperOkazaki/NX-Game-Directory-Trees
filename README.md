@@ -10,7 +10,3 @@ To generate a directory tree of an extracted game on Windows, enter the followin
 `tree /a /f > output.txt`
 
 Pull requests are happily accepted.
-
-# Notes
-
-Patch trees are the full updated romfs, not just the base game (unless otherwise noted).
