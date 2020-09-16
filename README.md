@@ -10,3 +10,6 @@ To generate a directory tree of an extracted game on Windows, enter the followin
 `tree /a /f > output.txt`
 
 Pull requests are happily accepted.
+
+# Special Notes:
+Some games, notably Super Mario 3D All-Stars, have multiple relevant NCA files (as opposed to most Switch games, in which only one NCA is relevant for modding and rom-hacking). Such trees have been denoted in the filename with `[multi-nca]` and all relevant trees have been listed in the file.
