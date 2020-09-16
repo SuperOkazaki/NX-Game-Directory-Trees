@@ -1,0 +1,3004 @@
+|   +---exefs
+|   |       main
+|   |       main.npdm
+|   |       rtld
+|   |       sdk
+|   |       subsdk0
+|   |       subsdk1
+|   |       subsdk2
+|   |       subsdk3
+|   |       subsdk4
+|   |       
+|   \---romfs
+|       |   hagi.config
+|       |   
+|       +---AudioRes
+|       |   |   SMR.szs
+|       |   |   
+|       |   +---Info
+|       |   |       JaiChord.arc
+|       |   |       JaiMe.arc
+|       |   |       JaiRemixSeq.arc
+|       |   |       
+|       |   +---Seqs
+|       |   |       JaiSeq.arc
+|       |   |       
+|       |   +---SpkRes
+|       |   |       SpkRes.arc
+|       |   |       
+|       |   +---Stream
+|       |   |       SMG_astrodome02_strm.ast
+|       |   |       SMG_astrodome03_strm.ast
+|       |   |       SMG_astrodome04_multi.ast
+|       |   |       SMG_astrodome_multi.ast
+|       |   |       SMG_astroout01_strm.ast
+|       |   |       SMG_astroout02_strm.ast
+|       |   |       SMG_astroout03_strm.ast
+|       |   |       SMG_boss01a_strm.ast
+|       |   |       SMG_boss01b_strm.ast
+|       |   |       SMG_boss02a_strm.ast
+|       |   |       SMG_boss02b_strm.ast
+|       |   |       SMG_boss03a_strm.ast
+|       |   |       SMG_boss03b_strm.ast
+|       |   |       SMG_boss04_strm.ast
+|       |   |       SMG_boss05a_strm.ast
+|       |   |       SMG_boss05b_strm.ast
+|       |   |       SMG_boss06a_strm.ast
+|       |   |       SMG_boss06b_strm.ast
+|       |   |       SMG_boss07_multi.ast
+|       |   |       SMG_boss08_strm.ast
+|       |   |       SMG_boss09a_multi.ast
+|       |   |       SMG_boss09b_multi.ast
+|       |   |       SMG_boss10_strm.ast
+|       |   |       SMG_ev_epilogue_b_strm.ast
+|       |   |       SMG_ev_kinotan_strm.ast
+|       |   |       SMG_ev_kuppabt01_strm.ast
+|       |   |       SMG_ev_prolo01_b_strm.ast
+|       |   |       SMG_ev_prolo01_strm.ast
+|       |   |       SMG_ev_prolo02_strm.ast
+|       |   |       SMG_ev_prolo03_strm.ast
+|       |   |       SMG_ev_prolo04_strm.ast
+|       |   |       SMG_ev_prolo05_strm.ast
+|       |   |       SMG_ev_rabbit_strm.ast
+|       |   |       SMG_ev_race02_multi.ast
+|       |   |       SMG_ev_race_strm.ast
+|       |   |       SMG_ev_starchance02_strm.ast
+|       |   |       SMG_ev_starchance_strm.ast
+|       |   |       SMG_fileselect_strm.ast
+|       |   |       SMG_first_astro_strm.ast
+|       |   |       SMG_galaxy01_strm.ast
+|       |   |       SMG_galaxy01_tomb_strm.ast
+|       |   |       SMG_galaxy02_hurry_strm.ast
+|       |   |       SMG_galaxy02_strm.ast
+|       |   |       SMG_galaxy03_multi.ast
+|       |   |       SMG_galaxy04_multi.ast
+|       |   |       SMG_galaxy05_strm.ast
+|       |   |       SMG_galaxy06_strm.ast
+|       |   |       SMG_galaxy08_strm.ast
+|       |   |       SMG_galaxy09_strm.ast
+|       |   |       SMG_galaxy10_hurry_strm.ast
+|       |   |       SMG_galaxy10_strm.ast
+|       |   |       SMG_galaxy11_multi.ast
+|       |   |       SMG_galaxy12_strm.ast
+|       |   |       SMG_galaxy13_strm.ast
+|       |   |       SMG_galaxy14_strm.ast
+|       |   |       SMG_galaxy15_hurry_strm.ast
+|       |   |       SMG_galaxy15_strm.ast
+|       |   |       SMG_galaxy16_multi.ast
+|       |   |       SMG_galaxy17_strm.ast
+|       |   |       SMG_galaxy18_strm.ast
+|       |   |       SMG_galaxy19_strm.ast
+|       |   |       SMG_galaxy20_strm.ast
+|       |   |       SMG_galaxy21_strm.ast
+|       |   |       SMG_galaxy22_strm.ast
+|       |   |       SMG_galaxy23_strm.ast
+|       |   |       SMG_galaxy24_multi.ast
+|       |   |       SMG_galaxy25_strm.ast
+|       |   |       SMG_galaxy26_strm.ast
+|       |   |       SMG_galaxy27_strm.ast
+|       |   |       SMG_galaxy28_strm.ast
+|       |   |       SMG_galaxy_inter_strm.ast
+|       |   |       SMG_second_astro_strm.ast
+|       |   |       SMG_staffroll_strm.ast
+|       |   |       SMG_title_strm.ast
+|       |   |       
+|       |   \---Waves
+|       |           B00mahit_0.aw
+|       |           B01mahit_0.aw
+|       |           B08mahit_0.aw
+|       |           B09mahit_0.aw
+|       |           B104take_0.aw
+|       |           B105take_0.aw
+|       |           B106take_0.aw
+|       |           B107take_0.aw
+|       |           B108take_0.aw
+|       |           B109take_0.aw
+|       |           B110take_0.aw
+|       |           B111take_0.aw
+|       |           B112take_0.aw
+|       |           B113take_0.aw
+|       |           B114take_0.aw
+|       |           B115take_0.aw
+|       |           B116take_0.aw
+|       |           B117take_0.aw
+|       |           B126goha_0.aw
+|       |           B127goha_0.aw
+|       |           B64kawa_0.aw
+|       |           B65kawa_0.aw
+|       |           B66kawa_0.aw
+|       |           B67kawa_0.aw
+|       |           B68kawa_0.aw
+|       |           B69kawa_0.aw
+|       |           B70kawa_0.aw
+|       |           B70kawa_1.aw
+|       |           B70kawa_2.aw
+|       |           B72take_0.aw
+|       |           B74take_0.aw
+|       |           B80kawa_0.aw
+|       |           B81kawa_0.aw
+|       |           B82kawa_0.aw
+|       |           B83kawa_0.aw
+|       |           B84kawa_0.aw
+|       |           B85kawa_0.aw
+|       |           B86kawa_0.aw
+|       |           B87kawa_0.aw
+|       |           B88kawa_0.aw
+|       |           B89kawa_0.aw
+|       |           B90kawa_0.aw
+|       |           B91kawa_0.aw
+|       |           B92kawa_0.aw
+|       |           B93kawa_0.aw
+|       |           B94kawa_0.aw
+|       |           B95kawa_0.aw
+|       |           B96kawa_0.aw
+|       |           B97kawa_0.aw
+|       |           B98kawa_0.aw
+|       |           
+|       +---data
+|       |   +---database
+|       |   |   +---pip
+|       |   |   |       pipelineDB.pip
+|       |   |   |       
+|       |   |   \---vulkan
+|       |   |           FDBD9F0C3FEA5778E10FFFA74093E0B8.cache
+|       |   |           
+|       |   +---dsp
+|       |   |       drom.bin
+|       |   |       irom.bin
+|       |   |       
+|       |   +---ondemand_texture_replace
+|       |   |   \---MarioGalaxy
+|       |   |           10214487368351363623.png
+|       |   |           10704997328125753962.png
+|       |   |           10743094230706149896.png
+|       |   |           10748973271352004502.png
+|       |   |           10900997729259513587.png
+|       |   |           10949845939258223414.png
+|       |   |           10974976602216717718.png
+|       |   |           11061665023358696392.png
+|       |   |           11115302864898212692.png
+|       |   |           11137256240460324643.png
+|       |   |           11188905666864206659.png
+|       |   |           11367852503335670608.png
+|       |   |           11411306126098422304.png
+|       |   |           11420223790289369552.png
+|       |   |           11586581193502697453.png
+|       |   |           11712659830338833180.png
+|       |   |           11916603504183885028.png
+|       |   |           11997251974710883918.png
+|       |   |           12084184962795958667.png
+|       |   |           12085231157543611882.png
+|       |   |           12187233585446937158.png
+|       |   |           12226820734667305715.png
+|       |   |           12264535106111828866.png
+|       |   |           12313530793811020001.png
+|       |   |           12376442891492898861.png
+|       |   |           12714595842662218196.png
+|       |   |           12734049811410527652.png
+|       |   |           12770180871607463883.png
+|       |   |           12786656139593225440.png
+|       |   |           12860887605344737266.png
+|       |   |           12919193482814584284.png
+|       |   |           12939989321674779507.png
+|       |   |           12986428346215071809.png
+|       |   |           12991225475641776455.png
+|       |   |           13088548538931013034.png
+|       |   |           13150504627288706490.png
+|       |   |           13194261193840374561.png
+|       |   |           13204588387847686958.png
+|       |   |           13226352224287309274.png
+|       |   |           13306589316320754197.png
+|       |   |           13395803689759251647.png
+|       |   |           13694255557481989640.png
+|       |   |           13821057582164058105.png
+|       |   |           13873321713432595896.png
+|       |   |           13990975421523419631.png
+|       |   |           14020735430233327376.png
+|       |   |           14022357487078492024.png
+|       |   |           14211014282357192504.png
+|       |   |           14341857889525850816.png
+|       |   |           14530574296405709142.png
+|       |   |           14545964202171323595.png
+|       |   |           14678620605331341841.png
+|       |   |           14868187595132879389.png
+|       |   |           14889303187748300630.png
+|       |   |           14889303187748300630_lod1.png
+|       |   |           14889303187748300630_lod2.png
+|       |   |           14889303187748300630_lod3.png
+|       |   |           14889303187748300630_lod4.png
+|       |   |           14954387748232553188.png
+|       |   |           14956672306736423675.png
+|       |   |           15071381987173250143.png
+|       |   |           15073827800997535593.png
+|       |   |           1519912989084272131.png
+|       |   |           15244384083912964802.png
+|       |   |           15245438968091127912.png
+|       |   |           15301521014529012178.png
+|       |   |           1560725506386416107.png
+|       |   |           15645412173993482959.png
+|       |   |           15699556885767872755.png
+|       |   |           15700060921724084714.png
+|       |   |           15707297424129220709.png
+|       |   |           15768481106880269251.png
+|       |   |           15795621246931831797.png
+|       |   |           15818510674756170691.png
+|       |   |           15870328375562256854.png
+|       |   |           15967929177862711594.png
+|       |   |           16011952377174463566.png
+|       |   |           16051575974159037793.png
+|       |   |           1608243095850526094.png
+|       |   |           16192768067888365860.png
+|       |   |           16282502987042123236.png
+|       |   |           16300751631164814325.png
+|       |   |           16357879672541678826.png
+|       |   |           16541601921565746670.png
+|       |   |           16580987601695573303.png
+|       |   |           165963951971539828.png
+|       |   |           16642074712480706833.png
+|       |   |           16678468139968590836.png
+|       |   |           16808655165262800864.png
+|       |   |           16914702688867718504.png
+|       |   |           17047519251396284250.png
+|       |   |           17093851436880442543.png
+|       |   |           17384373115168052845.png
+|       |   |           17461681430891249444.png
+|       |   |           17690871417297623348.png
+|       |   |           177807441097842029.png
+|       |   |           17867464979800808739.png
+|       |   |           17974882544285016397.png
+|       |   |           17983124479390200901.png
+|       |   |           18154529556000442013.png
+|       |   |           18217103376772544809.png
+|       |   |           18238529956311853905.png
+|       |   |           18259534349222305002.png
+|       |   |           1869705628032652420.png
+|       |   |           1900948616051556105.png
+|       |   |           1914430103983717194.png
+|       |   |           1968656680977833683.png
+|       |   |           204261611510745396.png
+|       |   |           2087591202781917336.png
+|       |   |           2142971618201371208.png
+|       |   |           2247166135878510434.png
+|       |   |           237682430078882856.png
+|       |   |           2448317532436519219.png
+|       |   |           245559958045550947.png
+|       |   |           2519006741430074617.png
+|       |   |           2658729744178333101.png
+|       |   |           2704072998892488342.png
+|       |   |           2721705485133545923.png
+|       |   |           2781103556747313493.png
+|       |   |           2849359211439740829.png
+|       |   |           3090781221228453781.png
+|       |   |           3104563870480406505.png
+|       |   |           3278583845178172249.png
+|       |   |           3340091627050802332.png
+|       |   |           3351533826079878624.png
+|       |   |           3358514969153301721.png
+|       |   |           3604870447190800554.png
+|       |   |           3678292851551749950.png
+|       |   |           3719988929416275028.png
+|       |   |           3803171170979495599.png
+|       |   |           3914579480078159930.png
+|       |   |           3973161159387211802.png
+|       |   |           408192299790877950.png
+|       |   |           4290089369538232533.png
+|       |   |           4308340224666284104.png
+|       |   |           4431489701653960198.png
+|       |   |           4495721823627261531.png
+|       |   |           4536894167611400757.png
+|       |   |           4858513491906176753.png
+|       |   |           501697034913674978.png
+|       |   |           5041736543721175054.png
+|       |   |           5238614367276774111.png
+|       |   |           5376612148646968316.png
+|       |   |           5503170066749465511.png
+|       |   |           5638383424511970902.png
+|       |   |           5640602844835053416.png
+|       |   |           5688070463621790454.png
+|       |   |           5712209805970448385.png
+|       |   |           5861385046636711951.png
+|       |   |           5987277586642313098.png
+|       |   |           601191987294761772.png
+|       |   |           6093088928013999561.png
+|       |   |           6289811602230478504.png
+|       |   |           6292908550542692136.png
+|       |   |           6320788764059657375.png
+|       |   |           6566315624054484231.png
+|       |   |           6723554578028916694.png
+|       |   |           6805511690815013184.png
+|       |   |           682837609527382457.png
+|       |   |           6895003269937359774.png
+|       |   |           7045661825700099661.png
+|       |   |           7056884653960694800.png
+|       |   |           7114160686994070470.png
+|       |   |           7210873134725693485.png
+|       |   |           7341540515603292138.png
+|       |   |           7350206603846684223.png
+|       |   |           7369918096116140394.png
+|       |   |           7445465687147898570.png
+|       |   |           7470397265982853656.png
+|       |   |           7616468789333384752.png
+|       |   |           7740081645872147698.png
+|       |   |           7740858443003756339.png
+|       |   |           7759526521612007854.png
+|       |   |           779823301775060718.png
+|       |   |           7874746220528651442.png
+|       |   |           7928202177694695869.png
+|       |   |           8146721320598917327.png
+|       |   |           8212277946404282070.png
+|       |   |           8265953976259344810.png
+|       |   |           829818037747288960.png
+|       |   |           8440033161134473808.png
+|       |   |           869422031942392124.png
+|       |   |           8733533043175903160.png
+|       |   |           8799074304774429340.png
+|       |   |           8810703204633585357.png
+|       |   |           910095960909529881.png
+|       |   |           9229127629281476311.png
+|       |   |           955950965509030316.png
+|       |   |           9627088497435723112.png
+|       |   |           9688251829403285596.png
+|       |   |           9763644548328443844.png
+|       |   |           9887226656997121937.png
+|       |   |           9954939304593515239.png
+|       |   |           9997905292633519851.png
+|       |   |           
+|       |   +---texture_replace
+|       |   |       MarioGalaxy.har
+|       |   |       MarioGalaxy.hix
+|       |   |       MarioGalaxy_de.har
+|       |   |       MarioGalaxy_de.hix
+|       |   |       MarioGalaxy_en-GB.har
+|       |   |       MarioGalaxy_en-GB.hix
+|       |   |       MarioGalaxy_en-US.har
+|       |   |       MarioGalaxy_en-US.hix
+|       |   |       MarioGalaxy_es-419.har
+|       |   |       MarioGalaxy_es-419.hix
+|       |   |       MarioGalaxy_es.har
+|       |   |       MarioGalaxy_es.hix
+|       |   |       MarioGalaxy_fr-CA.har
+|       |   |       MarioGalaxy_fr-CA.hix
+|       |   |       MarioGalaxy_fr.har
+|       |   |       MarioGalaxy_fr.hix
+|       |   |       MarioGalaxy_it.har
+|       |   |       MarioGalaxy_it.hix
+|       |   |       MarioGalaxy_ja.har
+|       |   |       MarioGalaxy_ja.hix
+|       |   |       MarioGalaxy_ko.har
+|       |   |       MarioGalaxy_ko.hix
+|       |   |       MarioGalaxy_Sub.har
+|       |   |       MarioGalaxy_Sub.hix
+|       |   |       
+|       |   \---video_replace
+|       |       \---MarioGalaxy
+|       |           \---MovieData
+|       |                   EndingA.mp4
+|       |                   EndingALuigi.mp4
+|       |                   EndingB.mp4
+|       |                   EpilogueA.mp4
+|       |                   EpilogueALuigi.mp4
+|       |                   FinalBattle.mp4
+|       |                   FinalBattleLuigi.mp4
+|       |                   PrologueA.mp4
+|       |                   PrologueB.mp4
+|       |                   
+|       +---EuEnglish
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---EuFrench
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---EuGerman
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---EuItalian
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---EuSpanish
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       GameOver.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---JpJapanese
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---KrKorean
+|       |   +---AudioRes
+|       |   |   |   SMR.szs
+|       |   |   |   
+|       |   |   \---Waves
+|       |   |           B64kawa_0.aw
+|       |   |           
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       GalaxyDetail.arc
+|       |   |       PressStart.arc
+|       |   |       StaffRollTitle.arc
+|       |   |       TitleLogo.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---LayoutData
+|       |       AirMeter.arc
+|       |       AllStarList.arc
+|       |       BackButton.arc
+|       |       BallGuidanceReplace.arc
+|       |       BatteryInfo.arc
+|       |       BlueChipCounter.arc
+|       |       BombTimer.arc
+|       |       BrosButton.arc
+|       |       CameraInfo.arc
+|       |       CinemaFrame.arc
+|       |       CinemaSuper.arc
+|       |       CoinCounter.arc
+|       |       CollectCounter.arc
+|       |       CometScreenFilter.arc
+|       |       CommandStream.arc
+|       |       DPDPointer.arc
+|       |       DPDPointerNumber.arc
+|       |       DPDPointerSub.arc
+|       |       FileInfo.arc
+|       |       FileNumber.arc
+|       |       FileSelect.arc
+|       |       FlyMeter.arc
+|       |       GalaxyDetail.arc
+|       |       GalaxyInfo.arc
+|       |       GalaxyNamePlate.arc
+|       |       GalaxySelect.arc
+|       |       GameOver.arc
+|       |       GetStar.arc
+|       |       HitPointMeter.arc
+|       |       IconAButton.arc
+|       |       IconComet.arc
+|       |       IconMario.arc
+|       |       IconSave.arc
+|       |       InformationWindow.arc
+|       |       LuigiLetter.arc
+|       |       MapButton.arc
+|       |       MapDomeIcon.arc
+|       |       MapGalaxyBG.arc
+|       |       MapGalaxyIcon.arc
+|       |       MapGrandGalaxy.arc
+|       |       MapTicoIcon.arc
+|       |       MapTitle.arc
+|       |       MiiConfirmIcon.arc
+|       |       MiiIcon.arc
+|       |       MiiSelect.arc
+|       |       OneUp.arc
+|       |       P2Manual.arc
+|       |       PauseMenu.arc
+|       |       PeachLetter.arc
+|       |       PeachLetterMini.arc
+|       |       PictureBook.arc
+|       |       PlayerLeft.arc
+|       |       PointerGuidance.arc
+|       |       PressStart.arc
+|       |       PrologueDemo.arc
+|       |       PrologueStarSteward.arc
+|       |       PurpleCoinCounter.arc
+|       |       Race.arc
+|       |       ResultWindow.arc
+|       |       RetryButton.arc
+|       |       ScenarioSelect.arc
+|       |       SelectButton.arc
+|       |       Sight.arc
+|       |       SignBoardBalloon.arc
+|       |       SpinGuidanceReplace.arc
+|       |       StaffRoll.arc
+|       |       StaffRollPicture.arc
+|       |       StaffRollTitle.arc
+|       |       StageTitle.arc
+|       |       StarCounter.arc
+|       |       StarPieceCounter.arc
+|       |       StarPieceTargetCounter.arc
+|       |       StarPieceTargetMeter.arc
+|       |       SuddenDeathMeter.arc
+|       |       SysInfoWindow.arc
+|       |       SysInfoWindowMini.arc
+|       |       TalkBalloonEvent.arc
+|       |       TalkBalloonLetter.arc
+|       |       TalkBalloonStretch.arc
+|       |       Telescope.arc
+|       |       TiltGuidanceReplace.arc
+|       |       TimeLimit.arc
+|       |       TimeUp.arc
+|       |       TitleLogo.arc
+|       |       TooBad.arc
+|       |       Welcome.arc
+|       |       WipeKoopa.arc
+|       |       WipeRing.arc
+|       |       YellowChipCounter.arc
+|       |       
+|       +---MovieData
+|       |       EndingA.thp
+|       |       EndingALuigi.thp
+|       |       EndingB.thp
+|       |       EpilogueA.thp
+|       |       EpilogueALuigi.thp
+|       |       FinalBattle.thp
+|       |       FinalBattleLuigi.thp
+|       |       PrologueA.thp
+|       |       PrologueB.thp
+|       |       
+|       +---ObjectData
+|       |       AirBubble.arc
+|       |       AirBubbleGenerator.arc
+|       |       AllCompleteImage.arc
+|       |       ArrowBoard.arc
+|       |       ArrowSwitch.arc
+|       |       AssemblyBlockPartsA.arc
+|       |       AssemblyBlockPartsB.arc
+|       |       AssemblyBlockPartsC.arc
+|       |       AssemblyBlockPartsD.arc
+|       |       AssemblyBlockPartsE.arc
+|       |       AssemblyBlockPartsIceB.arc
+|       |       AssemblyBlockPartsIceC.arc
+|       |       AssemblyBlockPartsIceD.arc
+|       |       AssemblyBlockPartsIceE.arc
+|       |       AssemblyBlockPartsTimerA.arc
+|       |       AssemblyBlockPartsTimerABloom.arc
+|       |       AssemblyBlockPlanet.arc
+|       |       AsteroidB.arc
+|       |       AsteroidBlockPlanet.arc
+|       |       AsteroidBlockPlanetLow.arc
+|       |       AsteroidBlockRotateStepA.arc
+|       |       AsteroidBLow.arc
+|       |       AsteroidC.arc
+|       |       AsteroidCLow.arc
+|       |       AsteroidD.arc
+|       |       AsteroidDLow.arc
+|       |       AsteroidMoveA.arc
+|       |       AstroBaseA.arc
+|       |       AstroBaseB.arc
+|       |       AstroBaseC.arc
+|       |       AstroBaseCenterA.arc
+|       |       AstroBaseCenterB.arc
+|       |       AstroBaseCenterTop.arc
+|       |       AstroBaseKitchen.arc
+|       |       AstroChildRoom.arc
+|       |       AstroCore.arc
+|       |       AstroCountDownPlate.arc
+|       |       AstroDecoratePartsA.arc
+|       |       AstroDecoratePartsGearA.arc
+|       |       AstroDomeAsteroid.arc
+|       |       AstroDomeBedRoom.arc
+|       |       AstroDomeComet.arc
+|       |       AstroDomeCometBloom.arc
+|       |       AstroDomeDemoAstroGalaxy.arc
+|       |       AstroDomeDemoCamera.arc
+|       |       AstroDomeEntranceBedRoom.arc
+|       |       AstroDomeEntranceKitchen.arc
+|       |       AstroDomeEntranceMachine.arc
+|       |       AstroDomeEntranceObservatory.arc
+|       |       AstroDomeEntranceTower.arc
+|       |       AstroDomeEntranceWell.arc
+|       |       AstroDomeKitchen.arc
+|       |       AstroDomeMachine.arc
+|       |       AstroDomeObservatory.arc
+|       |       AstroDomeSkyA.arc
+|       |       AstroDomeSkyB.arc
+|       |       AstroDomeSkyC.arc
+|       |       AstroDomeTower.arc
+|       |       AstroDomeWell.arc
+|       |       AstroLibrary.arc
+|       |       AstroMapBoard.arc
+|       |       AstroNamePlateData.arc
+|       |       AstroParking.arc
+|       |       AstroRoomLibrary.arc
+|       |       AstroRotateStepA.arc
+|       |       AstroRotateStepB.arc
+|       |       AstroStarPlateBedRoom.arc
+|       |       AstroStarPlateKitchen.arc
+|       |       AstroStarPlateMachine.arc
+|       |       AstroStarPlateObservatory.arc
+|       |       AstroStarPlateTower.arc
+|       |       AstroStarPlateWell.arc
+|       |       AuroraSky.arc
+|       |       BallBeamer.arc
+|       |       Balloonfish.arc
+|       |       BallOpener.arc
+|       |       Banekiti.arc
+|       |       BasaBasa.arc
+|       |       BasaBasaHang.arc
+|       |       BasaBasaIce.arc
+|       |       BasaBasaIceHang.arc
+|       |       BattleShipElevator.arc
+|       |       BattleShipElevatorCover.arc
+|       |       BattleShipMovePartsA.arc
+|       |       BattleShipMovePartsB.arc
+|       |       BeachChair.arc
+|       |       BeachParasol.arc
+|       |       BeamGoRoundBeam.arc
+|       |       BeamGoRoundBeamBloom.arc
+|       |       BeamGoRoundBeamVolume.arc
+|       |       BeamGoRoundPlanet.arc
+|       |       BeeFlowerHover.arc
+|       |       BeeFlowerHoverLow.arc
+|       |       BeeLuigi.arc
+|       |       BeeMario.arc
+|       |       BeeMarioWing.arc
+|       |       BeeWallClimbPartsA.arc
+|       |       BeeWallClimbPlanetA.arc
+|       |       BeeWallClimbPlanetALow.arc
+|       |       BeeWallClimbPlanetB.arc
+|       |       BeeWallClimbPlanetBLow.arc
+|       |       BeeWallClimbPlanetC.arc
+|       |       BeeWallClimbPlanetCLow.arc
+|       |       BegomanBaby.arc
+|       |       BegomanBrokenPiece.arc
+|       |       BegomanLauncher.arc
+|       |       BegomanSpike.arc
+|       |       BegomanSpikeHead.arc
+|       |       BegomanSpring.arc
+|       |       BegomanSpringHead.arc
+|       |       Bell.arc
+|       |       BigBirikyu.arc
+|       |       BigBubble.arc
+|       |       BigFan.arc
+|       |       BigFanNoLeg.arc
+|       |       BigFanWind.arc
+|       |       BigRelayPlanetA.arc
+|       |       BigRelayPlanetALow.arc
+|       |       BiriBiriBegomanSpikePistonA.arc
+|       |       BiriBiriBegomanSpikePlanet.arc
+|       |       Birikyu.arc
+|       |       BirthdayCakePlanet.arc
+|       |       BirthdayCakePlanetLow.arc
+|       |       BlackHole.arc
+|       |       BlackHoleRange.arc
+|       |       BlueChip.arc
+|       |       BlueStarCupsulePlanet.arc
+|       |       BombBird.arc
+|       |       BombBirdBomb.arc
+|       |       BombHei.arc
+|       |       BombHeiLauncher.arc
+|       |       BombTeresa.arc
+|       |       BombTimeAttackLv2Planet.arc
+|       |       BombTimeAttackPlanet.arc
+|       |       BoneLuigi.arc
+|       |       BoneMario.arc
+|       |       BossBegoman.arc
+|       |       BossBegomanHead.arc
+|       |       BossKameck.arc
+|       |       BossKameckBarrier.arc
+|       |       BossKameckBattleDemo.arc
+|       |       BossKameckFireBall.arc
+|       |       BossStinkBug.arc
+|       |       BossStinkBugBomb.arc
+|       |       BossStinkBugBombLauncher.arc
+|       |       BossStinkBugDemo.arc
+|       |       BossStinkBugWing.arc
+|       |       BreakableCage.arc
+|       |       BreakableCageBreak.arc
+|       |       BreakableCageL.arc
+|       |       BreakableFixation.arc
+|       |       BreakableTrash.arc
+|       |       BreakDownFixStepA.arc
+|       |       BroadBeanCrowdPlanet.arc
+|       |       BroadBeanCrowdPlanetLow.arc
+|       |       BroadBeanMoveStepA.arc
+|       |       BroadBeanMoveStepB.arc
+|       |       BroadBeanPlanetB.arc
+|       |       BroadBeanPlanetBLow.arc
+|       |       BroadBeanPlanetC.arc
+|       |       BroadBeanPlanetCLow.arc
+|       |       BroadBeanPlanetD.arc
+|       |       BroadBeanPlanetDLow.arc
+|       |       BrokenHolePlanet.arc
+|       |       BumpAppearPlanet.arc
+|       |       Butler.arc
+|       |       Butterfly.arc
+|       |       CandlestandIceVolcano.arc
+|       |       CandyLiftA.arc
+|       |       CandyLiftB.arc
+|       |       CannonFortressBreakStepA.arc
+|       |       CannonFortressCollapsePlanet.arc
+|       |       CannonFortressMoveWall.arc
+|       |       CannonFortressPlanet.arc
+|       |       CannonFortressRotateBreakStepA.arc
+|       |       CannonFortressRotateBreakStepB.arc
+|       |       CannonFortressRotateBreakStepC.arc
+|       |       CannonStormGCapturePlanet.arc
+|       |       CannonStormSpaceShipPlanet.arc
+|       |       CannonUnderConstructionA.arc
+|       |       CannonUnderConstructionB.arc
+|       |       CapsuleCage.arc
+|       |       Caretaker.arc
+|       |       CaretakerBroom.arc
+|       |       CaretakerLow.arc
+|       |       CaretakerMiddle.arc
+|       |       ChallengeBallAccelCylinderA.arc
+|       |       ChallengeBallGearA.arc
+|       |       ChallengeBallMoveGroundA.arc
+|       |       ChallengeBallMoveGroundB.arc
+|       |       ChallengeBallPlanet.arc
+|       |       ChallengeBallRotateBridgeA.arc
+|       |       ChallengeBallVanishingRoadA.arc
+|       |       ChildRoomSky.arc
+|       |       ChoConveyorChocoA.arc
+|       |       ChoConveyorMoveChocoA.arc
+|       |       ChoConveyorPlanetA.arc
+|       |       ChoConveyorPlanetALow.arc
+|       |       ChoConveyorPlanetB.arc
+|       |       ChoConveyorPlanetBLow.arc
+|       |       ChoConveyorPlanetC.arc
+|       |       ChoConveyorPlanetCLow.arc
+|       |       ChoConveyorPlanetD.arc
+|       |       ChoConveyorPlanetDLow.arc
+|       |       ChooChooTrain.arc
+|       |       ChooChooTrainBody.arc
+|       |       ChooChooTrainStationPlanet.arc
+|       |       CircleShell.arc
+|       |       CircleStrawberry.arc
+|       |       ClipVolumeBox.arc
+|       |       ClipVolumeSphere.arc
+|       |       ClockworkHandle.arc
+|       |       CloudSky.arc
+|       |       CocoNut.arc
+|       |       CoconutTree.arc
+|       |       CoconutTreeLeaf.arc
+|       |       CocoonStepA.arc
+|       |       CocoonStepB.arc
+|       |       CocoSamboBody.arc
+|       |       CocoSamboHead.arc
+|       |       CocoTwinA.arc
+|       |       CocoTwinALow.arc
+|       |       CocoTwinB.arc
+|       |       CocoTwinBLow.arc
+|       |       Coin.arc
+|       |       CoinBlock.arc
+|       |       CoinFlower.arc
+|       |       CollapsePlane.arc
+|       |       ColorPencil.arc
+|       |       CometNearOrbitSky.arc
+|       |       ConcreteBlock.arc
+|       |       ConcreteBlockBreak.arc
+|       |       Creeper.arc
+|       |       CreeperFlower.arc
+|       |       CreeperLeaf.arc
+|       |       CrossRingOpaquePlanet.arc
+|       |       CrossRingOpaquePlanetLow.arc
+|       |       CrossRingTransparentPlanet.arc
+|       |       CrossRingTransparentPlanetLow.arc
+|       |       CrystalBox.arc
+|       |       CrystalBoxBreak.arc
+|       |       CrystalCageL.arc
+|       |       CrystalCageLBreak.arc
+|       |       CrystalCageM.arc
+|       |       CrystalCageMoving.arc
+|       |       CrystalCageS.arc
+|       |       CrystalCageSBreak.arc
+|       |       CubeBubbleExHomeStep.arc
+|       |       CubeBubbleExPartsA.arc
+|       |       CubeBubbleExRotateWallL.arc
+|       |       CubeBubbleExStartStep.arc
+|       |       CutBush.arc
+|       |       CylinderInsidePlanetA.arc
+|       |       DandelionHillPlanet.arc
+|       |       DandelionHillPlanetLow.arc
+|       |       DangerSignBoard.arc
+|       |       DarkHopperPlanetA.arc
+|       |       DarkHopperPlanetB.arc
+|       |       DarkHopperPlanetC.arc
+|       |       DarkHopperPlanetD.arc
+|       |       DarkHopperPlanetPartsA.arc
+|       |       DarkHopperPlanetPartsC.arc
+|       |       DarkHopperPlanetPartsD.arc
+|       |       DarkHopperRotateStepA.arc
+|       |       DarknessRoomAir.arc
+|       |       DarknessRoomDoorA.arc
+|       |       DarknessRoomPlanet.arc
+|       |       DarknessRoomPlanetPartsA.arc
+|       |       DashRing.arc
+|       |       DeadLeaves.arc
+|       |       DeathPromenade2DPlanet.arc
+|       |       DeathPromenade2DPlanetLow.arc
+|       |       DeathPromenadeMovePartsSpuareA.arc
+|       |       DeathPromenadeRotateCircleL.arc
+|       |       DeathPromenadeRotateCircleS.arc
+|       |       DeathSandEnvironmentPyramid.arc
+|       |       DeathSandEnvironmentRock.arc
+|       |       DeathSandEnvironmentSapotenA.arc
+|       |       DeathSandEnvironmentSapotenB.arc
+|       |       DeathSandLandPartsA.arc
+|       |       DeathSandLandPartsB.arc
+|       |       DeathSandLandPlatformStepA.arc
+|       |       DemoAstroReturn.arc
+|       |       DemoLetter.arc
+|       |       DemoPeachCastleGate.arc
+|       |       DemoSheet.arc
+|       |       DesertLandDownSwitch.arc
+|       |       DesertLandUpSwitch.arc
+|       |       DesertMovingLand.arc
+|       |       DesertMovingLandSmall.arc
+|       |       DesertSky.arc
+|       |       DharmaSambo.arc
+|       |       DharmaSamboParts.arc
+|       |       DimensionAir.arc
+|       |       DinoPackun.arc
+|       |       DinoPackun2.arc
+|       |       DinoPackunBattleLv2Planet.arc
+|       |       DinoPackunBattleLv2PlanetLow.arc
+|       |       DinoPackunBattlePlanet.arc
+|       |       DinoPackunBattlePlanetLow.arc
+|       |       DinoPackunDemoPosition.arc
+|       |       DinoPackunEggShell.arc
+|       |       DinoPackunEggShellBreak.arc
+|       |       DinoPackunFireBall.arc
+|       |       DinoPackunTailBall.arc
+|       |       DiskGardenPlanet.arc
+|       |       DiskGardenPlanetLow.arc
+|       |       Dodoryu.arc
+|       |       DodoryuBank.arc
+|       |       DodoryuHillA.arc
+|       |       DodoryuHillB.arc
+|       |       DodoryuHillC.arc
+|       |       DodoryuLeadHill.arc
+|       |       DodoryuRabbit.arc
+|       |       DomeHalo.arc
+|       |       DorayakiFortressPlanet.arc
+|       |       DorayakiFortressPlanetLow.arc
+|       |       Dossun.arc
+|       |       DoughnutPlanet.arc
+|       |       DoughnutPlanetLow.arc
+|       |       DriftWood.arc
+|       |       DropOfWaterCore.arc
+|       |       DropOfWaterPlanet.arc
+|       |       EarthenPipe.arc
+|       |       EarthenPipeStream.arc
+|       |       ElectricBall.arc
+|       |       ElectricBazooka.arc
+|       |       ElectricBazookaBreak.arc
+|       |       ElectricBazookaPlanet.arc
+|       |       ElectricBazookaPlanetIndirect.arc
+|       |       ElectricBazookaPlanetLow.arc
+|       |       ElectricBullet.arc
+|       |       ElectricRail.arc
+|       |       ElectricRailMoving.arc
+|       |       ElectricRailPoint.arc
+|       |       ErrorMessageImage.arc
+|       |       EyeBeamer.arc
+|       |       EyeBeamerBeam.arc
+|       |       EyeBeamerBeamBloom.arc
+|       |       EyeBeamerBeamVolume.arc
+|       |       EyeBeamerCubePlanet.arc
+|       |       EyeBeamerCubePlanetLow.arc
+|       |       FallDownBridge.arc
+|       |       FamicomMarioSky.arc
+|       |       FileSelectDataKinopio.arc
+|       |       FileSelectDataLuigi.arc
+|       |       FileSelectDataMario.arc
+|       |       FileSelectDataPeach.arc
+|       |       FileSelectDataPlanet.arc
+|       |       FileSelectDataYoshi.arc
+|       |       FineAir.arc
+|       |       FireBall.arc
+|       |       FireBarBall.arc
+|       |       FireBarCore.arc
+|       |       FireBubble.arc
+|       |       FireBullet.arc
+|       |       FirePressure.arc
+|       |       FishA.arc
+|       |       FishB.arc
+|       |       FishC.arc
+|       |       FishD.arc
+|       |       FishE.arc
+|       |       FishF.arc
+|       |       Flag.arc
+|       |       FlagDiscPlanetA.arc
+|       |       FlagDiscPlanetALow.arc
+|       |       FlagDiscPlanetB.arc
+|       |       FlagDiscPlanetD.arc
+|       |       FlagDiscPlanetE.arc
+|       |       FlagKoopaA.arc
+|       |       FlagKoopaB.arc
+|       |       FlagKoopaCastle.arc
+|       |       FlagPeachCastleA.arc
+|       |       FlagPeachCastleB.arc
+|       |       FlagPeachCastleC.arc
+|       |       FlagRaceA.arc
+|       |       FlagSurfing.arc
+|       |       FlagTamakoro.arc
+|       |       FlexibleSandPlanet.arc
+|       |       FlexibleSandPlanetPartsA.arc
+|       |       FlipPanel.arc
+|       |       FlipPanelBloom.arc
+|       |       FlipPanelFrame.arc
+|       |       FlipPanelPlanetA.arc
+|       |       FlipPanelPlanetALow.arc
+|       |       FlipPanelReverse.arc
+|       |       FlipPanelReverseBloom.arc
+|       |       FloaterLandPlanet.arc
+|       |       FloaterLandPlanetLow.arc
+|       |       FloaterLandPlanetWater.arc
+|       |       FloaterOtakingFloaterA.arc
+|       |       FloaterOtakingPlanet.arc
+|       |       Flower.arc
+|       |       FlowerBlue.arc
+|       |       FlowerPlanet.arc
+|       |       FlowerRoadPlanet.arc
+|       |       Fluff.arc
+|       |       FluffLeaf.arc
+|       |       ForceJumpPlanetA.arc
+|       |       ForestAppearStepA.arc
+|       |       ForestBarricadeRockA.arc
+|       |       ForestBossPlanet.arc
+|       |       ForestHomeBridge.arc
+|       |       ForestHomeGate.arc
+|       |       ForestHomePartsTree.arc
+|       |       ForestHomePartsTreeTower.arc
+|       |       ForestHomePlanet.arc
+|       |       ForestHomePlanetIndirect.arc
+|       |       ForestNarrowStepA.arc
+|       |       ForestObstacleWoodA.arc
+|       |       ForestPoihanaFenceA.arc
+|       |       ForestPoihanaFenceB.arc
+|       |       ForestWoodCover.arc
+|       |       FountainBig.arc
+|       |       FruitPeelPlanet.arc
+|       |       FruitPeelPlanetLow.arc
+|       |       FullMoonPlanet.arc
+|       |       FullMoonPlanetBloom.arc
+|       |       FullMoonPlanetLow.arc
+|       |       GalaxyInfoTexture.arc
+|       |       GalaxySky.arc
+|       |       GCaptureRibbon.arc
+|       |       GCaptureTarget.arc
+|       |       Gesso.arc
+|       |       GhostDataHoneyBeeKingdomGalaxy.arc
+|       |       GhostDataIceVolcanoGalaxy.arc
+|       |       GhostDataOceanRingGalaxy.arc
+|       |       GhostDataReverseKingdomGalaxy.arc
+|       |       GhostLuigi.arc
+|       |       GhostMario.arc
+|       |       GhostShipBrokenHead.arc
+|       |       GhostShipCaveClosedRockA.arc
+|       |       GhostShipCaveMoveGroundA.arc
+|       |       GhostShipCaveMoveGroundB.arc
+|       |       GhostShipCavePipeCollision.arc
+|       |       GhostShipCavePlanet.arc
+|       |       GhostShipCavePlanetLow.arc
+|       |       GlareGlow.arc
+|       |       GlareLine.arc
+|       |       GlassBottleDishPlanet.arc
+|       |       GlassBottleTall.arc
+|       |       GrandStar.arc
+|       |       GraveStoneA.arc
+|       |       GraveStoneALow.arc
+|       |       GraveStoneB.arc
+|       |       GraveStoneBLow.arc
+|       |       GraveStoneC.arc
+|       |       GraveStoneCLow.arc
+|       |       GravityLightA.arc
+|       |       GravityLightALightVolume.arc
+|       |       GravityLightRoad.arc
+|       |       GreenCaterpillarBigBody.arc
+|       |       GreenCaterpillarBigBodyLow.arc
+|       |       GreenCaterpillarBigFace.arc
+|       |       GreenCaterpillarBigFaceLow.arc
+|       |       GreenPlanetOrbitSky.arc
+|       |       HalfGalaxySky.arc
+|       |       HanachanBody.arc
+|       |       HanachanBodyS.arc
+|       |       HanachanHead.arc
+|       |       HatchWaterPlanet.arc
+|       |       HatchWaterPlanetLow.arc
+|       |       HeavenlyBeachPlanet.arc
+|       |       HeavenlyBeachPlanetWater.arc
+|       |       HeavenlyBeachTimerStepA.arc
+|       |       HeavenlyBeachTimerStepB.arc
+|       |       HeavenlyBeachTopRock.arc
+|       |       HeavenlyBeachUnderRock.arc
+|       |       HeavensDoorAppearStepA.arc
+|       |       HeavensDoorAppearStepAAfter.arc
+|       |       HeavensDoorBlackHolePlanet.arc
+|       |       HeavensDoorFlowerA.arc
+|       |       HeavensDoorHouseDoor.arc
+|       |       HeavensDoorInsideCage.arc
+|       |       HeavensDoorInsidePlanet.arc
+|       |       HeavensDoorInsidePlanetPartsA.arc
+|       |       HeavensDoorInsidePlanetPartsABloom.arc
+|       |       HeavensDoorInsideRotatePartsA.arc
+|       |       HeavensDoorInsideRotatePartsB.arc
+|       |       HeavensDoorInsideRotatePartsC.arc
+|       |       HeavensDoorMiddlePlanet.arc
+|       |       HeavensDoorMiddleRotatePartsA.arc
+|       |       HeavensDoorMiddleRotatePartsB.arc
+|       |       HeavensDoorMysteriousPlanet.arc
+|       |       HeavensDoorSmallPlanet.arc
+|       |       HellBallGuidePartsA.arc
+|       |       HellBallPlanet.arc
+|       |       HellBallRotatePartsA.arc
+|       |       HellBallRotatePartsB.arc
+|       |       HellBallRotatePartsC.arc
+|       |       HellBallRotatePartsD.arc
+|       |       HellBallRotatePartsE.arc
+|       |       HellBallRotatePartsF.arc
+|       |       HellBallRotatePartsG.arc
+|       |       HipDropRock.arc
+|       |       HipDropRockBreak.arc
+|       |       HipDropSwitch.arc
+|       |       HipDropTimerSwitch.arc
+|       |       HoleBeltConveyerPartsA.arc
+|       |       HoleBeltConveyerPartsB.arc
+|       |       HoleBeltConveyerPartsC.arc
+|       |       HoleBeltConveyerPartsD.arc
+|       |       HoleBeltConveyerPartsE.arc
+|       |       HoleBeltConveyerPartsF.arc
+|       |       HoleBeltConveyerPartsG.arc
+|       |       HoleBeltConveyerPartsH.arc
+|       |       HoleBeltConveyerPlanet.arc
+|       |       HoleDeathSandMoveStepA.arc
+|       |       HoleDiskDeathSandPlanet.arc
+|       |       HolePlanet.arc
+|       |       HolePlanetLow.arc
+|       |       HomeAir.arc
+|       |       HomingKiller.arc
+|       |       HoneyBee.arc
+|       |       HoneyBeeGoodsBucket.arc
+|       |       HoneyBeeGoodsLance.arc
+|       |       HoneyBeeLow.arc
+|       |       HoneyBeeMiddle.arc
+|       |       HoneyQueen.arc
+|       |       HoneyQueenLeafA.arc
+|       |       HoneyQueenLow.arc
+|       |       HoneyQueenMiddle.arc
+|       |       HoneyQueenPlanet.arc
+|       |       HoneyQueenPlanetLow.arc
+|       |       HoneyQueenWing.arc
+|       |       HopperBeltConveyerMovePartsA.arc
+|       |       HopperBeltConveyerPlanet.arc
+|       |       HopperBeltConveyerPlanetLow.arc
+|       |       HopperBeltConveyerRotatePartsA.arc
+|       |       HopperLuigi.arc
+|       |       HopperMario.arc
+|       |       HugeBattleShipPlanet.arc
+|       |       HugeBattleShipPlanetEntrance.arc
+|       |       IceBarPlanet.arc
+|       |       IceBox.arc
+|       |       IceCannonPlanet.arc
+|       |       IceCreamPlanet.arc
+|       |       IceLavaIslandIceMovableStepA.arc
+|       |       IceLavaIslandLavaMovableStepA.arc
+|       |       IceLavaIslandSnowStepA.arc
+|       |       IceLuigi.arc
+|       |       IceManIce.arc
+|       |       IceMario.arc
+|       |       IceMarioHandL.arc
+|       |       IceMarioHandR.arc
+|       |       IceMeramera.arc
+|       |       IceMerameraKing.arc
+|       |       IceMerameraKingBreak.arc
+|       |       IceMerameraKingShock.arc
+|       |       IceMountainFloaterA.arc
+|       |       IceMountainPlanet.arc
+|       |       IceMountainSeesawNoSlipA.arc
+|       |       IceMountainSeesawSlipA.arc
+|       |       IceMountainSeesawSlipB.arc
+|       |       IceMountainSeesawSlipC.arc
+|       |       IceMountainSeesawSlipD.arc
+|       |       IceRingBumpyPartsA.arc
+|       |       IceRingFirePlanet.arc
+|       |       IceRingIcePlanet.arc
+|       |       IceSlipRoad.arc
+|       |       IceStep.arc
+|       |       IceStepNoSlip.arc
+|       |       IceUpDownShutterDoorA.arc
+|       |       IceVolcanoAppearStepA.arc
+|       |       IceVolcanoAppearStepB.arc
+|       |       IceVolcanoBalanceStepA.arc
+|       |       IceVolcanoBalanceStepB.arc
+|       |       IceVolcanoClimbingWall.arc
+|       |       IceVolcanoFloaterA.arc
+|       |       IceVolcanoFloaterB.arc
+|       |       IceVolcanoMoveStepA.arc
+|       |       IceWaterUpDownParts.arc
+|       |       IceWaterUpDownPlanet.arc
+|       |       IcicleRock.arc
+|       |       IcicleRockBreak.arc
+|       |       InvincibleLuigi.arc
+|       |       InvincibleMario.arc
+|       |       InvincibleMarioHandL.arc
+|       |       InvincibleMarioHandR.arc
+|       |       InvisibleWall10x10.arc
+|       |       InvisibleWall10x20.arc
+|       |       InvisibleWallGCapture10x20.arc
+|       |       InvisibleWallJump10x20.arc
+|       |       InvisibleWaterfallTwinFallLake.arc
+|       |       IronCannonLauncher.arc
+|       |       ItemAppearStoneSpinDriver.arc
+|       |       ItemBubble.arc
+|       |       Jellyfish.arc
+|       |       JellyfishElectric.arc
+|       |       JointBallsPlanetA.arc
+|       |       JointBallsPlanetALow.arc
+|       |       JumboDeathSandPlanet.arc
+|       |       JumpBeamerBeam.arc
+|       |       JumpBeamerBeamBloom.arc
+|       |       JumpBeamerBeamShadow.arc
+|       |       JumpBeamerBody.arc
+|       |       JumpBeamerHead.arc
+|       |       JumpBeamerRoomPlanet.arc
+|       |       JumpBranch.arc
+|       |       JumpGuarder.arc
+|       |       JumpGuarderHead.arc
+|       |       JumpHole.arc
+|       |       JumpSpider.arc
+|       |       JumpStand.arc
+|       |       Kabokuri.arc
+|       |       KabokuriBreak.arc
+|       |       Kameck.arc
+|       |       KameckShip.arc
+|       |       KameckShipLv1.arc
+|       |       Kanina.arc
+|       |       KaninaRed.arc
+|       |       Karipon.arc
+|       |       Karon.arc
+|       |       KeySwitch.arc
+|       |       KillerGunnerDouble.arc
+|       |       KillerGunnerSingle.arc
+|       |       Kinoko.arc
+|       |       KinokoLifeUp.arc
+|       |       KinokoOneUp.arc
+|       |       KinokoOneUpPicture.arc
+|       |       KinokoTwinsPlanetA.arc
+|       |       KinokoTwinsPlanetALow.arc
+|       |       KinokoTwinsPlanetB.arc
+|       |       Kinopio.arc
+|       |       KinopioGoodsGlasses.arc
+|       |       KinopioGoodsLight.arc
+|       |       KinopioGoodsMailBag.arc
+|       |       KinopioGoodsPickel.arc
+|       |       KinopioGoodsRucksack.arc
+|       |       KinopioGoodsSnorkel.arc
+|       |       KinopioGoodsStarPiece.arc
+|       |       KinopioGoodsWeapon.arc
+|       |       KinopioLow.arc
+|       |       KinopioMiddle.arc
+|       |       Kiraira.arc
+|       |       KirairaChain.arc
+|       |       KirairaFixPointBottom.arc
+|       |       KirairaFixPointTop.arc
+|       |       Koopa.arc
+|       |       KoopaArmorBreak.arc
+|       |       KoopaBattleMapPlanet.arc
+|       |       KoopaBattleMapPlanetBloom.arc
+|       |       KoopaBattleMapPlanetVs2.arc
+|       |       KoopaBattleMapPlanetVs2Bloom.arc
+|       |       KoopaBattleMapPlanetVs3Lv1.arc
+|       |       KoopaBattleMapPlanetVs3Lv2.arc
+|       |       KoopaBattleMapPlanetVs3Lv3.arc
+|       |       KoopaBattleMapStair.arc
+|       |       KoopaBattleMapStairBig.arc
+|       |       KoopaBattleMapStairTurn.arc
+|       |       KoopaBattleSunPlanet.arc
+|       |       KoopaBattleSunPlanetBloom.arc
+|       |       KoopaFire.arc
+|       |       KoopaFireBloom.arc
+|       |       KoopaJr.arc
+|       |       KoopaJrKillerShipA.arc
+|       |       KoopaJrLow.arc
+|       |       KoopaJrMiddle.arc
+|       |       KoopaJrNormalShipA.arc
+|       |       KoopaJrNormalShipALow.arc
+|       |       KoopaJrShip.arc
+|       |       KoopaJrShipBreak.arc
+|       |       KoopaJrShipCannonMainShell.arc
+|       |       KoopaJrShipCannonShell.arc
+|       |       KoopaJrShipPod.arc
+|       |       KoopaJrSmallShipA.arc
+|       |       KoopaJrSmallShipAGuidePoint.arc
+|       |       KoopaPlanetShadow.arc
+|       |       KoopaPlate.arc
+|       |       KoopaPlateCoin.arc
+|       |       KoopaPlateDamage.arc
+|       |       KoopaRock.arc
+|       |       KoopaRockBreak.arc
+|       |       KoopaRollBall.arc
+|       |       KoopaShipA.arc
+|       |       KoopaShipB.arc
+|       |       KoopaShipC.arc
+|       |       KoopaShipD.arc
+|       |       KoopaShipE.arc
+|       |       KoopaShipELow.arc
+|       |       KoopaShipManholeCover.arc
+|       |       KoopaShipSeesawStep.arc
+|       |       KoopaShockWave.arc
+|       |       KoopaShockWaveBloom.arc
+|       |       KoopaShockWaveShadow.arc
+|       |       KoopaStatue.arc
+|       |       KoopaStatueBreak.arc
+|       |       KoopaThorn.arc
+|       |       KoopaThornBreak.arc
+|       |       KoopaVS1PartsBattleStage.arc
+|       |       KoopaVS1PartsMoveStepA.arc
+|       |       KoopaVS1PartsMoveStepB.arc
+|       |       KoopaVS1PartsReverseGRoad.arc
+|       |       KoopaVS1PartsRotateMoveStepA.arc
+|       |       KoopaVS1PartsRotateMoveStepB.arc
+|       |       KoopaVS1PartsSpiralRoad.arc
+|       |       KoopaVS1PartsStairRoad.arc
+|       |       KoopaVS1Sky.arc
+|       |       KoopaVS2Parts2DMoveStepBarA.arc
+|       |       KoopaVS2Parts2DMoveStepBarB.arc
+|       |       KoopaVS2Parts2DMoveStepConvex.arc
+|       |       KoopaVS2Parts2DMoveStepCross.arc
+|       |       KoopaVS2Parts2DMoveStepLShape.arc
+|       |       KoopaVS2Parts2DMoveStepSBarB.arc
+|       |       KoopaVS2Parts2DRailGuideA.arc
+|       |       KoopaVS2PartsClipAreaDisplayA.arc
+|       |       KoopaVS2PartsDarkMatterA.arc
+|       |       KoopaVS2PartsDarkMatterB.arc
+|       |       KoopaVS2PartsDarkMatterC.arc
+|       |       KoopaVS2PartsDarkMatterD.arc
+|       |       KoopaVS2PartsJoinedMoveClip.arc
+|       |       KoopaVS2PartsJoinedMoveStep.arc
+|       |       KoopaVS2PartsRestClipC.arc
+|       |       KoopaVS2PartsRestStepA.arc
+|       |       KoopaVS2PartsRestStepC.arc
+|       |       KoopaVS2PartsRestStepD.arc
+|       |       KoopaVS2PartsRestStepE.arc
+|       |       KoopaVS2PartsRestStepF.arc
+|       |       KoopaVS2PartsRestStepG.arc
+|       |       KoopaVS2PartsReverseGRoadA.arc
+|       |       KoopaVS2PartsReverseGRoadB.arc
+|       |       KoopaVS2PartsRollingStep.arc
+|       |       KoopaVS2PartsSquareMoveClipA.arc
+|       |       KoopaVS2PartsSquareMoveClipB.arc
+|       |       KoopaVS2PartsSquareMoveStepA.arc
+|       |       KoopaVS2PartsSquareMoveStepB.arc
+|       |       KoopaVS2PartsStairBig.arc
+|       |       KoopaVS2PartsStartMoveStepA.arc
+|       |       KoopaVS2PartsStartMoveStepB.arc
+|       |       KoopaVS2PartsStartMoveStepC.arc
+|       |       KoopaVS2PartsStartRestStep.arc
+|       |       KoopaVS2Sky.arc
+|       |       KoopaVS3BattlePlanetA.arc
+|       |       KoopaVS3BattlePlanetB.arc
+|       |       KoopaVS3BattlePlanetBLow.arc
+|       |       KoopaVS3CastleWallPlanet.arc
+|       |       KoopaVS3CylinderInsidePlanet.arc
+|       |       KoopaVS3CylinderInsidePlanetBloom.arc
+|       |       KoopaVS3CylinderInsidePlanetLow.arc
+|       |       KoopaVS3DryIcePlanet.arc
+|       |       KoopaVS3DryIcePlanetBloom.arc
+|       |       KoopaVS3HoleSunInsidePlanet.arc
+|       |       KoopaVS3HoleSunInsidePlanetBloom.arc
+|       |       KoopaVS3HoleSunPlanet.arc
+|       |       KoopaVS3HoleSunPlanetBloom.arc
+|       |       KoopaVS3Parts2DWallA.arc
+|       |       KoopaVS3RotateStepA.arc
+|       |       KoopaVS3RotateStepB.arc
+|       |       KoopaVS3RotateStepD.arc
+|       |       KoopaVS3RotateStepsA.arc
+|       |       KoopaVS3SandPlanet.arc
+|       |       KoopaVS3SandPlanetBloom.arc
+|       |       KoteBug.arc
+|       |       Koura.arc
+|       |       KouraShine.arc
+|       |       Kuribo.arc
+|       |       KuriboChief.arc
+|       |       KuriboMini.arc
+|       |       LargeChain.arc
+|       |       LargeChainFixPoint.arc
+|       |       LavaBallRisingPlanet.arc
+|       |       LavaBallRisingPlanetLava.arc
+|       |       LavaBegomanCubePlanet.arc
+|       |       LavaBegomanCubePlanetLow.arc
+|       |       LavaBegomanPlanet.arc
+|       |       LavaBegomanPlanetLow.arc
+|       |       LavaBegomanPlanetMiddle.arc
+|       |       LavaBegomanUFOPlanet.arc
+|       |       LavaBegomanUFOPlanetLow.arc
+|       |       LavaBegomanUFOPlanetMiddle.arc
+|       |       LavaBlackUFO.arc
+|       |       LavaBlackUFOLow.arc
+|       |       LavaBreakBridge.arc
+|       |       LavaBreakColumn.arc
+|       |       LavaBreakRockA.arc
+|       |       LavaBreakRockB.arc
+|       |       LavaBreakRockC.arc
+|       |       LavaBreakRockD.arc
+|       |       LavaCShapePlanet.arc
+|       |       LavaDomedPlanet.arc
+|       |       LavaDomedPlanetLow.arc
+|       |       LavaDomedPlanetMiddle.arc
+|       |       LavaFallDownColumnA.arc
+|       |       LavaFallDownColumnB.arc
+|       |       LavaFloatingStepA.arc
+|       |       LavaFloatingStepALow.arc
+|       |       LavaFloatingStepB.arc
+|       |       LavaFloatingStepC.arc
+|       |       LavaFloatingStepD.arc
+|       |       LavaGeyser.arc
+|       |       LavaHomeFloaterB.arc
+|       |       LavaHomePlanet.arc
+|       |       LavaHomePlanetLow.arc
+|       |       LavaHomeSeesaw.arc
+|       |       LavaHomeVolcanoFlow.arc
+|       |       LavaHomeVolcanoInnerFlow.arc
+|       |       LavaJamboSunPlanet.arc
+|       |       LavaJamboSunPlanetBloom.arc
+|       |       LavaJamboSunPlanetLow.arc
+|       |       LavaJShapePlanet.arc
+|       |       LavaJShapePlanetLow.arc
+|       |       LavaMazeCubePlanet.arc
+|       |       LavaMazeCubePlanetLow.arc
+|       |       LavaMeteoPlanet.arc
+|       |       LavaMeteoPlanetLow.arc
+|       |       LavaMeteoPlanetMiddle.arc
+|       |       LavaMiniSunPlanet.arc
+|       |       LavaMiniSunPlanetBloom.arc
+|       |       LavaMiniSunPlanetLow.arc
+|       |       LavaObservationUFOPlanet.arc
+|       |       LavaObservationUFOPlanetLow.arc
+|       |       LavaObstacleRockHomeA.arc
+|       |       LavaObstacleRockHomeB.arc
+|       |       LavaObstacleRockShell.arc
+|       |       LavaProminence.arc
+|       |       LavaProminenceBloom.arc
+|       |       LavaProminenceEnvironment.arc
+|       |       LavaProminenceEnvironmentBloom.arc
+|       |       LavaProminenceTriple.arc
+|       |       LavaProminenceTripleBloom.arc
+|       |       LavaRotatePlanet.arc
+|       |       LavaRotatePlanetLow.arc
+|       |       LavaRotatePlanetMiddle.arc
+|       |       LavaRotatePlanetStartStep.arc
+|       |       LavaRotatePlanetStartStepLow.arc
+|       |       LavaRotateStepsPlanet.arc
+|       |       LavaRotateStepsRotatePartsA.arc
+|       |       LavaRotateStepsRotatePartsB.arc
+|       |       LavaRotateStepsRotatePartsC.arc
+|       |       LavaRotateStepsRotatePartsD.arc
+|       |       LavaShellTower.arc
+|       |       LavaShellTowerStep.arc
+|       |       LavaSpaceStickA.arc
+|       |       LavaSpaceStickB.arc
+|       |       LavaSteam.arc
+|       |       LavaStepA.arc
+|       |       LavaStepALow.arc
+|       |       LavaStepB.arc
+|       |       LavaStepBLow.arc
+|       |       LavaStepC.arc
+|       |       LavaStepCLow.arc
+|       |       LavaStrangeRock.arc
+|       |       LavaStrangeRockL.arc
+|       |       LavaStrangeRockLLow.arc
+|       |       LavaTransparentPlanet.arc
+|       |       LavaTransparentPlanetLow.arc
+|       |       LavaUpDownParts.arc
+|       |       LavaUpDownPlanet.arc
+|       |       LensFlare.arc
+|       |       LightData.arc
+|       |       LightDome.arc
+|       |       LotusLeaf.arc
+|       |       Luigi.arc
+|       |       LuigiFace.arc
+|       |       LuigiNPC.arc
+|       |       LuigiNPCLow.arc
+|       |       LuigiNPCMiddle.arc
+|       |       LuigiPictureBattleShipGalaxy.arc
+|       |       LuigiPictureEggStarGalaxy.arc
+|       |       LuigiPictureHoneyBeeKingdomGalaxy.arc
+|       |       LuigiShadow.arc
+|       |       LuigiTornado.arc
+|       |       MagnumKiller.arc
+|       |       MarblePlanet.arc
+|       |       MarblePlanetCore.arc
+|       |       MarblePlanetElectron.arc
+|       |       MarblePlanetElectronShadow.arc
+|       |       MarineSnow.arc
+|       |       Mario.arc
+|       |       MarioAnime.arc
+|       |       MarioDummyItem.arc
+|       |       MarioFace.arc
+|       |       MarioFireBall.arc
+|       |       MarioFreezeIce.arc
+|       |       MarioHair.arc
+|       |       MarioHandL.arc
+|       |       MarioHandR.arc
+|       |       MarioLauncher.arc
+|       |       MarioLauncherRoomPlanet.arc
+|       |       MarioShadow.arc
+|       |       MarioTornado.arc
+|       |       MechaKoopaPartsArmLeft.arc
+|       |       MechaKoopaPartsArmRight.arc
+|       |       MechaKoopaPartsBody.arc
+|       |       MechaKoopaPartsBodyLow.arc
+|       |       MechaKoopaPartsBreast.arc
+|       |       MechaKoopaPartsCaterpillar.arc
+|       |       MechaKoopaPartsCollar.arc
+|       |       MechaKoopaPartsHead.arc
+|       |       MechaKoopaPartsMoveStepA.arc
+|       |       MechaKoopaPartsRollerA.arc
+|       |       MechanicKoopaMini.arc
+|       |       Meramera.arc
+|       |       Metbo.arc
+|       |       MeteorCannonBreak.arc
+|       |       MeteorStrike.arc
+|       |       MeteorStrikeBreak.arc
+|       |       MilkyWaySky.arc
+|       |       MiniatureGalaxySelect.arc
+|       |       MiniatureGalaxyShadow.arc
+|       |       MiniatureGalaxyStarNumber.arc
+|       |       MiniatureGalaxyUnknown.arc
+|       |       MiniatureGalaxyUnknownKoopa.arc
+|       |       MiniBattleShipGalaxy.arc
+|       |       MiniBreakDownPlanetGalaxy.arc
+|       |       MiniCannonFleetGalaxy.arc
+|       |       MiniCosmosGardenGalaxy.arc
+|       |       MiniCubeBubbleExLv1Galaxy.arc
+|       |       MiniDarkRoomGalaxy.arc
+|       |       MiniEggStarGalaxy.arc
+|       |       MiniFactoryGalaxy.arc
+|       |       MiniFlipPanelExGalaxy.arc
+|       |       MiniFloaterOtaKingGalaxy.arc
+|       |       MiniHatenaGalaxy.arc
+|       |       MiniHeavenlyBeachGalaxy.arc
+|       |       MiniHellProminenceGalaxy.arc
+|       |       MiniHoneyBeeExGalaxy.arc
+|       |       MiniHoneyBeeKingdomGalaxy.arc
+|       |       MiniIceVolcanoGalaxy.arc
+|       |       MiniKoopaGalaxy.arc
+|       |       MiniKoopaJrShipLv1Galaxy.arc
+|       |       MiniMechaKoopaPartsCage.arc
+|       |       MiniMechaKoopaPartsFan.arc
+|       |       MiniMechaKoopaPartsGear.arc
+|       |       MiniMechaKoopaPartsMoveStepA.arc
+|       |       MiniMechaKoopaPlanet.arc
+|       |       MiniMechaKoopaPlanetLow.arc
+|       |       MiniOceanFloaterLandGalaxy.arc
+|       |       MiniOceanPhantomCaveGalaxy.arc
+|       |       MiniOceanRingGalaxy.arc
+|       |       MiniPhantomGalaxy.arc
+|       |       MiniReverseKingdomGalaxy.arc
+|       |       MiniSandClockGalaxy.arc
+|       |       MiniSkullSharkGalaxy.arc
+|       |       MiniStarDustGalaxy.arc
+|       |       MiniSurfingLv1Galaxy.arc
+|       |       MiniSurprisedGalaxy.arc
+|       |       MiniTamakoroExLv1Galaxy.arc
+|       |       MiniTriLegLv1Galaxy.arc
+|       |       MirrorModelTwinFallLake.arc
+|       |       MirrorReflectionTwinFallLake.arc
+|       |       Mogu.arc
+|       |       Mogucchi.arc
+|       |       MogucchiHillA.arc
+|       |       MogucchiHillB.arc
+|       |       MogucchiHillC.arc
+|       |       MogucchiHole.arc
+|       |       MogucchiShooter.arc
+|       |       MoguHole.arc
+|       |       MoguStone.arc
+|       |       MoonPlanet.arc
+|       |       MoonPlanetBloom.arc
+|       |       MoonPlanetLow.arc
+|       |       MoonRabbit.arc
+|       |       MoonRabbitLow.arc
+|       |       MoonRabbitMiddle.arc
+|       |       MoviePadRumbleEndingA.arc
+|       |       MoviePadRumbleEndingB.arc
+|       |       MoviePadRumbleEpilogueA.arc
+|       |       MoviePadRumbleFinalBattle.arc
+|       |       MoviePadRumblePrologueA.arc
+|       |       MoviePadRumblePrologueB.arc
+|       |       MShapeRelayPlanet.arc
+|       |       MShapeRelayPlanetLow.arc
+|       |       MysteryGravityRoomBridgeA.arc
+|       |       MysteryGravityRoomPlanet.arc
+|       |       NeedlePlant.arc
+|       |       NeedlePlantFly.arc
+|       |       NokonokoLand.arc
+|       |       Note.arc
+|       |       NPCData.arc
+|       |       NutShipFleetBridge.arc
+|       |       NutShipFleetPlanet.arc
+|       |       OceanFloaterTowerRotateStepA.arc
+|       |       OceanFloaterTowerRotateStepB.arc
+|       |       OceanFloaterTowerRotateStepD.arc
+|       |       OceanFloaterTypeU.arc
+|       |       OceanHexagonFloater.arc
+|       |       OceanPierFloaterA.arc
+|       |       OceanPuddingPlanet.arc
+|       |       OceanRing.arc
+|       |       OceanRingPlanet.arc
+|       |       OceanRingPlanetLowInWater.arc
+|       |       OceanRingRuinsBase.arc
+|       |       OceanRingRuinsColumn.arc
+|       |       OceanRingRuinsGearBig.arc
+|       |       OceanRingRuinsGearSmall.arc
+|       |       OceanRingRuinsMove.arc
+|       |       OceanSmallTurtle.arc
+|       |       Onimasu.arc
+|       |       OnimasuPlanet.arc
+|       |       OnimasuPlanetLow.arc
+|       |       OnimasuPlanetObstaclePartsA.arc
+|       |       OnimasuPlanetPartsGoal.arc
+|       |       OnimasuPlanetRailMovePartsA.arc
+|       |       OnimasuPlanetRotatePartsA.arc
+|       |       OnimasuPlanetRotatePartsB.arc
+|       |       OnimasuPlanetWater.arc
+|       |       OtaKing.arc
+|       |       OtaKingBathPlanet.arc
+|       |       OtaKingBathPlanetLow.arc
+|       |       OtaKingFoot.arc
+|       |       OtaKingFootLv2.arc
+|       |       OtaKingLongFoot.arc
+|       |       OtaKingLv2.arc
+|       |       OtaKingMagma.arc
+|       |       OtaKingMagmaBloom.arc
+|       |       OtaRock.arc
+|       |       PackunFlower.arc
+|       |       PackunLeaf.arc
+|       |       PackunPetit.arc
+|       |       PackunPetitHead.arc
+|       |       PalmIsland.arc
+|       |       Peach.arc
+|       |       PeachCastleGardenPlanet.arc
+|       |       PeachCastleGardenPlanetBloom.arc
+|       |       PeachCastleGardenPlanetIndirect.arc
+|       |       PeachCastleTownAfterAttack.arc
+|       |       PeachCastleTownBeforeAttack.arc
+|       |       PeachCastleTownBeforeAttackBloom.arc
+|       |       PeachCastleTownGate.arc
+|       |       PeachLow.arc
+|       |       PeachMiddle.arc
+|       |       PeanutMudPlanet.arc
+|       |       Penguin.arc
+|       |       PenguinCoach.arc
+|       |       PenguinGoodsLeader.arc
+|       |       PenguinGoodsSwimCap.arc
+|       |       PenguinLow.arc
+|       |       PenguinMaster.arc
+|       |       PenguinMiddle.arc
+|       |       Petari.arc
+|       |       PhantomCandlestand.arc
+|       |       PhantomCaveStepA.arc
+|       |       PhantomDecoratePartsA.arc
+|       |       PhantomDecoratePartsB.arc
+|       |       PhantomDecoratePartsHole.arc
+|       |       PhantomFirewood.arc
+|       |       PhantomHolePlanet.arc
+|       |       PhantomShipA.arc
+|       |       PhantomShipALow.arc
+|       |       PhantomShipB.arc
+|       |       PhantomShipBLow.arc
+|       |       PhantomShipBoxFloaterA.arc
+|       |       PhantomShipBoxFloaterB.arc
+|       |       PhantomShipBoxFloaterC.arc
+|       |       PhantomShipBridge.arc
+|       |       PhantomShipHandle.arc
+|       |       PhantomShipPropellerBig.arc
+|       |       PhantomShipPropellerSmall.arc
+|       |       PhantomSky.arc
+|       |       PhantomTowerMoveStepA.arc
+|       |       PhantomTowerPlanet.arc
+|       |       PicketSwitch.arc
+|       |       PicketSwitchBig.arc
+|       |       PictureBookChapter1.arc
+|       |       PictureBookChapter2.arc
+|       |       PictureBookChapter3.arc
+|       |       PictureBookChapter4.arc
+|       |       PictureBookChapter5.arc
+|       |       PictureBookChapter6.arc
+|       |       PictureBookChapter7.arc
+|       |       PictureBookChapter8.arc
+|       |       PictureBookChapter9.arc
+|       |       PictureBookTexture.arc
+|       |       PlanetMapDataTable.arc
+|       |       PlanetRocket.arc
+|       |       PlanetRocketLow.arc
+|       |       Plant.arc
+|       |       PlantLeaf.arc
+|       |       PlantSeed.arc
+|       |       PlantTop.arc
+|       |       Poihana.arc
+|       |       PoihanaMazePlanet.arc
+|       |       PoihanaMazePlanetLow.arc
+|       |       PoihanaRelayPlanet.arc
+|       |       PoihanaRelayPlanetLow.arc
+|       |       Pole.arc
+|       |       PoleSquare.arc
+|       |       Polta.arc
+|       |       PoltaArmBreak.arc
+|       |       PoltaBattlePlanet.arc
+|       |       PoltaBattlePlanetPartsA.arc
+|       |       PoltaBodyBreak.arc
+|       |       PoltaFormationRock.arc
+|       |       PoltaGroundRock.arc
+|       |       PoltaGroundRockBreak.arc
+|       |       PoltaLeftArm.arc
+|       |       PoltaRightArm.arc
+|       |       PoltaRock.arc
+|       |       Pompon2Plant.arc
+|       |       Pompon4Plant.arc
+|       |       PowerStar.arc
+|       |       PowerStarHalo.arc
+|       |       PowerStarKeeperA.arc
+|       |       PowerStarKeeperB.arc
+|       |       PowerStarKeeperC.arc
+|       |       PowerUpBee.arc
+|       |       PowerUpFire.arc
+|       |       PowerupFoo.arc
+|       |       PowerUpHopper.arc
+|       |       PowerUpIce.arc
+|       |       PowerUpInvincible.arc
+|       |       PowerUpLife.arc
+|       |       PowerUpTeresa.arc
+|       |       PrizeRing.arc
+|       |       PuffballPlanetA.arc
+|       |       PuffballPlanetALow.arc
+|       |       PuffballPlanetB.arc
+|       |       PuffballPlanetBLow.arc
+|       |       PuffballPlanetC.arc
+|       |       PuffballPlanetCLow.arc
+|       |       Pukupuku.arc
+|       |       PukupukuGambolPlanet.arc
+|       |       PukupukuGambolPlanetLow.arc
+|       |       PunchBox.arc
+|       |       PunchingKinoko.arc
+|       |       PurpleCoin.arc
+|       |       QuarterRollGravityRoomArrow.arc
+|       |       QuarterRollGravityRoomPlanet.arc
+|       |       QuestionBoxMoveStepA.arc
+|       |       QuestionBoxMoveStepB.arc
+|       |       QuestionBoxMoveStepC.arc
+|       |       QuestionBoxPlanetA.arc
+|       |       QuestionBoxPlanetALow.arc
+|       |       QuestionBoxPlanetB.arc
+|       |       QuestionBoxPlanetC.arc
+|       |       QuestionBoxPlanetD.arc
+|       |       QuestionBoxPlanetE.arc
+|       |       QuestionCoin.arc
+|       |       QuestionFlowerGardenPlanet.arc
+|       |       QuestionFlowerGardenPlanetLow.arc
+|       |       QuickSand2DMovePartsA.arc
+|       |       Quicksand2DPlanet.arc
+|       |       RailPoint.arc
+|       |       RainCloud.arc
+|       |       RainCloudCylinder.arc
+|       |       RainCloudLow.arc
+|       |       RainCloudVolume.arc
+|       |       RayGunPlanet.arc
+|       |       RayGunPlanetLow.arc
+|       |       RayGunPlanetPartsGear.arc
+|       |       RayGunPlanetPartsScrew.arc
+|       |       RelayPlanetA.arc
+|       |       RelayPlanetD.arc
+|       |       RelayPlanetE.arc
+|       |       RelayPlanetELow.arc
+|       |       RelayPlanetF.arc
+|       |       RelayPlanetFLow.arc
+|       |       RelayPlanetI.arc
+|       |       RelayPlanetILow.arc
+|       |       ReverseGravityRoomPlanet.arc
+|       |       ReverseGravityRoomPressGroundA.arc
+|       |       ReverseGravityRoomPressGroundB.arc
+|       |       ReverseGravityRoomPressGroundC.arc
+|       |       ReverseGravityRoomPressGroundD.arc
+|       |       ReverseGravityRoomPressGroundE.arc
+|       |       ReverseGravityTowerInside.arc
+|       |       ReverseGravityTowerPlanet.arc
+|       |       ReverseGravityTowerPlanetLow.arc
+|       |       ReverseKingdomPlanet.arc
+|       |       ReverseKingdomPlanetIndirect.arc
+|       |       ReverseKingdomTreeA.arc
+|       |       RGTowerPressGroundA.arc
+|       |       RingBeamer.arc
+|       |       RingBeamerRushPlanet.arc
+|       |       Rock.arc
+|       |       RockBreak.arc
+|       |       RockPlanetOrbitSky.arc
+|       |       RockRoadCircleA.arc
+|       |       RollingOvalPlanet.arc
+|       |       RollingOvalPlanetParts.arc
+|       |       Rosetta.arc
+|       |       RosettaChair.arc
+|       |       RosettaLow.arc
+|       |       RosettaMiddle.arc
+|       |       RosettaPictureBook.arc
+|       |       RosettaReading.arc
+|       |       SamboHead.arc
+|       |       SandCapsuleInsidePlanet.arc
+|       |       SandCapsuleOutsidePlanet.arc
+|       |       SandCapsulePressGround.arc
+|       |       SandRelayPlanetA.arc
+|       |       SandRelayPlanetD.arc
+|       |       SandRingRelayPlanet.arc
+|       |       SandRiverGlaringLightA.arc
+|       |       SandRiverLightA.arc
+|       |       SandRiverLightALightVolume.arc
+|       |       SandStreamHighTowerMoveStepA.arc
+|       |       SandStreamHighTowerPlanet.arc
+|       |       SandStreamJointPlanetA.arc
+|       |       SandStreamJointPlanetB.arc
+|       |       SandStreamMoveStepsA.arc
+|       |       SandStreamMoveStepsB.arc
+|       |       SandStreamPlanet.arc
+|       |       SandStreamSmallPlanet.arc
+|       |       SandUpDownKillerGunnerBase.arc
+|       |       SandUpDownTowerBottom.arc
+|       |       SandUpDownTowerBreakableWallB.arc
+|       |       SandUpDownTowerBreakableWallBreak.arc
+|       |       SandUpDownTowerMoveStepA.arc
+|       |       SandUpDownTowerTop.arc
+|       |       SandUpDownTriRock.arc
+|       |       SandwitchVolcanoPlanet.arc
+|       |       ScaleDownRelayPlanet.arc
+|       |       ScenarioSelectSky.arc
+|       |       ScrewSwitch.arc
+|       |       ScrewSwitchReverse.arc
+|       |       SeaBottomBigDoorA.arc
+|       |       SeaBottomBigDoorB.arc
+|       |       SeaBottomTriplePropeller.arc
+|       |       SeaBottomTriplePropellerStand.arc
+|       |       SeaGull.arc
+|       |       SearchBeamer.arc
+|       |       SearchLightCone.arc
+|       |       SeesawMoveNutB.arc
+|       |       ShadowVolumeCylinder.arc
+|       |       ShadowVolumeOval.arc
+|       |       ShadowVolumeSphere.arc
+|       |       Shellfish.arc
+|       |       ShimmerBoard.arc
+|       |       ShockWaveGenerator.arc
+|       |       ShootingStar.arc
+|       |       ShutterDoorB.arc
+|       |       ShutterDoorC.arc
+|       |       ShutterDoorD.arc
+|       |       ShutterDoorE.arc
+|       |       SideSpikeMoveStepA.arc
+|       |       SignBoard.arc
+|       |       SkeletalFishBoss.arc
+|       |       SkeletalFishBossBreak.arc
+|       |       SkeletalFishBossHeadA.arc
+|       |       SkeletalFishBossLight.arc
+|       |       SkeletalFishBossLightBloom.arc
+|       |       SkeletalFishBossScarFlash.arc
+|       |       SkeletalFishBossShadow.arc
+|       |       SkeletalFishGuard.arc
+|       |       SkeletalFishGuardShadow.arc
+|       |       SkullPlanet.arc
+|       |       SmallMazePlanet.arc
+|       |       SmallMazePlanetLow.arc
+|       |       SmallStone.arc
+|       |       SnakeFish.arc
+|       |       Snakehead.arc
+|       |       SnakeheadShadow.arc
+|       |       SnakeheadSmall.arc
+|       |       SnakeheadSmallShadow.arc
+|       |       SnowBlockA.arc
+|       |       SnowCapsulePlanet.arc
+|       |       SnowMan.arc
+|       |       SpaceCannonLauncher.arc
+|       |       SpaceCocoon.arc
+|       |       SpaceDustWoodA.arc
+|       |       SpaceDustWoodB.arc
+|       |       SpaceInner.arc
+|       |       SpaceMine.arc
+|       |       SpaceMineRail5m.arc
+|       |       SpaceMineRailA.arc
+|       |       SpaceSeparatorA.arc
+|       |       SpaceSeparatorB.arc
+|       |       SpaceShipStep.arc
+|       |       SpaceStickA.arc
+|       |       SpaceStickALow.arc
+|       |       SpaceStickB.arc
+|       |       SpaceStickBLow.arc
+|       |       SphereAir.arc
+|       |       SphereInsidePlanet.arc
+|       |       SpiderMapBlock.arc
+|       |       SpiderThread.arc
+|       |       SpiderThreadAttachPoint.arc
+|       |       SpinDriver.arc
+|       |       SpinDriverPath.arc
+|       |       SpinDriverShadow.arc
+|       |       SpinLeverSwitch.arc
+|       |       SpinningBox.arc
+|       |       SpinTico.arc
+|       |       SpotMarkLight.arc
+|       |       SpringWaterFloaterA.arc
+|       |       SpringWaterFloaterB.arc
+|       |       SpringWaterPlanet.arc
+|       |       SpringWaterPlanetLow.arc
+|       |       StaffRollTexture.arc
+|       |       StarDustRollingStepA.arc
+|       |       StarDustStartPlanet.arc
+|       |       StarDustStepA.arc
+|       |       StarDustStepB.arc
+|       |       StarEggRoadEggPlanetA.arc
+|       |       StarEggRoadEggPlanetALow.arc
+|       |       StarEggRoadEggPlanetB.arc
+|       |       StarEggRoadEggPlanetBLow.arc
+|       |       StarEggRoadEggPlanetC.arc
+|       |       StarEggRoadEggPlanetCLow.arc
+|       |       StarEggRoadEggPlanetD.arc
+|       |       StarEggRoadEggPlanetDLow.arc
+|       |       StarEggRoadPlanet.arc
+|       |       StarEggRoadPlanetLow.arc
+|       |       StarPeaceSpoutingPlanet.arc
+|       |       StarPiece.arc
+|       |       StarPieceCluster.arc
+|       |       StarPieceDummy.arc
+|       |       StarPieceMother.arc
+|       |       StarPointerBlur.arc
+|       |       StatusFloor.arc
+|       |       StinkBugParent.arc
+|       |       StinkBugSmall.arc
+|       |       StrayTico.arc
+|       |       StringSpider.arc
+|       |       StringSpiderString.arc
+|       |       StrongBlock.arc
+|       |       SubmarineVolcanoBigColumn.arc
+|       |       SubmarineVolcanoBigColumnBreak.arc
+|       |       SubmarineVolcanoInside.arc
+|       |       SubmarineVolcanoPlanet.arc
+|       |       SubmarineVolcanoPlanetLow.arc
+|       |       SummerSky.arc
+|       |       Sun.arc
+|       |       SunakazeKun.arc
+|       |       SunakazeKunTrap.arc
+|       |       SunkenShip.arc
+|       |       SunsetAir.arc
+|       |       SuperSpinDriver.arc
+|       |       SuperSpinDriverEmpty.arc
+|       |       SuperSpinDriverShadow.arc
+|       |       SurfingRaceMainGate.arc
+|       |       SurfingRaceSignBoard.arc
+|       |       SurfingRaceStep.arc
+|       |       SurfingRaceSubGate.arc
+|       |       SurfingRaceTutorialParts.arc
+|       |       SurfingRaceVictoryStand.arc
+|       |       SurfRay.arc
+|       |       SweetDecoratePartsOrange.arc
+|       |       SweetsDecoratePartsFork.arc
+|       |       SweetsDecoratePartsForkLow.arc
+|       |       SweetsDecoratePartsSpoon.arc
+|       |       SweetsDecoratePartsSpoonLow.arc
+|       |       SwingRope.arc
+|       |       Syati.arc
+|       |       TakoBarrelA.arc
+|       |       Takobo.arc
+|       |       TakoHei.arc
+|       |       TakoHeiInk.arc
+|       |       Tamakoro.arc
+|       |       TearDropPlanet.arc
+|       |       Teresa.arc
+|       |       TeresaLuigi.arc
+|       |       TeresaMansionBridgeA.arc
+|       |       TeresaMansionBridgeB.arc
+|       |       TeresaMansionCandleStand.arc
+|       |       TeresaMansionDoorA.arc
+|       |       TeresaMansionDoorB.arc
+|       |       TeresaMansionEntranceDoor.arc
+|       |       TeresaMansionGatePlanet.arc
+|       |       TeresaMansionGlaringLightA.arc
+|       |       TeresaMansionGlaringLightB.arc
+|       |       TeresaMansionGlaringLightBBloom.arc
+|       |       TeresaMansionHoleCover.arc
+|       |       TeresaMansionLightA.arc
+|       |       TeresaMansionLightALightVolume.arc
+|       |       TeresaMansionLightB.arc
+|       |       TeresaMansionLightBLightVolume.arc
+|       |       TeresaMansionNoGatePlanet.arc
+|       |       TeresaMansionPlanetA.arc
+|       |       TeresaMansionPlanetALow.arc
+|       |       TeresaMansionPlanetB.arc
+|       |       TeresaMansionPlanetBLow.arc
+|       |       TeresaMansionPlanetC.arc
+|       |       TeresaMansionPlanetD.arc
+|       |       TeresaMario.arc
+|       |       TeresaPicture.arc
+|       |       TeresaRaceGoalPlanet.arc
+|       |       TeresaRacePartsA.arc
+|       |       TeresaRacePartsB.arc
+|       |       TeresaRacePartsBallA.arc
+|       |       TeresaRacer.arc
+|       |       TeresaRaceSpaceStickA.arc
+|       |       TeresaRaceSpaceStickB.arc
+|       |       TeresaRaceSpaceStickC.arc
+|       |       TeresaRaceStartPlanet.arc
+|       |       TeresaRoomDoor.arc
+|       |       TeresaRoomGlaringLight.arc
+|       |       TeresaRoomPlanet.arc
+|       |       TeresaRoomPlanetLow.arc
+|       |       TeresaWater.arc
+|       |       Tico.arc
+|       |       TicoBaby.arc
+|       |       TicoComet.arc
+|       |       TicoCometGoodsStar.arc
+|       |       TicoFat.arc
+|       |       TicoFatGoodsStarPiece.arc
+|       |       TicoLow.arc
+|       |       TicoMiddle.arc
+|       |       TicoShop.arc
+|       |       TicoShopGoodsLifeUp.arc
+|       |       TicoShopGoodsOneUp.arc
+|       |       TombSpider.arc
+|       |       TombSpiderCocoon.arc
+|       |       TombSpiderGland.arc
+|       |       TombSpiderPlanet.arc
+|       |       TombSpiderPlanetLow.arc
+|       |       TombSpiderVitalSpot.arc
+|       |       Torpedo.arc
+|       |       TorpedoLight.arc
+|       |       TorpedoPropeller.arc
+|       |       ToyFactoryDecoratePartsGearA.arc
+|       |       TrampleStar.arc
+|       |       TrapBaseA.arc
+|       |       Trapeze.arc
+|       |       TreasureBox.arc
+|       |       TreasureBoxCracked.arc
+|       |       TreasureBoxGold.arc
+|       |       TreasureSpot.arc
+|       |       TrialBallPlanet.arc
+|       |       TrialBubbleAPlanet.arc
+|       |       TrialBubbleMoveWallA.arc
+|       |       TrialBubbleRevolvingPartsA.arc
+|       |       TrialBubbleRotateWallA.arc
+|       |       TrialBubbleSPlanet.arc
+|       |       TrialBubbleTimerMoveWallA.arc
+|       |       TrickRabbit.arc
+|       |       TrickRabbitBaby.arc
+|       |       TridentPlanet.arc
+|       |       TripodBoss.arc
+|       |       TriPodBossBodyA.arc
+|       |       TriPodBossBodyABloom.arc
+|       |       TripodBossCore.arc
+|       |       TripodBossCoreBloom.arc
+|       |       TripodBossCoreBreak.arc
+|       |       TriPodBossEyeLight.arc
+|       |       TriPodBossEyeLightBloom.arc
+|       |       TriPodBossFoot.arc
+|       |       TriPodBossFootBloom.arc
+|       |       TriPodBossGearA.arc
+|       |       TriPodBossGearB.arc
+|       |       TriPodBossGearBody.arc
+|       |       TriPodBossGearC.arc
+|       |       TriPodBossGearSmallA.arc
+|       |       TriPodBossGearSmallB.arc
+|       |       TriPodBossGearSmallC.arc
+|       |       TriPodBossGuardWall.arc
+|       |       TripodBossKillerCannon.arc
+|       |       TriPodBossLeg1A.arc
+|       |       TriPodBossLeg1B.arc
+|       |       TriPodBossLeg1C.arc
+|       |       TriPodBossLeg2A.arc
+|       |       TriPodBossLeg2ABloom.arc
+|       |       TriPodBossLeg3A.arc
+|       |       TriPodBossLegBottom.arc
+|       |       TripodBossLegShadow.arc
+|       |       TripodBossLow.arc
+|       |       TripodBossShell.arc
+|       |       TripodBossShellBreak.arc
+|       |       TripodPlanet.arc
+|       |       TripodPlanetLow.arc
+|       |       TShapePlanet.arc
+|       |       TShapePlanetLow.arc
+|       |       Tsukidashikun.arc
+|       |       TubedRelayPlanet.arc
+|       |       TubedRelayPlanetLow.arc
+|       |       TwilightAir.arc
+|       |       TwinFallLakePlanet.arc
+|       |       TwinFallLakePlanetLow.arc
+|       |       TwinPeanutsPlanetA.arc
+|       |       TwinPeanutsPlanetALow.arc
+|       |       TwisterSan.arc
+|       |       TwisterSanSlim.arc
+|       |       UFOBattleStageC.arc
+|       |       UFOBattleStageD.arc
+|       |       UFOBattleStageE.arc
+|       |       UFOKinoko.arc
+|       |       UFOKinokoLanding.arc
+|       |       UFOKinokoLandingAstro.arc
+|       |       UFOKinokoUnderConstruction.arc
+|       |       UFONormalB.arc
+|       |       UFONormalD.arc
+|       |       UFOSandObstacleA.arc
+|       |       UFOSandObstacleB.arc
+|       |       UFOSandObstacleC.arc
+|       |       UFOStrongA.arc
+|       |       UnderseaTunnelPlanet.arc
+|       |       UnderseaTunnelPlanetLow.arc
+|       |       Unizo.arc
+|       |       UnizoBreak.arc
+|       |       UnizoLand.arc
+|       |       UnizoLandBreak.arc
+|       |       UnizoShoal.arc
+|       |       UnizoShoalBreak.arc
+|       |       ValveSwitch.arc
+|       |       VRDarkSpace.arc
+|       |       VROrbit.arc
+|       |       VRSandwichSun.arc
+|       |       VsBegomanSpikePlanet.arc
+|       |       WanwanRolling.arc
+|       |       WanwanRollingBreak.arc
+|       |       WanwanRollingGold.arc
+|       |       WanwanRollingGoldBreak.arc
+|       |       WanwanRollingMini.arc
+|       |       WarpPod.arc
+|       |       WatchTowerRotateStep.arc
+|       |       WatchTowerRotateStepLift.arc
+|       |       WaterBazooka.arc
+|       |       WaterBazookaBreak.arc
+|       |       WaterBazookaCapsule.arc
+|       |       WaterBazookaTowerMoveStepA.arc
+|       |       WaterBazookaTowerMoveStepB.arc
+|       |       WaterBazookaTowerMoveStepC.arc
+|       |       WaterBullet.arc
+|       |       WaterCameraFilter.arc
+|       |       WaterColumn.arc
+|       |       WaterfallCaveCover.arc
+|       |       WaterfallCaveCoverBreak.arc
+|       |       WaterfallCaveNoBreakCover.arc
+|       |       WaterLeakPipe.arc
+|       |       Watermelon.arc
+|       |       WaterPlant.arc
+|       |       WaterPressure.arc
+|       |       WaterRoadCavePlanet.arc
+|       |       WaterRoadCavePlanetLow.arc
+|       |       WaterRoadCaveRotateGround.arc
+|       |       WaterRoadCaveStepA.arc
+|       |       WaterRoadCaveStepB.arc
+|       |       WaterWave.arc
+|       |       WeatherVane.arc
+|       |       Whirlpool.arc
+|       |       WhiteRoom.arc
+|       |       WhiteRoomBloom.arc
+|       |       WindMillPropeller.arc
+|       |       WindMillPropellerMini.arc
+|       |       WoodBox.arc
+|       |       WoodBoxBreak.arc
+|       |       WormEatenHill.arc
+|       |       WormEatenPlanet.arc
+|       |       WormEatenPlanetLow.arc
+|       |       YellowChip.arc
+|       |       YoshiHeadPlanet.arc
+|       |       
+|       +---ParticleData
+|       |       Effect.arc
+|       |       
+|       +---StageData
+|       |   |   AsteroidBlockZone.arc
+|       |   |   AstroDome.arc
+|       |   |   AstroGalaxy.arc
+|       |   |   AutumnMysteryRoomZone.arc
+|       |   |   BattleShipGalaxy.arc
+|       |   |   BattleShipKillerPlanetZone.arc
+|       |   |   BeamerRushZone.arc
+|       |   |   BeamGunChaindPlanetZone.arc
+|       |   |   BeltConveyerExGalaxy.arc
+|       |   |   BirthdayCakeZone.arc
+|       |   |   BlueStarZone.arc
+|       |   |   BombheiLectureZone.arc
+|       |   |   BombTimeAttack2Zone.arc
+|       |   |   BombTimeAttackZone.arc
+|       |   |   BossBazookaTowerZone.arc
+|       |   |   BreakDownPlanetGalaxy.arc
+|       |   |   BreakDownPlanetZone.arc
+|       |   |   BrokenKillerPlanetZone.arc
+|       |   |   CannonFleetGalaxy.arc
+|       |   |   CannonGCaptureZone.arc
+|       |   |   CanonTurnOverZone.arc
+|       |   |   CaveChangeSizeZone.arc
+|       |   |   CaveMysteryRoomZone.arc
+|       |   |   ChoConveyorZone.arc
+|       |   |   ClimbMysteryRoomZone.arc
+|       |   |   CocoonExGalaxy.arc
+|       |   |   CocoonEXZone.arc
+|       |   |   CocoPoihanaZone.arc
+|       |   |   CoCoTwinZone.arc
+|       |   |   ColdTwinFallZone.arc
+|       |   |   CosmosGardenGalaxy.arc
+|       |   |   CrossRingZone.arc
+|       |   |   CubeBubbleEXAZone.arc
+|       |   |   CubeBubbleEXBZone.arc
+|       |   |   CubeBubbleEXCZone.arc
+|       |   |   CubeBubbleExDZone.arc
+|       |   |   CubeBubbleExLv1Galaxy.arc
+|       |   |   CubeBubbleExLv2Galaxy.arc
+|       |   |   CubeBubbleExSZone.arc
+|       |   |   DandelionHillZone.arc
+|       |   |   DarknessRoomZone.arc
+|       |   |   DarkRoomGalaxy.arc
+|       |   |   DesertConvectionZone.arc
+|       |   |   DesertDiskZone.arc
+|       |   |   DesertInsideZone.arc
+|       |   |   DinoPackunBattleLv2Zone.arc
+|       |   |   DinoPackunBattleZone.arc
+|       |   |   DiskGardenZone.arc
+|       |   |   DorayakiFortressZone.arc
+|       |   |   DoughnutZone.arc
+|       |   |   DropOfWaterZone.arc
+|       |   |   EggStarFlipPanelZone.arc
+|       |   |   EggStarGalaxy.arc
+|       |   |   ElectricBegomanSpikeZone.arc
+|       |   |   ElectricUfoLevel2Zone.arc
+|       |   |   ElectricUfoZone.arc
+|       |   |   EpilogueDemoStage.arc
+|       |   |   EringiPlanetZone.arc
+|       |   |   FactoryGalaxy.arc
+|       |   |   FileSelect.arc
+|       |   |   FishTunnelGalaxy.arc
+|       |   |   FlagDiscZone.arc
+|       |   |   FlipPanelExGalaxy.arc
+|       |   |   FlipPanelExZone.arc
+|       |   |   FloaterLandZone.arc
+|       |   |   FloaterOtakingGalaxy.arc
+|       |   |   FlowerPlanetZone.arc
+|       |   |   FlowerRoadZone.arc
+|       |   |   ForestBossZone.arc
+|       |   |   ForestHomeZone.arc
+|       |   |   FortressCliffClimbZone.arc
+|       |   |   FortressEntranceZone.arc
+|       |   |   FortressJumpBeamerZone.arc
+|       |   |   GCaptureTutorialZone.arc
+|       |   |   GhostShipCaveZone.arc
+|       |   |   GlassyTwinsPlanetZone.arc
+|       |   |   HeavenlyBeachGalaxy.arc
+|       |   |   HeavenlyBeachZone.arc
+|       |   |   HeavensBlackHoleZone.arc
+|       |   |   HeavensDoorGalaxy.arc
+|       |   |   HeavensDoorInsideZone.arc
+|       |   |   HeavensDoorLargeZone.arc
+|       |   |   HeavensDoorMiddleZone.arc
+|       |   |   HeavensDoorMysteriousZone.arc
+|       |   |   HeavensDoorSmallZone.arc
+|       |   |   HellBallZone.arc
+|       |   |   HellGcapZone.arc
+|       |   |   HellHomeZone.arc
+|       |   |   HellJKillerZone.arc
+|       |   |   HellLavaBallRisingPlanetZone.arc
+|       |   |   HellLavaFloatingZone.arc
+|       |   |   HellMeteoZone.arc
+|       |   |   HellPoolAZone.arc
+|       |   |   HellPoolBZone.arc
+|       |   |   HellProminenceGalaxy.arc
+|       |   |   HellRotateGround2DPlanetZone.arc
+|       |   |   HellShellZone.arc
+|       |   |   HellTypeCDossunPlanetZone.arc
+|       |   |   HoneyBeeExGalaxy.arc
+|       |   |   HoneyBeeKingdomGalaxy.arc
+|       |   |   HoneyMysteryRoomZone.arc
+|       |   |   HoneyQueenZone.arc
+|       |   |   HopperBonusZone.arc
+|       |   |   HopperBottleZone.arc
+|       |   |   HopperTutorialZone.arc
+|       |   |   IceLavaIslandZone.arc
+|       |   |   IceMichihikiZone.arc
+|       |   |   IceMountainZone.arc
+|       |   |   IceRingAZone.arc
+|       |   |   IceRingBZone.arc
+|       |   |   IceVolcanoGalaxy.arc
+|       |   |   KoopaBattleVs1BossZone.arc
+|       |   |   KoopaBattleVs1Galaxy.arc
+|       |   |   KoopaBattleVs2BossZone.arc
+|       |   |   KoopaBattleVs2Galaxy.arc
+|       |   |   KoopaBattleVs3ArigaAZone.arc
+|       |   |   KoopaBattleVs3ArigaBZone.arc
+|       |   |   KoopaBattleVs3ArigaCZone.arc
+|       |   |   KoopaBattleVs3AZone.arc
+|       |   |   KoopaBattleVs3BossZone.arc
+|       |   |   KoopaBattleVs3BZone.arc
+|       |   |   KoopaBattleVs3CZone.arc
+|       |   |   KoopaBattleVs3DZone.arc
+|       |   |   KoopaBattleVs3Galaxy.arc
+|       |   |   KoopaBattleVs3StartZone.arc
+|       |   |   KoopaJrShipBattleLv1Tmp1Zone.arc
+|       |   |   KoopaJrShipLV1Galaxy.arc
+|       |   |   KuriboThirtyZone.arc
+|       |   |   LibraryRoom.arc
+|       |   |   MarblePlanetZone.arc
+|       |   |   MarioLancherLecture2Zone.arc
+|       |   |   MarioLancherLecture3Zone.arc
+|       |   |   MechanicKoopaZone.arc
+|       |   |   MiniKuriZone.arc
+|       |   |   MiniMechanicKoopaZone.arc
+|       |   |   MysteryGravityRoomZone.arc
+|       |   |   ObjNameTable.arc
+|       |   |   OceanFloaterLandGalaxy.arc
+|       |   |   OceanPhantomCaveGalaxy.arc
+|       |   |   OceanPuddingZone.arc
+|       |   |   OceanRingGalaxy.arc
+|       |   |   OceanRingZone.arc
+|       |   |   OceanTwinPiratesZone.arc
+|       |   |   OnimasuZone.arc
+|       |   |   OtaKingStageZone.arc
+|       |   |   PeachCastleFinalGalaxy.arc
+|       |   |   PeachCastleGardenGalaxy.arc
+|       |   |   PeanutZone.arc
+|       |   |   PhantomBossSpiderZone.arc
+|       |   |   PhantomDarknessRoomZone.arc
+|       |   |   PhantomGalaxy.arc
+|       |   |   PhantomIceMazeZone.arc
+|       |   |   PhantomNestZone.arc
+|       |   |   PhantomSpaceGraveyardZone.arc
+|       |   |   PoihanaPlanetZone.arc
+|       |   |   PoleUnizoZone.arc
+|       |   |   PoyoPoyoPlanetZone.arc
+|       |   |   PuffballBZone.arc
+|       |   |   PuffballCZone.arc
+|       |   |   PuffballZone.arc
+|       |   |   PukupukuGambolZone.arc
+|       |   |   QuestionBoxZone.arc
+|       |   |   QuestionFlowerGardenZone.arc
+|       |   |   QuickSand2DZone.arc
+|       |   |   RabbitMazeZone.arc
+|       |   |   RabbitMoonZone.arc
+|       |   |   ReverseForestHomeZone.arc
+|       |   |   ReverseGravityTowerZone.arc
+|       |   |   ReverseKingdomGalaxy.arc
+|       |   |   SandChangeSizeZone.arc
+|       |   |   SandClockGalaxy.arc
+|       |   |   SandIslandSamboZone.arc
+|       |   |   SandIslandZone.arc
+|       |   |   SandKillerZone.arc
+|       |   |   SandRingZone.arc
+|       |   |   SandStormJumpZone.arc
+|       |   |   SandStreamZone.arc
+|       |   |   SandTowerZone.arc
+|       |   |   SandUpDownZone.arc
+|       |   |   ScrewFleetZone.arc
+|       |   |   SeaVolcanoZone.arc
+|       |   |   SkullSharkGalaxy.arc
+|       |   |   SnowCapsuleGalaxy.arc
+|       |   |   SnowCapsuleZone.arc
+|       |   |   SoramameBZone.arc
+|       |   |   SoramameCZone.arc
+|       |   |   SoramameZone.arc
+|       |   |   SpaceMineGCaptureZone.arc
+|       |   |   SpaceStationZone.arc
+|       |   |   SphereInsideZone.arc
+|       |   |   SpringWaterPlanetZone.arc
+|       |   |   StarDustAssemblyBlockZone.arc
+|       |   |   StarDustGalaxy.arc
+|       |   |   StarEggRoadZone.arc
+|       |   |   SubmarineVolcanoPlanetZone.arc
+|       |   |   SurfingLV1Galaxy.arc
+|       |   |   SurfingLV1Zone.arc
+|       |   |   SurfingLv2Galaxy.arc
+|       |   |   SweetsAsteroidZone.arc
+|       |   |   TamakoroExAZone.arc
+|       |   |   TamakoroExBZone.arc
+|       |   |   TamakoroExLv1Galaxy.arc
+|       |   |   TamakoroExLv2Galaxy.arc
+|       |   |   TearDropGalaxy.arc
+|       |   |   TeresaHouseZone.arc
+|       |   |   TeresaMario2DGalaxy.arc
+|       |   |   TeresaRaceZone.arc
+|       |   |   ThrowTutorialZone.arc
+|       |   |   ToySphereInsideZone.arc
+|       |   |   TransformationExGalaxy.arc
+|       |   |   TridentZone.arc
+|       |   |   TriLegLV1Galaxy.arc
+|       |   |   TriPodBossZone.arc
+|       |   |   TwinFallLakeZone.arc
+|       |   |   TwinPeanutsZone.arc
+|       |   |   UfoBegomanChainedPlanetZone.arc
+|       |   |   UfoFleetLv1Zone.arc
+|       |   |   UfoFleetLv3Zone.arc
+|       |   |   UfoGravityTurnOverZone.arc
+|       |   |   UnderseaTunnelZone.arc
+|       |   |   VanVanVanishLv2Zone.arc
+|       |   |   VolcanoPlanetZone.arc
+|       |   |   VolMichihikiZone.arc
+|       |   |   VsHugeBattleShipLv2Zone.arc
+|       |   |   VsHugeBattleShipZone.arc
+|       |   |   WallClimbEXAZone.arc
+|       |   |   WallClimbEXBZone.arc
+|       |   |   WallClimbEXCZone.arc
+|       |   |   WaterRoadCaveExZone.arc
+|       |   |   WaterShellZone.arc
+|       |   |   WormEatenZone.arc
+|       |   |   
+|       |   +---AstroDome
+|       |   |       AstroDomeScenario.arc
+|       |   |       
+|       |   +---AstroGalaxy
+|       |   |       AstroGalaxyScenario.arc
+|       |   |       
+|       |   +---BattleShipGalaxy
+|       |   |       BattleShipGalaxyScenario.arc
+|       |   |       
+|       |   +---BeltConveyerExGalaxy
+|       |   |       BeltConveyerExGalaxyScenario.arc
+|       |   |       
+|       |   +---BreakDownPlanetGalaxy
+|       |   |       BreakDownPlanetGalaxyScenario.arc
+|       |   |       
+|       |   +---CannonFleetGalaxy
+|       |   |       CannonFleetGalaxyScenario.arc
+|       |   |       
+|       |   +---CocoonExGalaxy
+|       |   |       CocoonExGalaxyScenario.arc
+|       |   |       
+|       |   +---CosmosGardenGalaxy
+|       |   |       CosmosGardenGalaxyScenario.arc
+|       |   |       
+|       |   +---CubeBubbleExLv1Galaxy
+|       |   |       CubeBubbleExLv1GalaxyScenario.arc
+|       |   |       
+|       |   +---CubeBubbleExLv2Galaxy
+|       |   |       CubeBubbleExLv2GalaxyScenario.arc
+|       |   |       
+|       |   +---DarkRoomGalaxy
+|       |   |       DarkRoomGalaxyScenario.arc
+|       |   |       
+|       |   +---EggStarGalaxy
+|       |   |       EggStarGalaxyScenario.arc
+|       |   |       
+|       |   +---EpilogueDemoStage
+|       |   |       EpilogueDemoStageScenario.arc
+|       |   |       
+|       |   +---FactoryGalaxy
+|       |   |       FactoryGalaxyScenario.arc
+|       |   |       
+|       |   +---FileSelect
+|       |   |       FileSelectScenario.arc
+|       |   |       
+|       |   +---FishTunnelGalaxy
+|       |   |       FishTunnelGalaxyScenario.arc
+|       |   |       
+|       |   +---FlipPanelExGalaxy
+|       |   |       FlipPanelExGalaxyScenario.arc
+|       |   |       
+|       |   +---FloaterOtaKingGalaxy
+|       |   |       FloaterOtaKingGalaxyScenario.arc
+|       |   |       
+|       |   +---HeavenlyBeachGalaxy
+|       |   |       HeavenlyBeachGalaxyScenario.arc
+|       |   |       
+|       |   +---HeavensDoorGalaxy
+|       |   |       HeavensDoorGalaxyScenario.arc
+|       |   |       
+|       |   +---HellProminenceGalaxy
+|       |   |       HellProminenceGalaxyScenario.arc
+|       |   |       
+|       |   +---HoneyBeeExGalaxy
+|       |   |       HoneyBeeExGalaxyScenario.arc
+|       |   |       
+|       |   +---HoneyBeeKingdomGalaxy
+|       |   |       HoneyBeeKingdomGalaxyScenario.arc
+|       |   |       
+|       |   +---IceVolcanoGalaxy
+|       |   |       IceVolcanoGalaxyScenario.arc
+|       |   |       
+|       |   +---KoopaBattleVs1Galaxy
+|       |   |       KoopaBattleVs1GalaxyScenario.arc
+|       |   |       
+|       |   +---KoopaBattleVs2Galaxy
+|       |   |       KoopaBattleVs2GalaxyScenario.arc
+|       |   |       
+|       |   +---KoopaBattleVs3Galaxy
+|       |   |       KoopaBattleVs3GalaxyScenario.arc
+|       |   |       
+|       |   +---KoopaJrShipLv1Galaxy
+|       |   |       KoopaJrShipLv1GalaxyScenario.arc
+|       |   |       
+|       |   +---LibraryRoom
+|       |   |       LibraryRoomScenario.arc
+|       |   |       
+|       |   +---OceanFloaterLandGalaxy
+|       |   |       OceanFloaterLandGalaxyScenario.arc
+|       |   |       
+|       |   +---OceanPhantomCaveGalaxy
+|       |   |       OceanPhantomCaveGalaxyScenario.arc
+|       |   |       
+|       |   +---OceanRingGalaxy
+|       |   |       OceanRingGalaxyScenario.arc
+|       |   |       
+|       |   +---PeachCastleFinalGalaxy
+|       |   |       PeachCastleFinalGalaxyScenario.arc
+|       |   |       
+|       |   +---PeachCastleGardenGalaxy
+|       |   |       PeachCastleGardenGalaxyScenario.arc
+|       |   |       
+|       |   +---PhantomGalaxy
+|       |   |       PhantomGalaxyScenario.arc
+|       |   |       
+|       |   +---ReverseKingdomGalaxy
+|       |   |       ReverseKingdomGalaxyScenario.arc
+|       |   |       
+|       |   +---SandClockGalaxy
+|       |   |       SandClockGalaxyScenario.arc
+|       |   |       
+|       |   +---SkullSharkGalaxy
+|       |   |       SkullSharkGalaxyScenario.arc
+|       |   |       
+|       |   +---SnowCapsuleGalaxy
+|       |   |       SnowCapsuleGalaxyScenario.arc
+|       |   |       
+|       |   +---StarDustGalaxy
+|       |   |       StarDustGalaxyScenario.arc
+|       |   |       
+|       |   +---SurfingLv1Galaxy
+|       |   |       SurfingLv1GalaxyScenario.arc
+|       |   |       
+|       |   +---SurfingLv2Galaxy
+|       |   |       SurfingLv2GalaxyScenario.arc
+|       |   |       
+|       |   +---TamakoroExLv1Galaxy
+|       |   |       TamakoroExLv1GalaxyScenario.arc
+|       |   |       
+|       |   +---TamakoroExLv2Galaxy
+|       |   |       TamakoroExLv2GalaxyScenario.arc
+|       |   |       
+|       |   +---TearDropGalaxy
+|       |   |       TearDropGalaxyScenario.arc
+|       |   |       
+|       |   +---TeresaMario2DGalaxy
+|       |   |       TeresaMario2DGalaxyScenario.arc
+|       |   |       
+|       |   +---TransformationExGalaxy
+|       |   |       TransformationExGalaxyScenario.arc
+|       |   |       
+|       |   \---TriLegLv1Galaxy
+|       |           TriLegLv1GalaxyScenario.arc
+|       |           
+|       +---StationedData
+|       |       DEBUG.arc
+|       |       DEBUG.zst
+|       |       GDDR3.arc
+|       |       GDDR3.zst
+|       |       NAPA.arc
+|       |       NAPA.zst
+|       |       
+|       +---UsEnglish
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       +---UsFrench
+|       |   +---LayoutData
+|       |   |       Font.arc
+|       |   |       
+|       |   \---MessageData
+|       |           Message.arc
+|       |           
+|       \---UsSpanish
+|           +---LayoutData
+|           |       Font.arc
+|           |       GameOver.arc
+|           |       
+|           \---MessageData
+|                   Message.arc
+|                   
++---5977df9d4848858cbde157c6723dd1de
+|   +---exefs
+|   |       main
+|   |       main.npdm
+|   |       rtld
+|   |       sdk
+|   |       subsdk0
+|   |       subsdk1
+|   |       subsdk2
+|   |       
+|   \---romfs
+|       |   Pipeline.cache
+|       |   shader_p1_frag.spv
+|       |   shader_p1_vert.spv
+|       |   shader_vulkan_frag.spv
+|       |   shader_vulkan_vert.spv
+|       |   
+|       +---.nrr
+|       |       04_UNSMJ3.002.nrr
+|       |       EmuAppNX64.nrr
+|       |       
+|       +---Message
+|       |   +---EUde
+|       |   |       Messages.bin
+|       |   |       UI_Font16.bin
+|       |   |       UI_Font16_code2.bin
+|       |   |       UI_Font8.bin
+|       |   |       UI_FontS88.bin
+|       |   |       
+|       |   +---EUen
+|       |   |       Messages.bin
+|       |   |       UI_Font16.bin
+|       |   |       UI_Font16_code2.bin
+|       |   |       UI_Font8.bin
+|       |   |       UI_FontS88.bin
+|       |   |       
+|       |   +---EUfr
+|       |   |       Messages.bin
+|       |   |       UI_Font16.bin
+|       |   |       UI_Font16_code2.bin
+|       |   |       UI_Font8.bin
+|       |   |       UI_FontS88.bin
+|       |   |       
+|       |   +---JPja
+|       |   |       Messages.bin
+|       |   |       UI_Font16.bin
+|       |   |       UI_Font16_code2.bin
+|       |   |       UI_Font8.bin
+|       |   |       UI_FontS88.bin
+|       |   |       
+|       |   \---USen
+|       |           Messages.bin
+|       |           UI_Font16.bin
+|       |           UI_Font16_code2.bin
+|       |           UI_Font8.bin
+|       |           UI_FontS88.bin
+|       |           
+|       +---nro
+|       |       05_UNSMJ3.002.nro
+|       |       EmuSystemJITPlugin.nro
+|       |       NROBuilder.nro
+|       |       
+|       \---rom
+|           \---Stardust_JP
+|               |   00_UNSMJ3.002.meta
+|               |   01_UNSMJ3.002.bin
+|               |   02_UNSMJ3.002.cfg
+|               |   03_UNSMJ3.002.pcb
+|               |   04_UNSMJ3.002.nrr
+|               |   05_UNSMJ3.002.nro
+|               |   06_UNSMJ3.002.lua
+|               |   07_UNSMJ3.002.ppl
+|               |   
+|               \---Textures
+|                       texture_pack.cpio
+|                       
++---8ade91ccfae153c6c74c406c1dab9880
+|   +---exefs
+|   |       main
+|   |       main.npdm
+|   |       rtld
+|   |       sdk
+|   |       subsdk0
+|   |       
+|   \---romfs
+|       +---Env
+|       |       Default.Nin_NX_NVN.genvb.zs
+|       |       
+|       +---Font
+|       |       Font.Nin_NX_NVN.bfarc.zs
+|       |       Font_CNzh.Nin_NX_NVN.bfarc.zs
+|       |       Font_KRko.Nin_NX_NVN.bfarc.zs
+|       |       Font_TWzh.Nin_NX_NVN.bfarc.zs
+|       |       
+|       +---GameData
+|       |       GameDataList.byml.zs
+|       |       
+|       +---Layout
+|       |       ButtonCheckParts.Nin_NX_NVN.blarc.zs
+|       |       ButtonDialogKeyParts.Nin_NX_NVN.blarc.zs
+|       |       ButtonDialogTextParts.Nin_NX_NVN.blarc.zs
+|       |       ButtonMusicParts.Nin_NX_NVN.blarc.zs
+|       |       CursorArrow.Nin_NX_NVN.blarc.zs
+|       |       DialogKeyButton.Nin_NX_NVN.blarc.zs
+|       |       DialogTwoButton.Nin_NX_NVN.blarc.zs
+|       |       LauncherBg.Nin_NX_NVN.blarc.zs
+|       |       LauncherContentsSelect.Nin_NX_NVN.blarc.zs
+|       |       LauncherLanguage.Nin_NX_NVN.blarc.zs
+|       |       LauncherLoading.Nin_NX_NVN.blarc.zs
+|       |       LauncherSave.Nin_NX_NVN.blarc.zs
+|       |       LauncherSoundPlayer.Nin_NX_NVN.blarc.zs
+|       |       Title.Nin_NX_NVN.blarc.zs
+|       |       
+|       +---LayoutActor
+|       |   \---Actor
+|       |           LauncherConfirmLayout.alsarc.zs
+|       |           LauncherConfirmTwoButtonLayout.alsarc.zs
+|       |           LauncherCursor.alsarc.zs
+|       |           LauncherLanguageSelect.alsarc.zs
+|       |           LauncherLoading.alsarc.zs
+|       |           LauncherNowSaving.alsarc.zs
+|       |           LauncherSelect.alsarc.zs
+|       |           LauncherSelectBg.alsarc.zs
+|       |           LauncherSoundTrackPlayer.alsarc.zs
+|       |           LauncherTitle.alsarc.zs
+|       |           
+|       +---Lib
+|       |   +---agl
+|       |   |       agl_resource.Nin_NX_NVN.release.sarc.zs
+|       |   |       
+|       |   +---gsys
+|       |   |       gsys_resource.Nin_NX_NVN.release.sarc.zs
+|       |   |       
+|       |   \---sead
+|       |       \---primitive_renderer
+|       |               primitive_drawer_nvn_shader.bin
+|       |               
+|       +---Message
+|       |       Msg_CNzh.d.sarc.zs
+|       |       Msg_EUde.d.sarc.zs
+|       |       Msg_EUen.d.sarc.zs
+|       |       Msg_EUes.d.sarc.zs
+|       |       Msg_EUfr.d.sarc.zs
+|       |       Msg_EUit.d.sarc.zs
+|       |       Msg_JPja.d.sarc.zs
+|       |       Msg_KRko.d.sarc.zs
+|       |       Msg_TWzh.d.sarc.zs
+|       |       Msg_USen.d.sarc.zs
+|       |       Msg_USes.d.sarc.zs
+|       |       Msg_USfr.d.sarc.zs
+|       |       
+|       +---MovieData
+|       |       BgMovie64.mp4
+|       |       BgMovieGalaxy.mp4
+|       |       BgMovieSunshine.mp4
+|       |       LauncherOpening.mp4
+|       |       
+|       +---Shader
+|       |       Default.Nin_NX_NVN.release.sarc.zs
+|       |       
+|       +---ShaderData
+|       |       alProgramShader.alsarc.zs
+|       |       alRenderMaterial.alsarc.zs
+|       |       alShadowMaskShader.alsarc.zs
+|       |       
+|       +---SLink2
+|       |       slink2.bslnk.zs
+|       |       
+|       +---Sound
+|       |   +---Attenuation
+|       |   |       Attenuation.baatarc.zs
+|       |   |       
+|       |   +---Group
+|       |   |       GroupSetting.bagst.zs
+|       |   |       
+|       |   +---Resource
+|       |   |   |   LauncherBgm.bars.zs
+|       |   |   |   UI_LauncherBoot.bars.zs
+|       |   |   |   UI_LauncherConfirmLayout.bars.zs
+|       |   |   |   UI_LauncherConfirmTwoButtonLayout.bars.zs
+|       |   |   |   UI_LauncherLanguageSelect.bars.zs
+|       |   |   |   UI_LauncherSelect.bars.zs
+|       |   |   |   UI_LauncherSelectBg.bars.zs
+|       |   |   |   UI_LauncherSoundTrackPlayer.bars.zs
+|       |   |   |   UI_LauncherTitle.bars.zs
+|       |   |   |   
+|       |   |   \---Stream
+|       |   |           Sd_BGM_M6401.bwav
+|       |   |           Sd_BGM_M6402.bwav
+|       |   |           Sd_BGM_M6403.bwav
+|       |   |           Sd_BGM_M6404.bwav
+|       |   |           Sd_BGM_M6405.bwav
+|       |   |           Sd_BGM_M6406.bwav
+|       |   |           Sd_BGM_M6407.bwav
+|       |   |           Sd_BGM_M6408.bwav
+|       |   |           Sd_BGM_M6409.bwav
+|       |   |           Sd_BGM_M6410.bwav
+|       |   |           Sd_BGM_M6411.bwav
+|       |   |           Sd_BGM_M6412.bwav
+|       |   |           Sd_BGM_M6413.bwav
+|       |   |           Sd_BGM_M6414.bwav
+|       |   |           Sd_BGM_M6415.bwav
+|       |   |           Sd_BGM_M6416.bwav
+|       |   |           Sd_BGM_M6417.bwav
+|       |   |           Sd_BGM_M6418.bwav
+|       |   |           Sd_BGM_M6419.bwav
+|       |   |           Sd_BGM_M6420.bwav
+|       |   |           Sd_BGM_M6421.bwav
+|       |   |           Sd_BGM_M6422.bwav
+|       |   |           Sd_BGM_M6423.bwav
+|       |   |           Sd_BGM_M6424.bwav
+|       |   |           Sd_BGM_M6425.bwav
+|       |   |           Sd_BGM_M6426.bwav
+|       |   |           Sd_BGM_M6427.bwav
+|       |   |           Sd_BGM_M6428.bwav
+|       |   |           Sd_BGM_M6429.bwav
+|       |   |           Sd_BGM_M6430.bwav
+|       |   |           Sd_BGM_M6431.bwav
+|       |   |           Sd_BGM_M6432.bwav
+|       |   |           Sd_BGM_M6433.bwav
+|       |   |           Sd_BGM_M6434.bwav
+|       |   |           Sd_BGM_M6435.bwav
+|       |   |           Sd_BGM_M6436.bwav
+|       |   |           Sd_BGM_MSS01.bwav
+|       |   |           Sd_BGM_MSS02.bwav
+|       |   |           Sd_BGM_MSS03.bwav
+|       |   |           Sd_BGM_MSS04.bwav
+|       |   |           Sd_BGM_MSS05.bwav
+|       |   |           Sd_BGM_MSS06.bwav
+|       |   |           Sd_BGM_MSS07.bwav
+|       |   |           Sd_BGM_MSS08.bwav
+|       |   |           Sd_BGM_MSS09.bwav
+|       |   |           Sd_BGM_MSS10.bwav
+|       |   |           Sd_BGM_MSS11.bwav
+|       |   |           Sd_BGM_MSS12.bwav
+|       |   |           Sd_BGM_MSS13.bwav
+|       |   |           Sd_BGM_MSS14.bwav
+|       |   |           Sd_BGM_MSS15.bwav
+|       |   |           Sd_BGM_MSS16.bwav
+|       |   |           Sd_BGM_MSS17.bwav
+|       |   |           Sd_BGM_MSS18.bwav
+|       |   |           Sd_BGM_MSS19.bwav
+|       |   |           Sd_BGM_MSS20.bwav
+|       |   |           Sd_BGM_MSS21.bwav
+|       |   |           Sd_BGM_MSS22.bwav
+|       |   |           Sd_BGM_MSS23.bwav
+|       |   |           Sd_BGM_MSS24.bwav
+|       |   |           Sd_BGM_MSS25.bwav
+|       |   |           Sd_BGM_MSS26.bwav
+|       |   |           Sd_BGM_MSS27.bwav
+|       |   |           Sd_BGM_MSS28.bwav
+|       |   |           Sd_BGM_MSS29.bwav
+|       |   |           Sd_BGM_MSS30.bwav
+|       |   |           Sd_BGM_MSS31.bwav
+|       |   |           Sd_BGM_MSS32.bwav
+|       |   |           Sd_BGM_MSS33.bwav
+|       |   |           Sd_BGM_MSS34.bwav
+|       |   |           Sd_BGM_MSS35.bwav
+|       |   |           Sd_BGM_MSS36.bwav
+|       |   |           Sd_BGM_MSS37.bwav
+|       |   |           Sd_BGM_MSS38.bwav
+|       |   |           Sd_BGM_MSS39.bwav
+|       |   |           Sd_BGM_MSS40.bwav
+|       |   |           Sd_BGM_MSS41.bwav
+|       |   |           Sd_BGM_MSS42.bwav
+|       |   |           Sd_BGM_MSS43.bwav
+|       |   |           Sd_BGM_MSS44.bwav
+|       |   |           Sd_BGM_MSS45.bwav
+|       |   |           Sd_BGM_MSS46.bwav
+|       |   |           Sd_BGM_MSS47.bwav
+|       |   |           Sd_BGM_MSS48.bwav
+|       |   |           Sd_BGM_MSS49.bwav
+|       |   |           Sd_BGM_MSS50.bwav
+|       |   |           Sd_BGM_MSS51.bwav
+|       |   |           Sd_BGM_MSS52.bwav
+|       |   |           Sd_BGM_MSS53.bwav
+|       |   |           Sd_BGM_MSS54.bwav
+|       |   |           Sd_BGM_MSS55.bwav
+|       |   |           Sd_BGM_MSS56.bwav
+|       |   |           Sd_BGM_MSS57.bwav
+|       |   |           Sd_BGM_MSS58.bwav
+|       |   |           Sd_BGM_SMG01.bwav
+|       |   |           Sd_BGM_SMG02.bwav
+|       |   |           Sd_BGM_SMG03.bwav
+|       |   |           Sd_BGM_SMG04.bwav
+|       |   |           Sd_BGM_SMG05.bwav
+|       |   |           Sd_BGM_SMG06.bwav
+|       |   |           Sd_BGM_SMG07.bwav
+|       |   |           Sd_BGM_SMG08.bwav
+|       |   |           Sd_BGM_SMG09.bwav
+|       |   |           Sd_BGM_SMG10.bwav
+|       |   |           Sd_BGM_SMG11.bwav
+|       |   |           Sd_BGM_SMG12.bwav
+|       |   |           Sd_BGM_SMG13.bwav
+|       |   |           Sd_BGM_SMG14.bwav
+|       |   |           Sd_BGM_SMG15.bwav
+|       |   |           Sd_BGM_SMG16.bwav
+|       |   |           Sd_BGM_SMG17.bwav
+|       |   |           Sd_BGM_SMG18.bwav
+|       |   |           Sd_BGM_SMG19.bwav
+|       |   |           Sd_BGM_SMG20.bwav
+|       |   |           Sd_BGM_SMG21.bwav
+|       |   |           Sd_BGM_SMG22.bwav
+|       |   |           Sd_BGM_SMG23.bwav
+|       |   |           Sd_BGM_SMG24.bwav
+|       |   |           Sd_BGM_SMG25.bwav
+|       |   |           Sd_BGM_SMG26.bwav
+|       |   |           Sd_BGM_SMG27.bwav
+|       |   |           Sd_BGM_SMG28.bwav
+|       |   |           Sd_BGM_SMG29.bwav
+|       |   |           Sd_BGM_SMG30.bwav
+|       |   |           Sd_BGM_SMG31.bwav
+|       |   |           Sd_BGM_SMG32.bwav
+|       |   |           Sd_BGM_SMG33.bwav
+|       |   |           Sd_BGM_SMG34.bwav
+|       |   |           Sd_BGM_SMG35.bwav
+|       |   |           Sd_BGM_SMG36.bwav
+|       |   |           Sd_BGM_SMG37.bwav
+|       |   |           Sd_BGM_SMG38.bwav
+|       |   |           Sd_BGM_SMG39.bwav
+|       |   |           Sd_BGM_SMG40.bwav
+|       |   |           Sd_BGM_SMG41.bwav
+|       |   |           Sd_BGM_SMG42.bwav
+|       |   |           Sd_BGM_SMG43.bwav
+|       |   |           Sd_BGM_SMG44.bwav
+|       |   |           Sd_BGM_SMG45.bwav
+|       |   |           Sd_BGM_SMG46.bwav
+|       |   |           Sd_BGM_SMG47.bwav
+|       |   |           Sd_BGM_SMG48.bwav
+|       |   |           Sd_BGM_SMG49.bwav
+|       |   |           Sd_BGM_SMG50.bwav
+|       |   |           Sd_BGM_SMG51.bwav
+|       |   |           Sd_BGM_SMG52.bwav
+|       |   |           Sd_BGM_SMG53.bwav
+|       |   |           Sd_BGM_SMG54.bwav
+|       |   |           Sd_BGM_SMG55.bwav
+|       |   |           Sd_BGM_SMG56.bwav
+|       |   |           Sd_BGM_SMG57.bwav
+|       |   |           Sd_BGM_SMG58.bwav
+|       |   |           Sd_BGM_SMG59.bwav
+|       |   |           Sd_BGM_SMG60.bwav
+|       |   |           Sd_BGM_SMG61.bwav
+|       |   |           Sd_BGM_SMG62.bwav
+|       |   |           Sd_BGM_SMG63.bwav
+|       |   |           Sd_BGM_SMG64.bwav
+|       |   |           Sd_BGM_SMG65.bwav
+|       |   |           Sd_BGM_SMG66.bwav
+|       |   |           Sd_BGM_SMG67.bwav
+|       |   |           Sd_BGM_SMG68.bwav
+|       |   |           Sd_BGM_SMG69.bwav
+|       |   |           Sd_BGM_SMG70.bwav
+|       |   |           Sd_BGM_SMG71.bwav
+|       |   |           Sd_BGM_SMG72.bwav
+|       |   |           Sd_BGM_SMG73.bwav
+|       |   |           Sd_BGM_SMG74.bwav
+|       |   |           Sd_BGM_SMG75.bwav
+|       |   |           Sd_BGM_SMG76.bwav
+|       |   |           Sd_BGM_SMG77.bwav
+|       |   |           Sd_BGM_SMG78.bwav
+|       |   |           Sd_BGM_SMG79.bwav
+|       |   |           Sd_BGM_SMG80.bwav
+|       |   |           Sd_BGM_SMG81.bwav
+|       |   |           
+|       |   \---ResourceList
+|       |           LauncherBgm.barslist
+|       |           UI_LauncherBoot.barslist
+|       |           UI_LauncherConfirmLayout.barslist
+|       |           UI_LauncherConfirmTwoButtonLayout.barslist
+|       |           UI_LauncherLanguageSelect.barslist
+|       |           UI_LauncherSelect.barslist
+|       |           UI_LauncherSelectBg.barslist
+|       |           UI_LauncherSoundTrackPlayer.barslist
+|       |           UI_LauncherTitle.barslist
+|       |           
+|       +---System
+|       |       CombinationDataTableData.alsarc.zs
+|       |       
+|       +---SystemData
+|       |       LauncherBgmSetting.alsarc.zs
+|       |       LauncherLanguageSetting.alsarc.zs
+|       |       LayoutShader.alsarc.zs
+|       |       MemorySystem.alsarc.zs
+|       |       MultiFilter.alsarc.zs
+|       |       ProjectGraphicsParam.alsarc.zs
+|       |       ResourceSystem.alsarc.zs
+|       |       
+|       \---UI
+|               LayoutArchiveCategory.byml.zs
+|               Screen.alsarc.zs
+|               ScreenList.byml.zs
+|               
+\---94b649803873ec7e230ccc709227377f
+    +---exefs
+    |       main
+    |       main.npdm
+    |       rtld
+    |       sdk
+    |       subsdk0
+    |       subsdk1
+    |       subsdk2
+    |       
+    \---romfs
+        |   hagi-override.config
+        |   hagi.config
+        |   rom.json
+        |   
+        +---.nrr
+        |       Hagi.nrr
+        |       
+        +---data
+        |   +---database
+        |   |   +---config
+        |   |   |       MarioSunshine.config
+        |   |   |       
+        |   |   +---hagi
+        |   |   |       MarioSunshine.json
+        |   |   |       
+        |   |   +---pip
+        |   |   |   \---MarioSunshine
+        |   |   |           pipelineDB.pip
+        |   |   |           
+        |   |   \---vulkan
+        |   |       \---MarioSunshine
+        |   |               B1317A6632265CF763766CF6339AC8D1.cache
+        |   |               
+        |   +---gekko
+        |   |   \---MarioSunshine
+        |   |       \---nx
+        |   |               MarioSunshine.nrolz
+        |   |               
+        |   +---lazy_texture_replace
+        |   |   \---MarioSunshine
+        |   |           1098334059681839988.png
+        |   |           11160560752423326701.png
+        |   |           11534225677806220422.png
+        |   |           12192717952504125810.png
+        |   |           12834395742689857851.png
+        |   |           134294749138790628.png
+        |   |           13840324849916325297.png
+        |   |           14210042130140428742.png
+        |   |           14251543998511587425.png
+        |   |           14797036706234764006.png
+        |   |           1616796513131573897.png
+        |   |           16354425014750993917.png
+        |   |           16775108224250682252.png
+        |   |           2418803444108627890.png
+        |   |           5820541308339458695.png
+        |   |           6168061266912000383.png
+        |   |           694411283674227668.png
+        |   |           702397064829633833.png
+        |   |           7073773776706971056.png
+        |   |           716794980732281322.png
+        |   |           8171758828698690111.png
+        |   |           8792137068601475420.png
+        |   |           9176047206466941832.png
+        |   |           987955598358271013.png
+        |   |           
+        |   +---saves
+        |   |   \---MarioSunshine
+        |   |           A.sav
+        |   |           
+        |   +---texture_replace
+        |   |       MarioSunshine.har
+        |   |       MarioSunshine.hix
+        |   |       
+        |   \---video_replace
+        |       \---MarioSunshine
+        |               bath.mp4
+        |               demogeso.mp4
+        |               Entrance.mp4
+        |               epilogue.mp4
+        |               EX128x144_q0.mp4
+        |               kagemario.mp4
+        |               KuppaJr.mp4
+        |               MechaKuppa.mp4
+        |               NozuruA.mp4
+        |               NozuruB.mp4
+        |               omakeA.mp4
+        |               omakeB.mp4
+        |               openingA.mp4
+        |               openingBA.mp4
+        |               openingBB.mp4
+        |               openingBC.mp4
+        |               Pakkun.mp4
+        |               staffroll.mp4
+        |               stolennozuru.mp4
+        |               stolenpeach.mp4
+        |               
+        \---MarioSunshine
+                Super_Mario_Sunshine_Stardust-trimmed.gcm
+                Super_Mario_Sunshine_Stardust-trimmed.hash
+                
