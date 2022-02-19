@@ -1,0 +1,273 @@
+Folder PATH listing
+Volume serial number is F2F7-8609
+C:.
+|   output.txt
+|   
+\---romfs
+    |   Manifest_NonUFSFiles_Switch.txt
+    |   UE4CommandLine.txt
+    |   __chunks
+    |   __rom
+    |   
+    \---Project
+        \---Content
+            +---Paks
+            |       pakchunk0-Switch.pak
+            |       
+            \---Sound
+                +---Stream
+                |       BGM.awb
+                |       bgmv_camp.usm
+                |       bgmv_heal.usm
+                |       bgmv_result.usm
+                |       E0008_movie.usm
+                |       E0020_movie.usm
+                |       E0030_movie.usm
+                |       E0120_vo_movie.awb
+                |       E0215_c03C_movie.usm
+                |       E0215_c03_movie.usm
+                |       E0236_movie.usm
+                |       E0420_c02_movie.usm
+                |       E0431_c05_movie.usm
+                |       E0590_movie.usm
+                |       E0610_movie.usm
+                |       E1025_c10_movie.usm
+                |       ENV.awb
+                |       EventGameOver.usm
+                |       PowerOff_loop.usm
+                |       TabletA_Lock1.usm
+                |       TabletA_Login1.usm
+                |       
+                \---Stream_en
+                        E0008_vo.awb
+                        E0008_vo_movie.awb
+                        E0009_vo.awb
+                        E0010_movie.usm
+                        E0010_vo.awb
+                        E0010_vo_movie.awb
+                        E0015_vo.awb
+                        E0016_vo.awb
+                        E0018_vo.awb
+                        E0020_vo.awb
+                        E0030_vo.awb
+                        E0031_movie.usm
+                        E0031_vo.awb
+                        E0031_vo_movie.awb
+                        E0035_vo.awb
+                        E0040_vo.awb
+                        E0060_vo.awb
+                        E0120_movie.usm
+                        E0120_vo.awb
+                        E0120_vo_movie.awb
+                        E0170_vo.awb
+                        E0180_vo.awb
+                        E0181_vo.awb
+                        E0185_vo.awb
+                        E0190_vo.awb
+                        E0195_vo.awb
+                        E0215_vo.awb
+                        E0225_vo.awb
+                        E0235_vo.awb
+                        E0241_vo.awb
+                        E0242_vo.awb
+                        E0243_vo.awb
+                        E0250_vo.awb
+                        E0251_movie.usm
+                        E0251_vo.awb
+                        E0251_vo_movie.awb
+                        E0260_vo.awb
+                        E0262_vo.awb
+                        E0300_vo.awb
+                        E0325_vo.awb
+                        E0330_vo.awb
+                        E0340_vo.awb
+                        E0345_vo.awb
+                        E0346_vo.awb
+                        E0350_vo.awb
+                        E0360_vo.awb
+                        E0362_vo.awb
+                        E0363_vo.awb
+                        E0364_vo.awb
+                        E0365_vo.awb
+                        E0366_vo.awb
+                        E0367_vo.awb
+                        E0369_vo.awb
+                        E0370_vo.awb
+                        E0375_vo.awb
+                        E0377_vo.awb
+                        E0378_vo.awb
+                        E0379_vo.awb
+                        E0380_vo.awb
+                        E0383_vo.awb
+                        E0385_vo.awb
+                        E0390_vo.awb
+                        E0400_vo.awb
+                        E0420_vo.awb
+                        E0425_vo.awb
+                        E0430_vo.awb
+                        E0431_vo.awb
+                        E0432_vo.awb
+                        E0435_vo.awb
+                        E0470_vo.awb
+                        E0473_vo.awb
+                        E0476_vo.awb
+                        E0480_vo.awb
+                        E0485_vo.awb
+                        E0490_vo.awb
+                        E0491_vo.awb
+                        E0510_vo.awb
+                        E0512_vo.awb
+                        E0525_vo.awb
+                        E0530_vo.awb
+                        E0540_vo.awb
+                        E0550_vo.awb
+                        E0560_vo.awb
+                        E0570_vo.awb
+                        E0575_vo.awb
+                        E0580_vo.awb
+                        E0590_vo.awb
+                        E0590_vo_movie.awb
+                        E0595_vo.awb
+                        E0598_vo.awb
+                        E0600_vo.awb
+                        E0602_vo.awb
+                        E0603_vo.awb
+                        E0604_vo.awb
+                        E0610_vo.awb
+                        E0610_vo_movie.awb
+                        E0620_vo.awb
+                        E0625_vo.awb
+                        E0627_vo.awb
+                        E0628_vo.awb
+                        E0630_vo.awb
+                        E0631_vo.awb
+                        E0640_vo.awb
+                        E0650_vo.awb
+                        E0660_vo.awb
+                        E0670_vo.awb
+                        E0675_vo.awb
+                        E0680_vo.awb
+                        E0690_vo.awb
+                        E0700_vo.awb
+                        E0715_vo.awb
+                        E0730_vo.awb
+                        E0735_vo.awb
+                        E0736_vo.awb
+                        E0740_vo.awb
+                        E0750_c08_movie.usm
+                        E0750_vo.awb
+                        E0760_vo.awb
+                        E0761_vo.awb
+                        E0762_vo.awb
+                        E0765_vo.awb
+                        E0775_vo.awb
+                        E0778_vo.awb
+                        E0785_vo.awb
+                        E0805_vo.awb
+                        E0820_vo.awb
+                        E0830_vo.awb
+                        E0840_vo.awb
+                        E0841_vo.awb
+                        E0842_vo.awb
+                        E0843_vo.awb
+                        E0850_vo.awb
+                        E0860_vo.awb
+                        E0870_vo.awb
+                        E0880_vo.awb
+                        E0900_vo.awb
+                        E0910_vo.awb
+                        E0920_vo.awb
+                        E0930_vo.awb
+                        E0940_vo.awb
+                        E0950_vo.awb
+                        E0960_vo.awb
+                        E0970_vo.awb
+                        E1000_vo.awb
+                        E1010_vo.awb
+                        E1020_vo.awb
+                        E1025_vo_movie.awb
+                        E1100_vo.awb
+                        E1110_vo.awb
+                        E1120_vo.awb
+                        E1130_vo.awb
+                        E1140_vo.awb
+                        EB0010_vo.awb
+                        EB0220_vo.awb
+                        EB0230_vo.awb
+                        EB0240_vo.awb
+                        EM0010_vo.awb
+                        EM0011_vo.awb
+                        EM0012_vo.awb
+                        EM0013_vo.awb
+                        EM0014_vo.awb
+                        EM0015_vo.awb
+                        EM0016_vo.awb
+                        EM0017_vo.awb
+                        EM0019_vo.awb
+                        EM0020_vo.awb
+                        EM0021_vo.awb
+                        EM0022_vo.awb
+                        EM0025_vo.awb
+                        EM0026_vo.awb
+                        EM0027_vo.awb
+                        EM0028_vo.awb
+                        EM0060_vo.awb
+                        EM0120_vo.awb
+                        EM0121_vo.awb
+                        EM0122_vo.awb
+                        EM0123_vo.awb
+                        EM0124_vo.awb
+                        EM0125_vo.awb
+                        EM0130_vo.awb
+                        EM0140_vo.awb
+                        EM0141_vo.awb
+                        EM0142_vo.awb
+                        EM0143_vo.awb
+                        EM0144_vo.awb
+                        EM0145_vo.awb
+                        EM0146_vo.awb
+                        EM0147_vo.awb
+                        EM0148_vo.awb
+                        EM0149_vo.awb
+                        EM0181_vo.awb
+                        EM0182_vo.awb
+                        EM1591_vo.awb
+                        EM1592_vo.awb
+                        EM1600_vo.awb
+                        EM1601_vo.awb
+                        EM1602_vo.awb
+                        EM1603_vo.awb
+                        EM1800_vo.awb
+                        EM1801_vo.awb
+                        EM1802_vo.awb
+                        EM1803_vo.awb
+                        EM1804_vo.awb
+                        EM1805_vo.awb
+                        EM1806_vo.awb
+                        EM1807_vo.awb
+                        EM1808_vo.awb
+                        EM1809_vo.awb
+                        EM1810_vo.awb
+                        EM1811_vo.awb
+                        EM1812_vo.awb
+                        EM1813_vo.awb
+                        EM1814_vo.awb
+                        EM1815_vo.awb
+                        EM1816_vo.awb
+                        EM1817_vo.awb
+                        EM1818_vo.awb
+                        EM1819_vo.awb
+                        EM1820_vo.awb
+                        EM1821_vo.awb
+                        EM1822_vo.awb
+                        EM1823_vo.awb
+                        EM1824_vo.awb
+                        EM1825_vo.awb
+                        EM1826_vo.awb
+                        EP0010_vo.awb
+                        EP0020_vo.awb
+                        EP0030_vo.awb
+                        EP0040_vo.awb
+                        Staff_movie.usm
+                        Staff_movie2.usm
+                        
